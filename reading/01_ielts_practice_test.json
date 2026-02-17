@@ -1,0 +1,912 @@
+{
+  "id": "a1000000-0000-0000-0000-000000000002",
+  "title": "IELTS Academic Reading: Advanced Science & Human Perception (Band 8)",
+  "test_type": "Academic",
+  "difficulty": "8",
+  "duration": "60 mins",
+  "status": "published",
+  "passages": [
+    {
+      "id": "b1100000-0000-0000-0000-000000000004",
+      "passage_number": 1,
+      "title": "The Enigma of the Antikythera Mechanism",
+      "content": "(A) In the spring of 1900, a group of Greek sponge divers sheltering from a violent storm near the diminutive island of Antikythera stumbled upon a Roman shipwreck. Among the exquisite marble statues, amphorae, and glassware retrieved from the seabed was a heavily encrusted, calcified lump of bronze that initially garnered little attention. It was not until 1902 that archaeologist Valerios Stais noticed a gear wheel protruding from the fractured rock. This serendipitous observation would eventually unmask the Antikythera Mechanism, a device so technologically precocious that it would permanently rewrite the annals of ancient engineering.\n\n(B) For decades, the true nature of the mechanism remained shrouded in conjecture. The corroded state of the bronze fragments defied physical dismantling, and early scholars were deeply skeptical that classical antiquity possessed the metallurgical prowess required to fashion such intricate gearing. The predominant consensus posited that it was an astrolabe, though its internal complexity seemed disproportionately sophisticated. It wasn't until the 1950s that British science historian Derek J. de Solla Price initiated a systematic examination using gamma-ray radiography. Price's pioneering analysis revealed an interlocking network of gear trains, leading him to characterize the artifact as an ancient analogue computer capable of calculating astronomical positions.\n\n(C) The technological paradigm shift arrived in 2006, when the Antikythera Mechanism Research Project (AMRP) utilized specialized microfocus X-ray computed tomography (CT) and polynomial texture mapping. This non-destructive 3D imaging penetrated the dense calcification, exposing internal gear teeth as small as a millimeter and revealing microscopic instructional inscriptions on the casing. The data confirmed that the mechanism was a highly sophisticated astronomical calculator, utilizing an epicyclic differential gear system—a mechanical arrangement previously thought to have been invented in the 16th century—to model the erratic orbital motion of the Moon.\n\n(D) The mechanism's front dial tracked the solar year and the zodiac, utilizing a complex system of pointers to indicate the positions of the Sun, the Moon, and likely the five planets known to antiquity. More remarkably, a dual-dial system on the rear calculated the 235-month Metonic cycle, which aligns lunar months with solar years, alongside the 223-month Saros cycle, a remarkably precise period utilized for predicting both solar and lunar eclipses. The inclusion of a smaller dial specifically tracking the four-year cycle of the Panhellenic Games, including the Olympics, underscores the profound intersection of astronomy, civic life, and religion in ancient Hellenistic society.\n\n(E) Despite these revelations, tantalizing questions endure. The origin of the mechanism remains heavily contested. While the shipwreck dates to circa 70-60 BCE, typographic analysis of the inscriptions suggests the device may have been constructed decades earlier, potentially placing its creation in the intellectual milieu of Rhodes, home to the eminent astronomer Hipparchus, or Syracuse, the domain of Archimedes. Furthermore, the absence of antecedent or immediate descendant devices in the archaeological record poses a profound anomaly. Was this a unique masterpiece, or simply the sole survivor of a widespread, robust mechanical tradition that perished in the ensuing centuries?",
+      "groups": [
+        {
+          "id": "c1100000-0000-0000-0000-000000000014",
+          "group_order": 1,
+          "question_type": "true-false-not-given",
+          "instructions": "Do the following statements agree with the information given in Reading Passage 1? Write TRUE, FALSE, or NOT GIVEN.",
+          "sequential_order": true,
+          "questions": [
+            {
+              "id": "d1100000-0000-0000-0000-000000000041",
+              "question_order": 1,
+              "text": "The sponge divers deliberately travelled to the island of Antikythera to search for ancient artifacts.",
+              "answer": "FALSE",
+              "accepted_answers": [
+                "FALSE",
+                "False",
+                "false"
+              ]
+            },
+            {
+              "id": "d1100000-0000-0000-0000-000000000042",
+              "question_order": 2,
+              "text": "Valerios Stais was the first person to realize the bronze lump contained mechanical parts.",
+              "answer": "TRUE",
+              "accepted_answers": [
+                "TRUE",
+                "True",
+                "true"
+              ]
+            },
+            {
+              "id": "d1100000-0000-0000-0000-000000000043",
+              "question_order": 3,
+              "text": "Early scholars believed the mechanism was originally encased in a wooden box.",
+              "answer": "NOT GIVEN",
+              "accepted_answers": [
+                "NOT GIVEN",
+                "Not Given",
+                "not given"
+              ]
+            },
+            {
+              "id": "d1100000-0000-0000-0000-000000000044",
+              "question_order": 4,
+              "text": "Derek J. de Solla Price utilized microfocus X-ray computed tomography for his investigations.",
+              "answer": "FALSE",
+              "accepted_answers": [
+                "FALSE",
+                "False",
+                "false"
+              ]
+            },
+            {
+              "id": "d1100000-0000-0000-0000-000000000045",
+              "question_order": 5,
+              "text": "The artifact was capable of forecasting the dates of the Olympic Games.",
+              "answer": "TRUE",
+              "accepted_answers": [
+                "TRUE",
+                "True",
+                "true"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "c1100000-0000-0000-0000-000000000015",
+          "group_order": 2,
+          "question_type": "table-completion",
+          "instructions": "Complete the table below. Choose NO MORE THAN TWO WORDS from the passage for each answer.",
+          "sequential_order": true,
+          "word_limit": "2",
+          "questions": [
+            {
+              "id": "d1100000-0000-0000-0000-000000000046",
+              "question_order": 6,
+              "text": "Row 1",
+              "answer": "",
+              "completion_gaps": [
+                {
+                  "id": "h1",
+                  "gapText": "Era/Individual",
+                  "answer": ""
+                },
+                {
+                  "id": "h2",
+                  "gapText": "Method/Tool",
+                  "answer": ""
+                },
+                {
+                  "id": "h3",
+                  "gapText": "Key Discovery/Assumption",
+                  "answer": ""
+                }
+              ]
+            },
+            {
+              "id": "d1100000-0000-0000-0000-000000000047",
+              "question_order": 7,
+              "text": "Row 2",
+              "answer": "",
+              "completion_gaps": [
+                {
+                  "id": "c1",
+                  "gapText": "Early scholars",
+                  "answer": ""
+                },
+                {
+                  "id": "c2",
+                  "gapText": "Visual inspection",
+                  "answer": ""
+                },
+                {
+                  "id": "c3",
+                  "gapText": "Assumed the object was an",
+                  "answer": "astrolabe"
+                }
+              ]
+            },
+            {
+              "id": "d1100000-0000-0000-0000-000000000048",
+              "question_order": 8,
+              "text": "Row 3",
+              "answer": "",
+              "completion_gaps": [
+                {
+                  "id": "c4",
+                  "gapText": "Derek J. de Solla Price",
+                  "answer": ""
+                },
+                {
+                  "id": "c5",
+                  "gapText": "",
+                  "answer": "gamma-ray radiography"
+                },
+                {
+                  "id": "c6",
+                  "gapText": "Identified the object as an analogue computer",
+                  "answer": ""
+                }
+              ]
+            },
+            {
+              "id": "d1100000-0000-0000-0000-000000000049",
+              "question_order": 9,
+              "text": "Row 4",
+              "answer": "",
+              "completion_gaps": [
+                {
+                  "id": "c7",
+                  "gapText": "AMRP (2006)",
+                  "answer": ""
+                },
+                {
+                  "id": "c8",
+                  "gapText": "Microfocus CT scans",
+                  "answer": ""
+                },
+                {
+                  "id": "c9",
+                  "gapText": "Uncovered microscopic",
+                  "answer": "inscriptions"
+                }
+              ]
+            },
+            {
+              "id": "d1100000-0000-0000-0000-000000000050",
+              "question_order": 10,
+              "text": "Row 5",
+              "answer": "",
+              "completion_gaps": [
+                {
+                  "id": "c10",
+                  "gapText": "AMRP (2006)",
+                  "answer": ""
+                },
+                {
+                  "id": "c11",
+                  "gapText": "Polynomial texture mapping",
+                  "answer": ""
+                },
+                {
+                  "id": "c12",
+                  "gapText": "Confirmed an arrangement known as an",
+                  "answer": "epicyclic differential"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "c1100000-0000-0000-0000-000000000016",
+          "group_order": 3,
+          "question_type": "short-answer",
+          "instructions": "Answer the questions below. Choose NO MORE THAN THREE WORDS from the passage for each answer.",
+          "sequential_order": true,
+          "word_limit": "3",
+          "questions": [
+            {
+              "id": "d1100000-0000-0000-0000-000000000051",
+              "question_order": 11,
+              "text": "What phenomenon did the epicyclic gear system help to model?",
+              "answer": "erratic orbital motion",
+              "accepted_answers": [
+                {
+                  "id": "1",
+                  "text": "erratic orbital motion"
+                },
+                {
+                  "id": "2",
+                  "text": "orbital motion"
+                }
+              ]
+            },
+            {
+              "id": "d1100000-0000-0000-0000-000000000052",
+              "question_order": 12,
+              "text": "Which astronomical cycle was monitored to predict eclipses?",
+              "answer": "Saros cycle",
+              "accepted_answers": [
+                {
+                  "id": "1",
+                  "text": "Saros cycle"
+                },
+                {
+                  "id": "2",
+                  "text": "the Saros cycle"
+                },
+                {
+                  "id": "3",
+                  "text": "223-month Saros cycle"
+                }
+              ]
+            },
+            {
+              "id": "d1100000-0000-0000-0000-000000000053",
+              "question_order": 13,
+              "text": "What field of study is suggested as the basis for the mechanism's typographic analysis?",
+              "answer": "typographic analysis",
+              "accepted_answers": [
+                {
+                  "id": "1",
+                  "text": "typographic analysis"
+                },
+                {
+                  "id": "2",
+                  "text": "inscriptions"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b1100000-0000-0000-0000-000000000005",
+      "passage_number": 2,
+      "title": "Epigenetics: Beyond the DNA Sequence",
+      "content": "(A) For decades following the discovery of the double-helix structure of DNA, the scientific community operated under the central dogma of molecular biology: genetic information flows strictly from DNA to RNA to proteins, establishing our biology in a rigid, immutable script. According to this paradigm, our physical traits, susceptibility to diseases, and even behavioral predispositions were tightly bound by the genetic lottery of our inheritance. However, the burgeoning field of epigenetics has unequivocally dismantled this deterministic view, revealing a dynamic, highly responsive supplementary layer of biological instruction.\n\n(B) The term \"epigenetics\"—literally translating to \"above\" or \"on top of\" genetics—refers to heritable phenotypic changes that do not involve alterations to the underlying DNA sequence itself. Instead of mutating the genetic code, epigenetic mechanisms function essentially as a complex array of biological switches. They dictate how tightly the DNA is coiled around structural proteins called histones, and deploy chemical tags, such as methyl groups, that physically attach to the DNA strand. By modifying the accessibility of specific genes, these mechanisms dictate whether a gene is actively transcribed (turned \"on\") or silenced (turned \"off\"), allowing a single genome to produce a vast diversity of specialized cell types.\n\n(C) What makes epigenetics particularly revolutionary is its extreme sensitivity to exogenous factors. Unlike our fixed genome, the epigenome is extraordinarily malleable, constantly adapting in real-time to an individual's environment and lifestyle. Empirical studies have correlated epigenetic alterations with an array of stimuli: dietary composition, physical exertion, exposure to environmental toxins, and even psychological stress. Consequently, epigenetics serves as the vital molecular bridge linking environmental exposure to biological outcomes, illuminating how lifestyle choices can fundamentally alter gene expression across a lifespan.\n\n(D) The profound implications of environmental impact were starkly illustrated by the Dutch Hunger Winter study. During the brutal winter of 1944–1945, the German occupation of the Netherlands led to severe famine. Epidemiological follow-ups of individuals who were in utero during this devastating period revealed shocking data. Even decades later, these individuals exhibited significantly higher rates of obesity, diabetes, and cardiovascular diseases compared to their siblings conceived before or after the famine. Molecular analysis confirmed that the severe caloric restriction had altered the methylation patterns of specific metabolic genes, essentially programming the developing fetuses to store maximum calories in anticipation of a nutrient-scarce environment.\n\n(E) Perhaps the most provocative aspect of epigenetics is the concept of transgenerational epigenetic inheritance. Historically, it was believed that epigenetic marks were completely erased during the formation of reproductive cells, ensuring a \"clean slate\" for the next generation. However, recent mammalian studies suggest that certain epigenetic configurations can bypass this resetting process, passing directly to offspring. While heavily debated in human contexts due to the extended intervals between generations, compelling animal models demonstrate that chemically induced metabolic disorders or trauma-induced fear conditioning can be transmitted for multiple subsequent generations, entirely independent of DNA sequence alterations.\n\n(F) In the realm of clinical medicine, the malleability of the epigenome presents an unprecedented therapeutic frontier. Many forms of cancer, autoimmune diseases, and neurodegenerative disorders are now understood to be driven significantly by epigenetic dysregulation—aberrant silencing of tumor-suppressor genes or hyper-activation of oncogenes. Because epigenetic changes are inherently reversible, unlike genetic mutations, pharmacology is aggressively pursuing \"epi-drugs.\" Medications such as DNA methyltransferase inhibitors are already being utilized clinically to chemically strip away rogue epigenetic tags, effectively reactivating dormant protective genes and restoring normal cellular function.\n\n(G) The paradigm shift initiated by epigenetics forces a philosophical recalibration of our biological destiny. We are no longer viewed as helpless hostages to our genetic blueprints. Instead, the epigenome introduces an empowering narrative of biological agency, suggesting that our daily interactions with our environment orchestrate a continuous, dynamic symphony of gene expression.",
+      "groups": [
+        {
+          "id": "c1100000-0000-0000-0000-000000000017",
+          "group_order": 1,
+          "question_type": "matching-headings",
+          "instructions": "The reading passage has seven paragraphs, A–G. Choose the correct heading for paragraphs B through G from the list of headings below.",
+          "sequential_order": true,
+          "has_word_bank": true,
+          "word_bank": [
+            "i. Reversing the irreversible: Medical breakthroughs",
+            "ii. The historical certainty of genetic determinism",
+            "iii. Inheriting the experiences of our ancestors",
+            "iv. A tragic historical precedent of environmental impact",
+            "v. Understanding the mechanics of genetic switches",
+            "vi. Redefining human agency in biological outcomes",
+            "vii. The direct correlation between lifestyle and the epigenome",
+            "viii. The ethical dilemmas of epigenetic manipulation"
+          ],
+          "questions": [
+            {
+              "id": "d1100000-0000-0000-0000-000000000054",
+              "question_order": 14,
+              "text": "Paragraph B",
+              "answer": "v"
+            },
+            {
+              "id": "d1100000-0000-0000-0000-000000000055",
+              "question_order": 15,
+              "text": "Paragraph C",
+              "answer": "vii"
+            },
+            {
+              "id": "d1100000-0000-0000-0000-000000000056",
+              "question_order": 16,
+              "text": "Paragraph D",
+              "answer": "iv"
+            },
+            {
+              "id": "d1100000-0000-0000-0000-000000000057",
+              "question_order": 17,
+              "text": "Paragraph E",
+              "answer": "iii"
+            },
+            {
+              "id": "d1100000-0000-0000-0000-000000000058",
+              "question_order": 18,
+              "text": "Paragraph F",
+              "answer": "i"
+            },
+            {
+              "id": "d1100000-0000-0000-0000-000000000059",
+              "question_order": 19,
+              "text": "Paragraph G",
+              "answer": "vi"
+            }
+          ]
+        },
+        {
+          "id": "c1100000-0000-0000-0000-000000000018",
+          "group_order": 2,
+          "question_type": "matching-information",
+          "instructions": "Which paragraph contains the following information? Write the correct letter, A–G.",
+          "sequential_order": true,
+          "questions": [
+            {
+              "id": "d1100000-0000-0000-0000-000000000060",
+              "question_order": 20,
+              "text": "Reference to an outdated scientific belief regarding the erasure of cellular memory.",
+              "answer": "E",
+              "matching_pairs": [
+                {
+                  "id": "1",
+                  "left": "",
+                  "right": "A"
+                },
+                {
+                  "id": "2",
+                  "left": "",
+                  "right": "B"
+                },
+                {
+                  "id": "3",
+                  "left": "",
+                  "right": "C"
+                },
+                {
+                  "id": "4",
+                  "left": "",
+                  "right": "D"
+                },
+                {
+                  "id": "5",
+                  "left": "",
+                  "right": "E"
+                },
+                {
+                  "id": "6",
+                  "left": "",
+                  "right": "F"
+                },
+                {
+                  "id": "7",
+                  "left": "",
+                  "right": "G"
+                }
+              ]
+            },
+            {
+              "id": "d1100000-0000-0000-0000-000000000061",
+              "question_order": 21,
+              "text": "An explanation of how distinct cell types emerge from identical DNA.",
+              "answer": "B",
+              "matching_pairs": [
+                {
+                  "id": "1",
+                  "left": "",
+                  "right": "A"
+                },
+                {
+                  "id": "2",
+                  "left": "",
+                  "right": "B"
+                },
+                {
+                  "id": "3",
+                  "left": "",
+                  "right": "C"
+                },
+                {
+                  "id": "4",
+                  "left": "",
+                  "right": "D"
+                },
+                {
+                  "id": "5",
+                  "left": "",
+                  "right": "E"
+                },
+                {
+                  "id": "6",
+                  "left": "",
+                  "right": "F"
+                },
+                {
+                  "id": "7",
+                  "left": "",
+                  "right": "G"
+                }
+              ]
+            },
+            {
+              "id": "d1100000-0000-0000-0000-000000000062",
+              "question_order": 22,
+              "text": "Examples of specific modern pharmaceuticals targeting epigenetic errors.",
+              "answer": "F",
+              "matching_pairs": [
+                {
+                  "id": "1",
+                  "left": "",
+                  "right": "A"
+                },
+                {
+                  "id": "2",
+                  "left": "",
+                  "right": "B"
+                },
+                {
+                  "id": "3",
+                  "left": "",
+                  "right": "C"
+                },
+                {
+                  "id": "4",
+                  "left": "",
+                  "right": "D"
+                },
+                {
+                  "id": "5",
+                  "left": "",
+                  "right": "E"
+                },
+                {
+                  "id": "6",
+                  "left": "",
+                  "right": "F"
+                },
+                {
+                  "id": "7",
+                  "left": "",
+                  "right": "G"
+                }
+              ]
+            },
+            {
+              "id": "d1100000-0000-0000-0000-000000000063",
+              "question_order": 23,
+              "text": "The original scientific assumption regarding the inflexibility of human traits.",
+              "answer": "A",
+              "matching_pairs": [
+                {
+                  "id": "1",
+                  "left": "",
+                  "right": "A"
+                },
+                {
+                  "id": "2",
+                  "left": "",
+                  "right": "B"
+                },
+                {
+                  "id": "3",
+                  "left": "",
+                  "right": "C"
+                },
+                {
+                  "id": "4",
+                  "left": "",
+                  "right": "D"
+                },
+                {
+                  "id": "5",
+                  "left": "",
+                  "right": "E"
+                },
+                {
+                  "id": "6",
+                  "left": "",
+                  "right": "F"
+                },
+                {
+                  "id": "7",
+                  "left": "",
+                  "right": "G"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "c1100000-0000-0000-0000-000000000019",
+          "group_order": 3,
+          "question_type": "multiple-choice",
+          "instructions": "Choose the correct letter, A, B, C or D.",
+          "sequential_order": true,
+          "questions": [
+            {
+              "id": "d1100000-0000-0000-0000-000000000064",
+              "question_order": 24,
+              "text": "According to Paragraph B, how do epigenetic mechanisms primarily function?",
+              "answer": "C",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "A. By permanently mutating the underlying DNA sequence.",
+                  "isCorrect": false
+                },
+                {
+                  "id": "B",
+                  "text": "B. By creating entirely new genes to adapt to the environment.",
+                  "isCorrect": false
+                },
+                {
+                  "id": "C",
+                  "text": "C. By utilizing chemical tags to control gene transcription.",
+                  "isCorrect": true
+                },
+                {
+                  "id": "D",
+                  "text": "D. By replacing structural histones with methyl groups.",
+                  "isCorrect": false
+                }
+              ]
+            },
+            {
+              "id": "d1100000-0000-0000-0000-000000000065",
+              "question_order": 25,
+              "text": "The Dutch Hunger Winter study demonstrated that:",
+              "answer": "B",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "A. Famine only impacts the generation directly exposed to starvation.",
+                  "isCorrect": false
+                },
+                {
+                  "id": "B",
+                  "text": "B. Environmental stress in utero can cause long-term metabolic reprogramming.",
+                  "isCorrect": true
+                },
+                {
+                  "id": "C",
+                  "text": "C. Siblings born before the famine suffered similar obesity rates.",
+                  "isCorrect": false
+                },
+                {
+                  "id": "D",
+                  "text": "D. Malnutrition strictly alters the genetic DNA sequences of fetuses.",
+                  "isCorrect": false
+                }
+              ]
+            },
+            {
+              "id": "d1100000-0000-0000-0000-000000000066",
+              "question_order": 26,
+              "text": "Why is transgenerational epigenetic inheritance controversial in human studies?",
+              "answer": "D",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "A. The scientific equipment is not sophisticated enough to detect it.",
+                  "isCorrect": false
+                },
+                {
+                  "id": "B",
+                  "text": "B. Animal models have consistently disproved the theory.",
+                  "isCorrect": false
+                },
+                {
+                  "id": "C",
+                  "text": "C. Epigenetic marks are scientifically proven to be permanently erased.",
+                  "isCorrect": false
+                },
+                {
+                  "id": "D",
+                  "text": "D. The lengthy lifespan between human generations complicates data collection.",
+                  "isCorrect": true
+                }
+              ]
+            },
+            {
+              "id": "d1100000-0000-0000-0000-000000000067",
+              "question_order": 27,
+              "text": "What distinguishes epigenetic treatments (\"epi-drugs\") from treatments for genetic mutations?",
+              "answer": "A",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "A. They capitalize on the reversible nature of epigenetic modifications.",
+                  "isCorrect": true
+                },
+                {
+                  "id": "B",
+                  "text": "B. They are capable of rewriting defective DNA sequences.",
+                  "isCorrect": false
+                },
+                {
+                  "id": "C",
+                  "text": "C. They exclusively target neurodegenerative disorders.",
+                  "isCorrect": false
+                },
+                {
+                  "id": "D",
+                  "text": "D. They intentionally silence protective tumor-suppressor genes.",
+                  "isCorrect": false
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b1100000-0000-0000-0000-000000000006",
+      "passage_number": 3,
+      "title": "The Architecture of Temporal Perception",
+      "content": "(A) Time, from the strict perspective of physics, progresses steadily and uniformly—a relentless forward arrow codified by the laws of thermodynamics. Yet, human psychological perception of time exhibits profound elasticity. A terrifying accident can stretch mere seconds into perceived hours, while an engaging conversation can cause an evening to seemingly vanish. Understanding how the human brain constructs, distorts, and navigates the dimension of time—a phenomenon known as subjective temporality—has become a paramount focus at the intersection of neuroscience and psychology.\n\n(B) The neurological underpinning of time perception is not centralized in a single biological clock, but rather dispersed across complex neural networks. The basal ganglia and the supplementary motor area are primarily responsible for micro-timing (measuring milliseconds to seconds), which is essential for speech processing and motor coordination. Conversely, the hippocampus and the prefrontal cortex manage macro-timing, orchestrating episodic memories to provide a chronological framework for hours, days, and years. Crucially, the neurotransmitter dopamine acts as the primary pacemaker. Increased dopaminergic activity—often triggered by excitement or novel stimuli—accelerates the internal biological clock, leading to the sensation that external time is passing precipitously fast.\n\n(C) Emotional valence drastically obfuscates temporal accuracy. The concept of \"chronostasis\" is frequently documented during high-stress encounters; when an individual is confronted with imminent danger, the brain's amygdala initiates a state of hyper-arousal. During this phase, memory encoding occurs with extreme density. Because the brain retrospectively judges the duration of an event by the volume of memories recorded during that interval, the densely packed data creates the illusion that the threatening event lasted significantly longer than reality dictates.\n\n(D) The acceleration of perceived time as humans age is an almost universally reported phenomenon. In 1897, the philosopher Paul Janet proposed the proportional theory, suggesting that a year feels shorter to a fifty-year-old than to a five-year-old because it represents a vastly smaller fraction of their accumulated lifespan. However, contemporary cognitive scientists favor the \"neural degradation and routine\" hypothesis. Children possess brains highly receptive to novel experiences, requiring substantial cognitive processing that thickens temporal memory. Adults, entrenched in routine, encode significantly fewer distinct new memories. Consequently, when an adult reviews a mundane year retrospectively, the scarcity of dense memory markers causes the time to appear compressed.\n\n(E) Furthermore, temporal perception is intricately tethered to cultural paradigms. Sociologist Edward T. Hall delineated between \"monochronic\" and \"polychronic\" cultures. Monochronic societies, predominant in Western, industrialized nations, view time as a scarce, linear commodity that must be rigidly managed, segmented, and spent efficiently. In contrast, polychronic cultures, frequently found in Southern Europe, Latin America, and parts of the Middle East, conceptualize time as fluid and cyclical. In these societies, interpersonal relationships take precedence over strict adherence to schedules, leading to a fundamentally divergent phenomenological experience of waiting, urgency, and duration.\n\n(F) In the contemporary era, the omnipresence of digital technology is orchestrating a subtle but profound reconfiguration of human temporality. The constant barrage of notifications and the expectation of immediate responsiveness have birthed a state of \"continuous partial attention.\" This fragmented cognitive state severs the deep concentration required for entering a flow state — the psychological condition wherein time perception elegantly suspends itself. Some psychologists argue that digital hyper-connectivity is actively eroding our capacity for deep, sustained temporal immersion, replacing it with a fractured, perpetually accelerating present that breeds chronic temporal anxiety.",
+      "groups": [
+        {
+          "id": "c1100000-0000-0000-0000-000000000020",
+          "group_order": 1,
+          "question_type": "yes-no-not-given",
+          "instructions": "Do the following statements agree with the views of the writer in Reading Passage 3? Write YES, NO, or NOT GIVEN.",
+          "sequential_order": true,
+          "questions": [
+            {
+              "id": "d1100000-0000-0000-0000-000000000068",
+              "question_order": 28,
+              "text": "Human perception of time aligns perfectly with the laws of physics and thermodynamics.",
+              "answer": "NO",
+              "accepted_answers": [
+                "NO",
+                "No",
+                "no"
+              ]
+            },
+            {
+              "id": "d1100000-0000-0000-0000-000000000069",
+              "question_order": 29,
+              "text": "The hippocampus is solely responsible for processing short intervals of time, such as milliseconds.",
+              "answer": "NO",
+              "accepted_answers": [
+                "NO",
+                "No",
+                "no"
+              ]
+            },
+            {
+              "id": "d1100000-0000-0000-0000-000000000070",
+              "question_order": 30,
+              "text": "Dopamine levels directly influence the perceived speed at which time passes.",
+              "answer": "YES",
+              "accepted_answers": [
+                "YES",
+                "Yes",
+                "yes"
+              ]
+            },
+            {
+              "id": "d1100000-0000-0000-0000-000000000071",
+              "question_order": 31,
+              "text": "Modern cognitive scientists completely reject Paul Janet's proportional theory of time.",
+              "answer": "NOT GIVEN",
+              "accepted_answers": [
+                "NOT GIVEN",
+                "Not Given",
+                "not given"
+              ]
+            },
+            {
+              "id": "d1100000-0000-0000-0000-000000000072",
+              "question_order": 32,
+              "text": "Monochronic cultures tend to prioritize human relationships over strict punctuality.",
+              "answer": "NO",
+              "accepted_answers": [
+                "NO",
+                "No",
+                "no"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "c1100000-0000-0000-0000-000000000021",
+          "group_order": 2,
+          "question_type": "matching-sentence-endings",
+          "instructions": "Complete each sentence with the correct ending, A–F, from the box below.",
+          "sequential_order": true,
+          "questions": [
+            {
+              "id": "d1100000-0000-0000-0000-000000000073",
+              "question_order": 33,
+              "text": "During moments of extreme fear, the brain encodes memories so densely that",
+              "answer": "C",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "A. people prioritize social connections over rigid schedules.",
+                  "isCorrect": false
+                },
+                {
+                  "id": "B",
+                  "text": "B. the lack of new experiences makes time appear to shrink in retrospect.",
+                  "isCorrect": false
+                },
+                {
+                  "id": "C",
+                  "text": "C. a brief traumatic incident feels significantly prolonged.",
+                  "isCorrect": true
+                },
+                {
+                  "id": "D",
+                  "text": "D. individuals achieve a state of deep concentration known as a flow state.",
+                  "isCorrect": false
+                },
+                {
+                  "id": "E",
+                  "text": "E. the internal biological clock slows down significantly.",
+                  "isCorrect": false
+                },
+                {
+                  "id": "F",
+                  "text": "F. digital hyper-connectivity causes chronic anxiety.",
+                  "isCorrect": false
+                }
+              ]
+            },
+            {
+              "id": "d1100000-0000-0000-0000-000000000074",
+              "question_order": 34,
+              "text": "Because older adults generally live highly routine lives,",
+              "answer": "B",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "A. people prioritize social connections over rigid schedules.",
+                  "isCorrect": false
+                },
+                {
+                  "id": "B",
+                  "text": "B. the lack of new experiences makes time appear to shrink in retrospect.",
+                  "isCorrect": true
+                },
+                {
+                  "id": "C",
+                  "text": "C. a brief traumatic incident feels significantly prolonged.",
+                  "isCorrect": false
+                },
+                {
+                  "id": "D",
+                  "text": "D. individuals achieve a state of deep concentration known as a flow state.",
+                  "isCorrect": false
+                },
+                {
+                  "id": "E",
+                  "text": "E. the internal biological clock slows down significantly.",
+                  "isCorrect": false
+                },
+                {
+                  "id": "F",
+                  "text": "F. digital hyper-connectivity causes chronic anxiety.",
+                  "isCorrect": false
+                }
+              ]
+            },
+            {
+              "id": "d1100000-0000-0000-0000-000000000075",
+              "question_order": 35,
+              "text": "In societies characterized by polychronic cultural traits,",
+              "answer": "A",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "A. people prioritize social connections over rigid schedules.",
+                  "isCorrect": true
+                },
+                {
+                  "id": "B",
+                  "text": "B. the lack of new experiences makes time appear to shrink in retrospect.",
+                  "isCorrect": false
+                },
+                {
+                  "id": "C",
+                  "text": "C. a brief traumatic incident feels significantly prolonged.",
+                  "isCorrect": false
+                },
+                {
+                  "id": "D",
+                  "text": "D. individuals achieve a state of deep concentration known as a flow state.",
+                  "isCorrect": false
+                },
+                {
+                  "id": "E",
+                  "text": "E. the internal biological clock slows down significantly.",
+                  "isCorrect": false
+                },
+                {
+                  "id": "F",
+                  "text": "F. digital hyper-connectivity causes chronic anxiety.",
+                  "isCorrect": false
+                }
+              ]
+            },
+            {
+              "id": "d1100000-0000-0000-0000-000000000076",
+              "question_order": 36,
+              "text": "The continuous partial attention demanded by modern technology hinders the ability of",
+              "answer": "D",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "A. people prioritize social connections over rigid schedules.",
+                  "isCorrect": false
+                },
+                {
+                  "id": "B",
+                  "text": "B. the lack of new experiences makes time appear to shrink in retrospect.",
+                  "isCorrect": false
+                },
+                {
+                  "id": "C",
+                  "text": "C. a brief traumatic incident feels significantly prolonged.",
+                  "isCorrect": false
+                },
+                {
+                  "id": "D",
+                  "text": "D. individuals to achieve a state of deep concentration known as a flow state.",
+                  "isCorrect": true
+                },
+                {
+                  "id": "E",
+                  "text": "E. the internal biological clock slows down significantly.",
+                  "isCorrect": false
+                },
+                {
+                  "id": "F",
+                  "text": "F. digital hyper-connectivity causes chronic anxiety.",
+                  "isCorrect": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "c1100000-0000-0000-0000-000000000022",
+          "group_order": 4,
+          "question_type": "summary-completion",
+          "instructions": "Complete the summary below. Choose ONE WORD ONLY from the box for each answer.",
+          "sequential_order": true,
+          "word_limit": "1",
+          "has_word_bank": true,
+          "word_bank": [
+            "elasticity",
+            "dopamine",
+            "chronostasis",
+            "amygdala",
+            "routine",
+            "fractured",
+            "linear"
+          ],
+          "questions": [
+            {
+              "id": "d1100000-0000-0000-0000-000000000077",
+              "question_order": 37,
+              "text": "Human time perception demonstrates remarkable {{gap_c1100000-0000-0000-0000-000000000022_0}}, differing greatly from the strict laws of physics. At a neurological level, the neurotransmitter {{gap_c1100000-0000-0000-0000-000000000022_1}} is heavily involved in regulating our internal clock. In frightening situations, the brain experiences {{gap_c1100000-0000-0000-0000-000000000022_2}}, a distortion where dense memory encoding makes time seem to stretch. Conversely, as people age, the prevalence of {{gap_c1100000-0000-0000-0000-000000000022_3}} results in fewer unique memories, creating the illusion that years are passing much faster.",
+              "answer": "elasticity"
+            },
+            {
+              "id": "d1100000-0000-0000-0000-000000000078",
+              "question_order": 38,
+              "text": "",
+              "answer": "dopamine"
+            },
+            {
+              "id": "d1100000-0000-0000-0000-000000000079",
+              "question_order": 39,
+              "text": "",
+              "answer": "chronostasis"
+            },
+            {
+              "id": "d1100000-0000-0000-0000-000000000080",
+              "question_order": 40,
+              "text": "",
+              "answer": "routine"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
