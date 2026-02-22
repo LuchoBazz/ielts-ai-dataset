@@ -1,0 +1,887 @@
+{
+  "id": "df46cdad-c4e9-47f1-920e-297aa9b7781c",
+  "created_by": "fe38ed89-f1fe-4b88-9609-8736be47f61e",
+  "title": "IELTS Academic Reading: Engineering, Acoustics & Zoology (Band 7)",
+  "test_type": "Academic",
+  "difficulty": "7",
+  "duration": "60 mins",
+  "status": "published",
+  "passages": [
+    {
+      "id": "f80d90a3-4116-42d2-9236-f762e2d9888b",
+      "passage_number": 1,
+      "title": "The Development of the London Underground",
+      "content": "(A) By the mid-19th century, London was experiencing unprecedented demographic growth, making it the largest city in the world. This rapid expansion brought immense wealth, but it also resulted in severe traffic congestion. The streets were choked with horse-drawn omnibuses, carts, and pedestrians, leading to near-paralysis of the city’s transport network. Charles Pearson, a visionary City of London solicitor, recognized that a radical solution was necessary. In 1845, he proposed the construction of an underground railway to link the mainline railway termini and clear the slums. Though initially met with skepticism and mocked by the press, Pearson’s relentless campaigning eventually secured parliamentary approval and the necessary funding from private investors.\n\n(B) The first underground line, the Metropolitan Railway, opened in January 1863. It was a marvel of Victorian engineering, built using a technique known as \"cut-and-cover.\" This involved digging a massive trench along the route of existing streets, constructing brick walls and a vaulted roof, and then restoring the road surface above. While effective, the cut-and-cover method caused immense disruption. Hundreds of buildings were demolished, and local businesses suffered heavily during the construction phase. Despite these challenges, the railway was an instant success, carrying 38,000 passengers on its opening day in wooden carriages pulled by steam locomotives.\n\n(C) The use of steam engines underground, however, created significant environmental problems. Despite the installation of ventilation shafts, the tunnels were constantly filled with dense, sulfurous smoke, which blackened the stations and occasionally caused passengers to choke. It was clear that a new approach was needed. The solution arrived in the 1890s with the invention of the Greathead tunneling shield by engineer James Henry Greathead. This cylindrical steel shield allowed workers to excavate deep underground without disturbing the surface, paving the way for the \"deep-level tube\" lines.\n\n(D) These new tube lines were smaller in diameter and naturally suited to electric traction, which eliminated the smoke problem entirely. The City and South London Railway, opening in 1890, was the first deep-level, electrically operated railway in the world. However, the early tube network was chaotic, operated by several competing private companies. It wasn’t until the early 1900s that American financier Charles Yerkes managed to unify most of the separate lines under a single corporate umbrella, the Underground Electric Railways Company of London (UERL). Yerkes orchestrated the electrification of the older steam lines and funded the rapid expansion of the tube network into the growing suburbs.\n\n(E) During the Second World War, the London Underground took on an entirely new and unexpected role. As the Blitz devastated the capital, hundreds of thousands of Londoners sought refuge from aerial bombardment by sleeping on the platforms and tracks of the deep-level stations. The government, initially opposed to the idea due to fears of disease and panic, eventually formalized the arrangement, providing bunk beds, chemical toilets, and even library services underground.\n\n(F) Today, the London Underground remains a vital artery of the city, handling over a billion passenger journeys annually. While modern infrastructure projects like the Elizabeth line have transformed travel times across the capital, the foundational engineering of Pearson, Greathead, and Yerkes continues to underpin one of the most famous transit systems in the world.",
+      "question_groups": [
+        {
+          "id": "6dff3935-e517-4f40-aaca-32496958c583",
+          "group_order": 1,
+          "question_type": "true-false-not-given",
+          "instructions": "Do the following statements agree with the information given in the passage? Write TRUE, FALSE, or NOT GIVEN.",
+          "sequential_order": true,
+          "questions": [
+            {
+              "id": "ac2366ed-a8a1-4edf-8ba6-52d85cdbb856",
+              "question_order": 1,
+              "text": "Charles Pearson personally provided all the funding for the Metropolitan Railway.",
+              "answer": "FALSE",
+              "accepted_answers": [
+                "FALSE",
+                "False",
+                "false"
+              ]
+            },
+            {
+              "id": "857253a4-afd7-4156-a10f-49c9a63a0698",
+              "question_order": 2,
+              "text": "The cut-and-cover construction method severely disrupted street-level businesses.",
+              "answer": "TRUE",
+              "accepted_answers": [
+                "TRUE",
+                "True",
+                "true"
+              ]
+            },
+            {
+              "id": "7675e2bc-5a20-4aaf-b853-75586d1e4586",
+              "question_order": 3,
+              "text": "The first deep-level tube line was financially successful in its opening year.",
+              "answer": "NOT GIVEN",
+              "accepted_answers": [
+                "NOT GIVEN",
+                "Not Given",
+                "not given"
+              ]
+            },
+            {
+              "id": "9ab44ad9-0e9a-4c64-9d1e-1d56c6917325",
+              "question_order": 4,
+              "text": "The British government immediately encouraged citizens to use the Underground as air-raid shelters.",
+              "answer": "FALSE",
+              "accepted_answers": [
+                "FALSE",
+                "False",
+                "false"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "8bef554c-555e-4385-b66a-05cc62fd559f",
+          "group_order": 2,
+          "question_type": "table-completion",
+          "instructions": "Complete the table below. Choose NO MORE THAN TWO WORDS from the passage for each answer.",
+          "sequential_order": true,
+          "word_limit": "2",
+          "questions": [
+            {
+              "id": "b022ab2b-41e6-48e9-a815-66fc23999103",
+              "question_order": 5,
+              "text": "Row 1",
+              "answer": "",
+              "completion_gaps": [
+                {
+                  "id": "h1",
+                  "gapText": "Era",
+                  "answer": ""
+                },
+                {
+                  "id": "h2",
+                  "gapText": "Initiative",
+                  "answer": ""
+                },
+                {
+                  "id": "h3",
+                  "gapText": "Consequence / Detail",
+                  "answer": ""
+                }
+              ]
+            },
+            {
+              "id": "b062d770-2cfd-4250-aac3-54d97e683127",
+              "question_order": 6,
+              "text": "Row 2",
+              "answer": "",
+              "completion_gaps": [
+                {
+                  "id": "c1",
+                  "gapText": "1840s",
+                  "answer": ""
+                },
+                {
+                  "id": "c2",
+                  "gapText": "Charles Pearson’s proposal",
+                  "answer": ""
+                },
+                {
+                  "id": "c3",
+                  "gapText": "Aimed to address severe {{gap}}",
+                  "answer": "traffic congestion"
+                }
+              ]
+            },
+            {
+              "id": "25e5b763-5832-451f-bf68-a643d194e520",
+              "question_order": 7,
+              "text": "Row 3",
+              "answer": "",
+              "completion_gaps": [
+                {
+                  "id": "c4",
+                  "gapText": "1863",
+                  "answer": ""
+                },
+                {
+                  "id": "c5",
+                  "gapText": "Metropolitan Railway opens",
+                  "answer": ""
+                },
+                {
+                  "id": "c6",
+                  "gapText": "Used the {{gap}} method",
+                  "answer": "cut-and-cover"
+                }
+              ]
+            },
+            {
+              "id": "7260ceb7-6d4f-4be0-9c4f-09b4822c98f2",
+              "question_order": 8,
+              "text": "Row 4",
+              "answer": "",
+              "completion_gaps": [
+                {
+                  "id": "c7",
+                  "gapText": "1890s",
+                  "answer": ""
+                },
+                {
+                  "id": "c8",
+                  "gapText": "Invention of the {{gap}} shield",
+                  "answer": "tunneling"
+                },
+                {
+                  "id": "c9",
+                  "gapText": "Allowed for deep-level lines",
+                  "answer": ""
+                }
+              ]
+            },
+            {
+              "id": "493b8cb8-9467-4f53-b3b6-e07d3eab0f38",
+              "question_order": 9,
+              "text": "Row 5",
+              "answer": "",
+              "completion_gaps": [
+                {
+                  "id": "c10",
+                  "gapText": "1900s",
+                  "answer": ""
+                },
+                {
+                  "id": "c11",
+                  "gapText": "Investment by Charles Yerkes",
+                  "answer": ""
+                },
+                {
+                  "id": "c12",
+                  "gapText": "Led to network unity and {{gap}}",
+                  "answer": "electrification"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "60123a92-f37a-4890-9c03-b92fb3190974",
+          "group_order": 3,
+          "question_type": "short-answer",
+          "instructions": "Answer the questions below. Choose NO MORE THAN THREE WORDS from the passage for each answer.",
+          "sequential_order": true,
+          "word_limit": "3",
+          "questions": [
+            {
+              "id": "7836944b-0671-4ded-b0c1-276a90f559b4",
+              "question_order": 10,
+              "text": "What source of power was used for the locomotives on the opening day in 1863?",
+              "answer": "steam",
+              "accepted_answers": [
+                {
+                  "id": "1",
+                  "text": "steam"
+                },
+                {
+                  "id": "2",
+                  "text": "steam engines"
+                }
+              ]
+            },
+            {
+              "id": "317af346-7115-4168-bde1-6d39d46de4e3",
+              "question_order": 11,
+              "text": "What was installed in the early tunnels in an attempt to alleviate the smoke problem?",
+              "answer": "ventilation shafts",
+              "accepted_answers": [
+                {
+                  "id": "1",
+                  "text": "ventilation shafts"
+                }
+              ]
+            },
+            {
+              "id": "3e0aa824-ebcd-48dd-9fb7-4195e9388496",
+              "question_order": 12,
+              "text": "What primary alternative function did underground stations serve during the Blitz?",
+              "answer": "air-raid shelters",
+              "accepted_answers": [
+                {
+                  "id": "1",
+                  "text": "air-raid shelters"
+                },
+                {
+                  "id": "2",
+                  "text": "refuge"
+                }
+              ]
+            },
+            {
+              "id": "581df9ef-4387-4872-9d6a-bb6e723546fe",
+              "question_order": 13,
+              "text": "Which contemporary infrastructure project has notably transformed travel times in London?",
+              "answer": "Elizabeth line",
+              "accepted_answers": [
+                {
+                  "id": "1",
+                  "text": "Elizabeth line"
+                },
+                {
+                  "id": "2",
+                  "text": "the Elizabeth line"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b64f6fcf-f75c-4427-a2c8-2de56516c591",
+      "passage_number": 2,
+      "title": "The Architecture of Sound: Acoustics in Concert Halls",
+      "content": "(A) Until the late 19th century, the acoustic success of a concert hall was largely a matter of architectural luck. Builders relied on intuition and imitation of existing successful venues. The scientific study of room acoustics only began in earnest in 1895 when Wallace Clement Sabine, a physics professor at Harvard University, was asked to fix the terrible acoustics of the Fogg Art Museum's lecture hall. Through rigorous experimentation using organ pipes and stopwatches, Sabine discovered that the duration a sound lingers in a room—which he termed \"reverberation time\"—is mathematically related to the room's volume and the sound-absorbing properties of its surfaces.\n\n(B) Reverberation time (RT) quickly became the foundational metric of acoustic design. The optimal RT depends entirely on the purpose of the space. For spoken word or rapid, intricate chamber music, a short RT (around 1 to 1.5 seconds) is preferred to maintain clarity, ensuring that rapid notes do not bleed into one another. Conversely, large symphonic works, such as those by Wagner or Mahler, benefit from a longer RT (around 2 to 2.2 seconds). This extended decay allows the sounds of dozens of instruments to blend into a rich, immersive sonic wash, giving the music a sense of warmth and grandeur.\n\n(C) Historically, the most consistently praised concert halls—such as the Musikverein in Vienna and the Concertgebouw in Amsterdam—share a common architectural shape: the \"shoebox.\" Characterized by a rectangular floor plan, high ceilings, and narrow width, the shoebox design naturally creates excellent acoustic conditions. Its secret lies in \"lateral reflections.\" Because the side walls are relatively close together, sound waves reflecting off them reach the listener’s ears from the sides just milliseconds after the direct sound from the stage. These lateral reflections are interpreted by the human brain as a sense of spaciousness and envelopment, making the listener feel surrounded by the music.\n\n(D) Despite the proven reliability of the shoebox, the mid-20th century saw a shift toward \"vineyard\" style halls, pioneered by Hans Scharoun’s Berlin Philharmonie in 1963. In a vineyard hall, the seating is divided into steep terraces surrounding the stage on all sides. This design was driven primarily by a desire for visual intimacy and democratic seating, bringing the audience closer to the performers. However, the lack of parallel side walls removes the natural lateral reflections found in shoebox halls. To compensate, acousticians must intricately design the terraced walls and suspend reflective panels from the ceiling to artificially direct sound outward to the audience.\n\n(E) Modern acousticians no longer rely on guesswork. Before a single brick is laid, contemporary concert halls undergo rigorous virtual and physical testing. Engineers use advanced computer software to trace the path of thousands of simulated sound rays, calculating how they bounce, scatter, and decay. Furthermore, highly detailed physical scale models are built (often at a 1:10 scale) and filled with nitrogen gas to correct for sound wave scaling. By recording miniature sound sources inside these models, acousticians can use a process called \"auralization\" to listen to what the finished hall will sound like, allowing them to adjust the angle of a balcony or the material of a wall to optimize the acoustics.\n\n(F) Yet, despite the sophistication of modern acoustic science, the perception of sound remains inherently subjective. Psychologists have noted that an audience’s visual environment significantly alters their acoustic evaluation. A hall decorated in warm woods and rich reds is often perceived as having a \"warmer\" sound than a visually stark, concrete hall, even if their objective acoustic measurements are identical. Ultimately, the architecture of sound is not just about physics; it is deeply intertwined with human psychology and expectation.",
+      "question_groups": [
+        {
+          "id": "38691af3-2679-4c50-9af8-f6232ff101e3",
+          "group_order": 1,
+          "question_type": "matching-headings",
+          "instructions": "The reading passage has six paragraphs, A–F. Choose the correct heading for each paragraph from the list of headings below.",
+          "sequential_order": true,
+          "has_word_bank": true,
+          "word_bank": [
+            "i. Visual intimacy versus acoustic complexity",
+            "ii. Measuring and optimizing sound decay",
+            "iii. The enduring success of a traditional shape",
+            "iv. How non-auditory factors affect listening",
+            "v. The origins of architectural acoustics",
+            "vi. The failure of computer modeling in modern design",
+            "vii. The role of modern technology in hall design",
+            "viii. Why symphonies are harder to perform than chamber music"
+          ],
+          "questions": [
+            {
+              "id": "828ac54c-70d7-4474-b8fe-4c3e0475cc8e",
+              "question_order": 14,
+              "text": "Paragraph A",
+              "answer": "v"
+            },
+            {
+              "id": "a8a1238d-160f-4026-9b1f-6c5ffc67ca97",
+              "question_order": 15,
+              "text": "Paragraph B",
+              "answer": "ii"
+            },
+            {
+              "id": "26040c0d-4870-4e6a-8230-0d0931227668",
+              "question_order": 16,
+              "text": "Paragraph C",
+              "answer": "iii"
+            },
+            {
+              "id": "8e54ef03-2345-4aef-b36b-e9a848c4c833",
+              "question_order": 17,
+              "text": "Paragraph D",
+              "answer": "i"
+            },
+            {
+              "id": "d98b0c62-3886-44f0-99bd-97830e9620b1",
+              "question_order": 18,
+              "text": "Paragraph E",
+              "answer": "vii"
+            },
+            {
+              "id": "f9f12c78-f9d8-4386-976a-849a3b68166e",
+              "question_order": 19,
+              "text": "Paragraph F",
+              "answer": "iv"
+            }
+          ]
+        },
+        {
+          "id": "3b4d91a7-096e-494d-90c3-857cd9c91f89",
+          "group_order": 2,
+          "question_type": "matching-information",
+          "instructions": "Which paragraph contains the following information? Write the correct letter, A–F.",
+          "sequential_order": true,
+          "questions": [
+            {
+              "id": "34362abf-8cef-47d2-9df6-0c3f488f4ec8",
+              "question_order": 20,
+              "text": "A reference to the earliest scientific measurements of room acoustics.",
+              "answer": "A",
+              "matching_pairs": [
+                {
+                  "id": "1",
+                  "left": "",
+                  "right": "A"
+                },
+                {
+                  "id": "2",
+                  "left": "",
+                  "right": "B"
+                },
+                {
+                  "id": "3",
+                  "left": "",
+                  "right": "C"
+                },
+                {
+                  "id": "4",
+                  "left": "",
+                  "right": "D"
+                },
+                {
+                  "id": "5",
+                  "left": "",
+                  "right": "E"
+                },
+                {
+                  "id": "6",
+                  "left": "",
+                  "right": "F"
+                }
+              ]
+            },
+            {
+              "id": "9a96a775-4c04-40c7-b016-36d35537b3dd",
+              "question_order": 21,
+              "text": "An explanation of why narrow concert halls produce superior sound envelopment.",
+              "answer": "C",
+              "matching_pairs": [
+                {
+                  "id": "1",
+                  "left": "",
+                  "right": "A"
+                },
+                {
+                  "id": "2",
+                  "left": "",
+                  "right": "B"
+                },
+                {
+                  "id": "3",
+                  "left": "",
+                  "right": "C"
+                },
+                {
+                  "id": "4",
+                  "left": "",
+                  "right": "D"
+                },
+                {
+                  "id": "5",
+                  "left": "",
+                  "right": "E"
+                },
+                {
+                  "id": "6",
+                  "left": "",
+                  "right": "F"
+                }
+              ]
+            },
+            {
+              "id": "786d4908-c83e-4558-ad0e-ea574f94779c",
+              "question_order": 22,
+              "text": "Examples of techniques used by acousticians to predict sound before construction.",
+              "answer": "E",
+              "matching_pairs": [
+                {
+                  "id": "1",
+                  "left": "",
+                  "right": "A"
+                },
+                {
+                  "id": "2",
+                  "left": "",
+                  "right": "B"
+                },
+                {
+                  "id": "3",
+                  "left": "",
+                  "right": "C"
+                },
+                {
+                  "id": "4",
+                  "left": "",
+                  "right": "D"
+                },
+                {
+                  "id": "5",
+                  "left": "",
+                  "right": "E"
+                },
+                {
+                  "id": "6",
+                  "left": "",
+                  "right": "F"
+                }
+              ]
+            },
+            {
+              "id": "36083b03-e71e-4f07-a75d-b50825c6cdf9",
+              "question_order": 23,
+              "text": "The idea that what an audience sees visually can alter their evaluation of sound.",
+              "answer": "F",
+              "matching_pairs": [
+                {
+                  "id": "1",
+                  "left": "",
+                  "right": "A"
+                },
+                {
+                  "id": "2",
+                  "left": "",
+                  "right": "B"
+                },
+                {
+                  "id": "3",
+                  "left": "",
+                  "right": "C"
+                },
+                {
+                  "id": "4",
+                  "left": "",
+                  "right": "D"
+                },
+                {
+                  "id": "5",
+                  "left": "",
+                  "right": "E"
+                },
+                {
+                  "id": "6",
+                  "left": "",
+                  "right": "F"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1c84e1e0-9676-4a81-94b9-941eff7e2e89",
+          "group_order": 3,
+          "question_type": "multiple-choice",
+          "instructions": "Choose the correct letter, A, B, C or D.",
+          "sequential_order": true,
+          "questions": [
+            {
+              "id": "5cfd1c58-9e8a-404d-801b-1c6c5a57612c",
+              "question_order": 24,
+              "text": "According to the passage, the \"shoebox\" design is acoustically successful primarily because:",
+              "answer": "B",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "A. The high ceilings reduce the need for reverberation time.",
+                  "isCorrect": false
+                },
+                {
+                  "id": "B",
+                  "text": "B. It provides strong lateral sound reflections to the audience.",
+                  "isCorrect": true
+                },
+                {
+                  "id": "C",
+                  "text": "C. It allows for more democratic and visually intimate seating.",
+                  "isCorrect": false
+                },
+                {
+                  "id": "D",
+                  "text": "D. It limits the blending of large symphonic instruments.",
+                  "isCorrect": false
+                }
+              ]
+            },
+            {
+              "id": "512561bc-0e39-4da9-8566-7bc5c1ed1e26",
+              "question_order": 25,
+              "text": "The \"vineyard\" style of concert hall was originally developed to:",
+              "answer": "C",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "A. Maximize the natural lateral reflections of sound.",
+                  "isCorrect": false
+                },
+                {
+                  "id": "B",
+                  "text": "B. Lower the cost of construction by removing parallel walls.",
+                  "isCorrect": false
+                },
+                {
+                  "id": "C",
+                  "text": "C. Improve the audience’s visual connection to the performers.",
+                  "isCorrect": true
+                },
+                {
+                  "id": "D",
+                  "text": "D. Create a warmer sound using steep wooden terraces.",
+                  "isCorrect": false
+                }
+              ]
+            },
+            {
+              "id": "9349df9b-ed4d-44e7-b710-2257c020d3aa",
+              "question_order": 26,
+              "text": "What does the passage say about reverberation time (RT)?",
+              "answer": "A",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "A. Different genres of music require different optimal RTs.",
+                  "isCorrect": true
+                },
+                {
+                  "id": "B",
+                  "text": "B. A long RT is always preferable to a short RT.",
+                  "isCorrect": false
+                },
+                {
+                  "id": "C",
+                  "text": "C. RT was primarily used to fix the Fogg Art Museum.",
+                  "isCorrect": false
+                },
+                {
+                  "id": "D",
+                  "text": "D. A short RT helps blend the sound of large symphonic works.",
+                  "isCorrect": false
+                }
+              ]
+            },
+            {
+              "id": "75511a7b-0c6b-4c32-977c-dba41e739e57",
+              "question_order": 27,
+              "text": "The writer’s overall conclusion about concert hall acoustics is that:",
+              "answer": "D",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "A. Computer modeling will eventually make physical testing obsolete.",
+                  "isCorrect": false
+                },
+                {
+                  "id": "B",
+                  "text": "B. The shoebox design is no longer relevant for modern orchestras.",
+                  "isCorrect": false
+                },
+                {
+                  "id": "C",
+                  "text": "C. Visual aesthetics are more important than physical acoustics.",
+                  "isCorrect": false
+                },
+                {
+                  "id": "D",
+                  "text": "D. It remains a complex blend of objective science and subjective perception.",
+                  "isCorrect": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2a354f99-1602-43d1-94ae-aea1af1673a6",
+      "passage_number": 3,
+      "title": "The Evolutionary Puzzle of Animal Play",
+      "content": "(A) Watch a litter of wolf pups wrestling, or a group of juvenile dolphins riding the bow wave of a boat, and the concept of \"play\" seems intuitively obvious. Yet, for decades, evolutionary biologists found animal play deeply perplexing. In the harsh reality of natural selection, behavior is typically highly efficient, optimized for finding food, avoiding predators, and reproducing. Play, by contrast, appears to be a colossal waste of energy. Furthermore, animals engaged in play are often distracted and noisy, making them significantly more vulnerable to predation. Given these high costs, play must confer a substantial evolutionary advantage, or natural selection would have eliminated it long ago.\n\n(B) Defining play scientifically is notoriously difficult. The widely accepted framework proposed by Gordon Burghardt establishes several criteria: the behavior must not be fully functional in the context in which it is expressed; it must be voluntary and rewarding; it differs from \"serious\" behavior in form or timing; and it must be performed repeatedly when the animal is healthy and free from immediate stress. Having defined play, scientists have spent years formulating and testing hypotheses regarding its evolutionary function.\n\n(C) The most traditional explanation is the \"Motor Training\" hypothesis. This suggests that play, particularly locomotor play like running and leaping, helps young animals develop the physical strength, coordination, and neurological wiring necessary for adult survival. While logical, empirical support for this theory is surprisingly mixed. A long-term study of wild meerkats revealed that individuals who engaged in high levels of play-fighting as juveniles were not any more successful at winning real fights or hunting prey as adults. The motor benefits of play, it seems, may be overstated or easily acquired through standard, non-playful movement.\n\n(D) Another prominent theory is the \"Social Cohesion\" hypothesis. Many highly social mammals, such as rats, chimpanzees, and wolves, engage in extensive social play. This behavior is thought to establish social hierarchies, teach social rules, and forge bonds that hold the group together. During play fighting, animals learn to communicate their intentions and differentiate between a playful nip and an aggressive bite. They learn the boundaries of acceptable behavior, which reduces the likelihood of lethal aggression within the group later in life.\n\n(E) Recently, a compelling new framework has emerged: the \"Cognitive Flexibility\" hypothesis, championed by Marek Spinka and his colleagues. This theory proposes that play serves to train animals for the unexpected. Wild animals exist in unpredictable environments where a sudden loss of balance or an unexpected attack can be fatal. During play, animals deliberately handicap themselves. They put themselves in disadvantageous positions—rolling on their backs, purposefully losing their balance, or allowing a smaller peer to \"win\" a mock fight. Spinka argues that by actively seeking out and experiencing these minor physical and emotional shocks in a safe environment, animals learn to recover quickly. Play, therefore, is essentially a biological rehearsal for emergencies, building resilience and neurological flexibility.\n\n(F) Ultimately, the motivation for an animal to risk energy and safety for play boils down to neurochemistry. When mammals play, their brains release high levels of dopamine and endogenous opioids—the brain’s natural reward chemicals. Play feels intrinsically good. If the evolutionary benefits of play (whether cognitive flexibility, social bonding, or physical conditioning) were not reinforced by immediate, powerful feelings of pleasure, young animals simply would not take the risk. As research deepens, it becomes clear that play is not a frivolous byproduct of youth, but a deeply embedded, neurologically driven strategy for survival in an unpredictable world.",
+      "question_groups": [
+        {
+          "id": "ce7b9736-e3a7-4d4b-86db-79a5b90e7979",
+          "group_order": 1,
+          "question_type": "yes-no-not-given",
+          "instructions": "Do the following statements agree with the claims of the writer? Write YES, NO, or NOT GIVEN.",
+          "sequential_order": true,
+          "questions": [
+            {
+              "id": "c7371fba-dd94-497b-9015-069273d33baa",
+              "question_order": 28,
+              "text": "Engaging in play behavior reduces an animal’s risk of being attacked by predators.",
+              "answer": "NO",
+              "accepted_answers": [
+                "NO",
+                "No",
+                "no"
+              ]
+            },
+            {
+              "id": "ce847d51-33d7-41ca-9905-3f67a38ee9f4",
+              "question_order": 29,
+              "text": "Gordon Burghardt established a widely accepted framework for defining animal play.",
+              "answer": "YES",
+              "accepted_answers": [
+                "YES",
+                "Yes",
+                "yes"
+              ]
+            },
+            {
+              "id": "1492b42c-4676-42a3-b324-fcd9dd0dd96e",
+              "question_order": 30,
+              "text": "Meerkat pups that play more frequently become more successful hunters as adults.",
+              "answer": "NO",
+              "accepted_answers": [
+                "NO",
+                "No",
+                "no"
+              ]
+            },
+            {
+              "id": "e43764ff-3247-45e2-838f-22667df3bec6",
+              "question_order": 31,
+              "text": "Male animals generally spend a greater proportion of their time playing than female animals.",
+              "answer": "NOT GIVEN",
+              "accepted_answers": [
+                "NOT GIVEN",
+                "Not Given",
+                "not given"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "328fb7f9-790f-4901-ae1b-d5f392986aad",
+          "group_order": 2,
+          "question_type": "matching-sentence-endings",
+          "instructions": "Complete each sentence with the correct ending, A–F, from the box below.",
+          "sequential_order": true,
+          "questions": [
+            {
+              "id": "00be5ac0-b4eb-4256-901b-f3ed74203288",
+              "question_order": 32,
+              "text": "The 'Motor Training' hypothesis assumes that play helps young animals",
+              "answer": "A",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "develop crucial physical skills needed for adulthood.",
+                  "isCorrect": true
+                },
+                {
+                  "id": "B",
+                  "text": "practice recovering from sudden or stressful situations.",
+                  "isCorrect": false
+                },
+                {
+                  "id": "C",
+                  "text": "establish and maintain complex social hierarchies.",
+                  "isCorrect": false
+                },
+                {
+                  "id": "D",
+                  "text": "are motivated to participate despite the survival risks.",
+                  "isCorrect": false
+                },
+                {
+                  "id": "E",
+                  "text": "consume excess calories in an environment with abundant food.",
+                  "isCorrect": false
+                },
+                {
+                  "id": "F",
+                  "text": "differentiate between true aggression and harmless interaction.",
+                  "isCorrect": false
+                }
+              ]
+            },
+            {
+              "id": "d71c5b67-08f5-47fc-93b1-939970e0b3ed",
+              "question_order": 33,
+              "text": "Play fighting in highly social species like wolves helps to",
+              "answer": "C",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "develop crucial physical skills needed for adulthood.",
+                  "isCorrect": false
+                },
+                {
+                  "id": "B",
+                  "text": "practice recovering from sudden or stressful situations.",
+                  "isCorrect": false
+                },
+                {
+                  "id": "C",
+                  "text": "establish and maintain complex social hierarchies.",
+                  "isCorrect": true
+                },
+                {
+                  "id": "D",
+                  "text": "are motivated to participate despite the survival risks.",
+                  "isCorrect": false
+                },
+                {
+                  "id": "E",
+                  "text": "consume excess calories in an environment with abundant food.",
+                  "isCorrect": false
+                },
+                {
+                  "id": "F",
+                  "text": "differentiate between true aggression and harmless interaction.",
+                  "isCorrect": false
+                }
+              ]
+            },
+            {
+              "id": "e0b267bf-01ab-423e-a9e0-77c8d8b7f197",
+              "question_order": 34,
+              "text": "According to the 'Cognitive Flexibility' hypothesis, animals play in order to",
+              "answer": "B",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "develop crucial physical skills needed for adulthood.",
+                  "isCorrect": false
+                },
+                {
+                  "id": "B",
+                  "text": "practice recovering from sudden or stressful situations.",
+                  "isCorrect": true
+                },
+                {
+                  "id": "C",
+                  "text": "establish and maintain complex social hierarchies.",
+                  "isCorrect": false
+                },
+                {
+                  "id": "D",
+                  "text": "are motivated to participate despite the survival risks.",
+                  "isCorrect": false
+                },
+                {
+                  "id": "E",
+                  "text": "consume excess calories in an environment with abundant food.",
+                  "isCorrect": false
+                },
+                {
+                  "id": "F",
+                  "text": "differentiate between true aggression and harmless interaction.",
+                  "isCorrect": false
+                }
+              ]
+            },
+            {
+              "id": "cbfeb7a1-0323-4fdb-be42-ec84d8507041",
+              "question_order": 35,
+              "text": "The release of neurochemicals like dopamine during play ensures that animals",
+              "answer": "D",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "develop crucial physical skills needed for adulthood.",
+                  "isCorrect": false
+                },
+                {
+                  "id": "B",
+                  "text": "practice recovering from sudden or stressful situations.",
+                  "isCorrect": false
+                },
+                {
+                  "id": "C",
+                  "text": "establish and maintain complex social hierarchies.",
+                  "isCorrect": false
+                },
+                {
+                  "id": "D",
+                  "text": "are motivated to participate despite the survival risks.",
+                  "isCorrect": true
+                },
+                {
+                  "id": "E",
+                  "text": "consume excess calories in an environment with abundant food.",
+                  "isCorrect": false
+                },
+                {
+                  "id": "F",
+                  "text": "differentiate between true aggression and harmless interaction.",
+                  "isCorrect": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "dde76efb-00f2-4464-be48-d3a431ae08ce",
+          "group_order": 3,
+          "question_type": "summary-completion",
+          "instructions": "Complete the summary below. Choose ONE WORD from the box for each answer.",
+          "sequential_order": true,
+          "word_limit": "1",
+          "has_word_bank": true,
+          "word_bank": [
+            "preparation",
+            "vulnerable",
+            "recover",
+            "emergencies",
+            "dopamine",
+            "calories",
+            "hierarchies",
+            "aggression",
+            "predators"
+          ],
+          "questions": [
+            {
+              "id": "c7304bd1-3256-4ac5-bc1c-aa28508a591d",
+              "question_order": 36,
+              "text": "The 'Cognitive Flexibility' hypothesis, proposed by Spinka and his colleagues, offers a compelling explanation for animal play. It suggests that play serves as a form of {{gap_dde76efb-00f2-4464-be48-d3a431ae08ce_0}} for unexpected real-world events. During play, animals deliberately place themselves in {{gap_dde76efb-00f2-4464-be48-d3a431ae08ce_1}} situations, such as falling over or losing a mock fight. This intentional self-handicapping helps them learn how to rapidly {{gap_dde76efb-00f2-4464-be48-d3a431ae08ce_2}} both physically and emotionally. Consequently, when faced with genuine {{gap_dde76efb-00f2-4464-be48-d3a431ae08ce_3}} in the future, they are better equipped to cope. The underlying mechanism for this behavior relies on the brain’s reward system, particularly the release of {{gap_dde76efb-00f2-4464-be48-d3a431ae08ce_4}}, which makes the activity inherently pleasurable.",
+              "answer": "preparation"
+            },
+            {
+              "id": "ebf3bd3c-7743-4557-8d63-e1aad9ac44f2",
+              "question_order": 37,
+              "text": "",
+              "answer": "vulnerable"
+            },
+            {
+              "id": "8004531c-3e1f-447d-a079-b40c78fd000a",
+              "question_order": 38,
+              "text": "",
+              "answer": "recover"
+            },
+            {
+              "id": "3e10d983-e031-4890-b34f-79487d181fd9",
+              "question_order": 39,
+              "text": "",
+              "answer": "emergencies"
+            },
+            {
+              "id": "fef9cc72-d269-4d42-ab83-d472c9cfac32",
+              "question_order": 40,
+              "text": "",
+              "answer": "dopamine"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
