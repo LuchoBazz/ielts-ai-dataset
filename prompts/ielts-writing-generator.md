@@ -19,7 +19,7 @@ You are tasked with generating a comprehensive **IELTS Writing Test JSON payload
 {
   "id": "string (Use UUID from inventory)",
   "created_by": "string (Use UUID from inventory)",
-  "title": "Title including Test Type and Band",
+  "title": "string",
   "status": "published",
   "tasks": [
     {
