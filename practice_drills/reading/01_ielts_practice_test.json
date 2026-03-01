@@ -524,22 +524,22 @@
                 {
                   "id": "A",
                   "text": "A. By permanently mutating the underlying DNA sequence.",
-                  "isCorrect": false
+                  "is_correct": false
                 },
                 {
                   "id": "B",
                   "text": "B. By creating entirely new genes to adapt to the environment.",
-                  "isCorrect": false
+                  "is_correct": false
                 },
                 {
                   "id": "C",
                   "text": "C. By utilizing chemical tags to control gene transcription.",
-                  "isCorrect": true
+                  "is_correct": true
                 },
                 {
                   "id": "D",
                   "text": "D. By replacing structural histones with methyl groups.",
-                  "isCorrect": false
+                  "is_correct": false
                 }
               ]
             },
@@ -552,22 +552,22 @@
                 {
                   "id": "A",
                   "text": "A. Famine only impacts the generation directly exposed to starvation.",
-                  "isCorrect": false
+                  "is_correct": false
                 },
                 {
                   "id": "B",
                   "text": "B. Environmental stress in utero can cause long-term metabolic reprogramming.",
-                  "isCorrect": true
+                  "is_correct": true
                 },
                 {
                   "id": "C",
                   "text": "C. Siblings born before the famine suffered similar obesity rates.",
-                  "isCorrect": false
+                  "is_correct": false
                 },
                 {
                   "id": "D",
                   "text": "D. Malnutrition strictly alters the genetic DNA sequences of fetuses.",
-                  "isCorrect": false
+                  "is_correct": false
                 }
               ]
             },
@@ -580,22 +580,22 @@
                 {
                   "id": "A",
                   "text": "A. The scientific equipment is not sophisticated enough to detect it.",
-                  "isCorrect": false
+                  "is_correct": false
                 },
                 {
                   "id": "B",
                   "text": "B. Animal models have consistently disproved the theory.",
-                  "isCorrect": false
+                  "is_correct": false
                 },
                 {
                   "id": "C",
                   "text": "C. Epigenetic marks are scientifically proven to be permanently erased.",
-                  "isCorrect": false
+                  "is_correct": false
                 },
                 {
                   "id": "D",
                   "text": "D. The lengthy lifespan between human generations complicates data collection.",
-                  "isCorrect": true
+                  "is_correct": true
                 }
               ]
             },
@@ -608,22 +608,22 @@
                 {
                   "id": "A",
                   "text": "A. They capitalize on the reversible nature of epigenetic modifications.",
-                  "isCorrect": true
+                  "is_correct": true
                 },
                 {
                   "id": "B",
                   "text": "B. They are capable of rewriting defective DNA sequences.",
-                  "isCorrect": false
+                  "is_correct": false
                 },
                 {
                   "id": "C",
                   "text": "C. They exclusively target neurodegenerative disorders.",
-                  "isCorrect": false
+                  "is_correct": false
                 },
                 {
                   "id": "D",
                   "text": "D. They intentionally silence protective tumor-suppressor genes.",
-                  "isCorrect": false
+                  "is_correct": false
                 }
               ]
             }
@@ -717,32 +717,32 @@
                 {
                   "id": "A",
                   "text": "A. people prioritize social connections over rigid schedules.",
-                  "isCorrect": false
+                  "is_correct": false
                 },
                 {
                   "id": "B",
                   "text": "B. the lack of new experiences makes time appear to shrink in retrospect.",
-                  "isCorrect": false
+                  "is_correct": false
                 },
                 {
                   "id": "C",
                   "text": "C. a brief traumatic incident feels significantly prolonged.",
-                  "isCorrect": true
+                  "is_correct": true
                 },
                 {
                   "id": "D",
                   "text": "D. individuals achieve a state of deep concentration known as a flow state.",
-                  "isCorrect": false
+                  "is_correct": false
                 },
                 {
                   "id": "E",
                   "text": "E. the internal biological clock slows down significantly.",
-                  "isCorrect": false
+                  "is_correct": false
                 },
                 {
                   "id": "F",
                   "text": "F. digital hyper-connectivity causes chronic anxiety.",
-                  "isCorrect": false
+                  "is_correct": false
                 }
               ]
             },
@@ -755,32 +755,32 @@
                 {
                   "id": "A",
                   "text": "A. people prioritize social connections over rigid schedules.",
-                  "isCorrect": false
+                  "is_correct": false
                 },
                 {
                   "id": "B",
                   "text": "B. the lack of new experiences makes time appear to shrink in retrospect.",
-                  "isCorrect": true
+                  "is_correct": true
                 },
                 {
                   "id": "C",
                   "text": "C. a brief traumatic incident feels significantly prolonged.",
-                  "isCorrect": false
+                  "is_correct": false
                 },
                 {
                   "id": "D",
                   "text": "D. individuals achieve a state of deep concentration known as a flow state.",
-                  "isCorrect": false
+                  "is_correct": false
                 },
                 {
                   "id": "E",
                   "text": "E. the internal biological clock slows down significantly.",
-                  "isCorrect": false
+                  "is_correct": false
                 },
                 {
                   "id": "F",
                   "text": "F. digital hyper-connectivity causes chronic anxiety.",
-                  "isCorrect": false
+                  "is_correct": false
                 }
               ]
             },
@@ -793,32 +793,32 @@
                 {
                   "id": "A",
                   "text": "A. people prioritize social connections over rigid schedules.",
-                  "isCorrect": true
+                  "is_correct": true
                 },
                 {
                   "id": "B",
                   "text": "B. the pink of new experiences makes time appear to shrink in retrospect.",
-                  "isCorrect": false
+                  "is_correct": false
                 },
                 {
                   "id": "C",
                   "text": "C. a brief traumatic incident feels significantly prolonged.",
-                  "isCorrect": false
+                  "is_correct": false
                 },
                 {
                   "id": "D",
                   "text": "D. individuals achieve a state of deep concentration known as a flow state.",
-                  "isCorrect": false
+                  "is_correct": false
                 },
                 {
                   "id": "E",
                   "text": "E. the internal biological clock slows down significantly.",
-                  "isCorrect": false
+                  "is_correct": false
                 },
                 {
                   "id": "F",
                   "text": "F. digital hyper-connectivity causes chronic anxiety.",
-                  "isCorrect": false
+                  "is_correct": false
                 }
               ]
             },
@@ -831,32 +831,32 @@
                 {
                   "id": "A",
                   "text": "A. people prioritize social connections over rigid schedules.",
-                  "isCorrect": false
+                  "is_correct": false
                 },
                 {
                   "id": "B",
                   "text": "B. the lack of new experiences makes time appear to shrink in retrospect.",
-                  "isCorrect": false
+                  "is_correct": false
                 },
                 {
                   "id": "C",
                   "text": "C. a brief traumatic incident feels significantly prolonged.",
-                  "isCorrect": false
+                  "is_correct": false
                 },
                 {
                   "id": "D",
                   "text": "D. individuals to achieve a state of deep concentration known as a flow state.",
-                  "isCorrect": true
+                  "is_correct": true
                 },
                 {
                   "id": "E",
                   "text": "E. the internal biological clock slows down significantly.",
-                  "isCorrect": false
+                  "is_correct": false
                 },
                 {
                   "id": "F",
                   "text": "F. digital hyper-connectivity causes chronic anxiety.",
-                  "isCorrect": false
+                  "is_correct": false
                 }
               ]
             }

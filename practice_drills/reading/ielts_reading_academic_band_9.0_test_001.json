@@ -506,22 +506,22 @@
                 {
                   "id": "A",
                   "text": "A. Expanding the neurobiological capacity of the human brain.",
-                  "isCorrect": false
+                  "is_correct": false
                 },
                 {
                   "id": "B",
                   "text": "B. Overwhelming users with rational, highly complex arguments.",
-                  "isCorrect": false
+                  "is_correct": false
                 },
                 {
                   "id": "C",
                   "text": "C. Circumventing rational thought to stimulate foundational reward pathways.",
-                  "isCorrect": true
+                  "is_correct": true
                 },
                 {
                   "id": "D",
                   "text": "D. Decreasing the exponential velocity of global data generation.",
-                  "isCorrect": false
+                  "is_correct": false
                 }
               ]
             },
@@ -534,22 +534,22 @@
                 {
                   "id": "A",
                   "text": "A. Users directly purchase predictive models from technology conglomerates.",
-                  "isCorrect": false
+                  "is_correct": false
                 },
                 {
                   "id": "B",
                   "text": "B. Human experiences are commodified into speculative assets traded by algorithms.",
-                  "isCorrect": true
+                  "is_correct": true
                 },
                 {
                   "id": "C",
                   "text": "C. Targeted advertising is the sole mechanism of revenue generation.",
-                  "isCorrect": false
+                  "is_correct": false
                 },
                 {
                   "id": "D",
                   "text": "D. Consumers maintain ownership over their granular behavioral data.",
-                  "isCorrect": false
+                  "is_correct": false
                 }
               ]
             },
@@ -562,22 +562,22 @@
                 {
                   "id": "A",
                   "text": "A. A heightened ability to process emotionally incendiary content.",
-                  "isCorrect": false
+                  "is_correct": false
                 },
                 {
                   "id": "B",
                   "text": "B. An improvement in multi-tasking and operational efficiency.",
-                  "isCorrect": false
+                  "is_correct": false
                 },
                 {
                   "id": "C",
                   "text": "C. A decrease in cortisol levels during prolonged digital exposure.",
-                  "isCorrect": false
+                  "is_correct": false
                 },
                 {
                   "id": "D",
                   "text": "D. An inability to engage in profound focus or meaningful empathy.",
-                  "isCorrect": true
+                  "is_correct": true
                 }
               ]
             },
@@ -590,22 +590,22 @@
                 {
                   "id": "A",
                   "text": "A. Shifting corporate metrics from engagement duration to user well-being.",
-                  "isCorrect": true
+                  "is_correct": true
                 },
                 {
                   "id": "B",
                   "text": "B. Enhancing the variable ratio schedules used in platform interfaces.",
-                  "isCorrect": false
+                  "is_correct": false
                 },
                 {
                   "id": "C",
                   "text": "C. Rejecting all forms of European technological regulation.",
-                  "isCorrect": false
+                  "is_correct": false
                 },
                 {
                   "id": "D",
                   "text": "D. Acknowledging that information abundance is fundamentally irreversible.",
-                  "isCorrect": false
+                  "is_correct": false
                 }
               ]
             }
@@ -699,32 +699,32 @@
                 {
                   "id": "A",
                   "text": "simultaneously explore all potential paths to a reaction center.",
-                  "isCorrect": false
+                  "is_correct": false
                 },
                 {
                   "id": "B",
                   "text": "overcome previously insurmountable chemical activation barriers.",
-                  "isCorrect": false
+                  "is_correct": false
                 },
                 {
                   "id": "C",
                   "text": "predict the exact isotopic mass of scent molecules.",
-                  "isCorrect": false
+                  "is_correct": false
                 },
                 {
                   "id": "D",
                   "text": "navigate using entangled electrons sensitive to magnetic fields.",
-                  "isCorrect": true
+                  "is_correct": true
                 },
                 {
                   "id": "E",
                   "text": "maintain a chaotic cellular environment to prevent entanglement.",
-                  "isCorrect": false
+                  "is_correct": false
                 },
                 {
                   "id": "F",
                   "text": "operate as nanoscale quantum spectrometers for visual stimuli.",
-                  "isCorrect": false
+                  "is_correct": false
                 }
               ]
             },
@@ -737,32 +737,32 @@
                 {
                   "id": "A",
                   "text": "simultaneously explore all potential paths to a reaction center.",
-                  "isCorrect": true
+                  "is_correct": true
                 },
                 {
                   "id": "B",
                   "text": "overcome previously insurmountable chemical activation barriers.",
-                  "isCorrect": false
+                  "is_correct": false
                 },
                 {
                   "id": "C",
                   "text": "predict the exact isotopic mass of scent molecules.",
-                  "isCorrect": false
+                  "is_correct": false
                 },
                 {
                   "id": "D",
                   "text": "navigate using entangled electrons sensitive to magnetic fields.",
-                  "isCorrect": false
+                  "is_correct": false
                 },
                 {
                   "id": "E",
                   "text": "maintain a chaotic cellular environment to prevent entanglement.",
-                  "isCorrect": false
+                  "is_correct": false
                 },
                 {
                   "id": "F",
                   "text": "operate as nanoscale quantum spectrometers for visual stimuli.",
-                  "isCorrect": false
+                  "is_correct": false
                 }
               ]
             },
@@ -775,32 +775,32 @@
                 {
                   "id": "A",
                   "text": "simultaneously explore all potential paths to a reaction center.",
-                  "isCorrect": false
+                  "is_correct": false
                 },
                 {
                   "id": "B",
                   "text": "overcome previously insurmountable chemical activation barriers.",
-                  "isCorrect": true
+                  "is_correct": true
                 },
                 {
                   "id": "C",
                   "text": "predict the exact isotopic mass of scent molecules.",
-                  "isCorrect": false
+                  "is_correct": false
                 },
                 {
                   "id": "D",
                   "text": "navigate using entangled electrons sensitive to magnetic fields.",
-                  "isCorrect": false
+                  "is_correct": false
                 },
                 {
                   "id": "E",
                   "text": "maintain a chaotic cellular environment to prevent entanglement.",
-                  "isCorrect": false
+                  "is_correct": false
                 },
                 {
                   "id": "F",
                   "text": "operate as nanoscale quantum spectrometers for visual stimuli.",
-                  "isCorrect": false
+                  "is_correct": false
                 }
               ]
             },
@@ -813,32 +813,32 @@
                 {
                   "id": "A",
                   "text": "simultaneously explore all potential paths to a reaction center.",
-                  "isCorrect": false
+                  "is_correct": false
                 },
                 {
                   "id": "B",
                   "text": "overcome previously insurmountable chemical activation barriers.",
-                  "isCorrect": false
+                  "is_correct": false
                 },
                 {
                   "id": "C",
                   "text": "differentiate odorants based on their molecular vibrational frequency.",
-                  "isCorrect": true
+                  "is_correct": true
                 },
                 {
                   "id": "D",
                   "text": "navigate using entangled electrons sensitive to magnetic fields.",
-                  "isCorrect": false
+                  "is_correct": false
                 },
                 {
                   "id": "E",
                   "text": "maintain a chaotic cellular environment to prevent entanglement.",
-                  "isCorrect": false
+                  "is_correct": false
                 },
                 {
                   "id": "F",
                   "text": "operate as nanoscale quantum spectrometers for visual stimuli.",
-                  "isCorrect": false
+                  "is_correct": false
                 }
               ]
             }

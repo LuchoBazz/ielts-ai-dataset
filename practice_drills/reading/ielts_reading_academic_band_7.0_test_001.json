@@ -502,22 +502,22 @@
                 {
                   "id": "A",
                   "text": "A. The high ceilings reduce the need for reverberation time.",
-                  "isCorrect": false
+                  "is_correct": false
                 },
                 {
                   "id": "B",
                   "text": "B. It provides strong lateral sound reflections to the audience.",
-                  "isCorrect": true
+                  "is_correct": true
                 },
                 {
                   "id": "C",
                   "text": "C. It allows for more democratic and visually intimate seating.",
-                  "isCorrect": false
+                  "is_correct": false
                 },
                 {
                   "id": "D",
                   "text": "D. It limits the blending of large symphonic instruments.",
-                  "isCorrect": false
+                  "is_correct": false
                 }
               ]
             },
@@ -530,22 +530,22 @@
                 {
                   "id": "A",
                   "text": "A. Maximize the natural lateral reflections of sound.",
-                  "isCorrect": false
+                  "is_correct": false
                 },
                 {
                   "id": "B",
                   "text": "B. Lower the cost of construction by removing parallel walls.",
-                  "isCorrect": false
+                  "is_correct": false
                 },
                 {
                   "id": "C",
                   "text": "C. Improve the audience’s visual connection to the performers.",
-                  "isCorrect": true
+                  "is_correct": true
                 },
                 {
                   "id": "D",
                   "text": "D. Create a warmer sound using steep wooden terraces.",
-                  "isCorrect": false
+                  "is_correct": false
                 }
               ]
             },
@@ -558,22 +558,22 @@
                 {
                   "id": "A",
                   "text": "A. Different genres of music require different optimal RTs.",
-                  "isCorrect": true
+                  "is_correct": true
                 },
                 {
                   "id": "B",
                   "text": "B. A long RT is always preferable to a short RT.",
-                  "isCorrect": false
+                  "is_correct": false
                 },
                 {
                   "id": "C",
                   "text": "C. RT was primarily used to fix the Fogg Art Museum.",
-                  "isCorrect": false
+                  "is_correct": false
                 },
                 {
                   "id": "D",
                   "text": "D. A short RT helps blend the sound of large symphonic works.",
-                  "isCorrect": false
+                  "is_correct": false
                 }
               ]
             },
@@ -586,22 +586,22 @@
                 {
                   "id": "A",
                   "text": "A. Computer modeling will eventually make physical testing obsolete.",
-                  "isCorrect": false
+                  "is_correct": false
                 },
                 {
                   "id": "B",
                   "text": "B. The shoebox design is no longer relevant for modern orchestras.",
-                  "isCorrect": false
+                  "is_correct": false
                 },
                 {
                   "id": "C",
                   "text": "C. Visual aesthetics are more important than physical acoustics.",
-                  "isCorrect": false
+                  "is_correct": false
                 },
                 {
                   "id": "D",
                   "text": "D. It remains a complex blend of objective science and subjective perception.",
-                  "isCorrect": true
+                  "is_correct": true
                 }
               ]
             }
@@ -684,32 +684,32 @@
                 {
                   "id": "A",
                   "text": "develop crucial physical skills needed for adulthood.",
-                  "isCorrect": true
+                  "is_correct": true
                 },
                 {
                   "id": "B",
                   "text": "practice recovering from sudden or stressful situations.",
-                  "isCorrect": false
+                  "is_correct": false
                 },
                 {
                   "id": "C",
                   "text": "establish and maintain complex social hierarchies.",
-                  "isCorrect": false
+                  "is_correct": false
                 },
                 {
                   "id": "D",
                   "text": "are motivated to participate despite the survival risks.",
-                  "isCorrect": false
+                  "is_correct": false
                 },
                 {
                   "id": "E",
                   "text": "consume excess calories in an environment with abundant food.",
-                  "isCorrect": false
+                  "is_correct": false
                 },
                 {
                   "id": "F",
                   "text": "differentiate between true aggression and harmless interaction.",
-                  "isCorrect": false
+                  "is_correct": false
                 }
               ]
             },
@@ -722,32 +722,32 @@
                 {
                   "id": "A",
                   "text": "develop crucial physical skills needed for adulthood.",
-                  "isCorrect": false
+                  "is_correct": false
                 },
                 {
                   "id": "B",
                   "text": "practice recovering from sudden or stressful situations.",
-                  "isCorrect": false
+                  "is_correct": false
                 },
                 {
                   "id": "C",
                   "text": "establish and maintain complex social hierarchies.",
-                  "isCorrect": true
+                  "is_correct": true
                 },
                 {
                   "id": "D",
                   "text": "are motivated to participate despite the survival risks.",
-                  "isCorrect": false
+                  "is_correct": false
                 },
                 {
                   "id": "E",
                   "text": "consume excess calories in an environment with abundant food.",
-                  "isCorrect": false
+                  "is_correct": false
                 },
                 {
                   "id": "F",
                   "text": "differentiate between true aggression and harmless interaction.",
-                  "isCorrect": false
+                  "is_correct": false
                 }
               ]
             },
@@ -760,32 +760,32 @@
                 {
                   "id": "A",
                   "text": "develop crucial physical skills needed for adulthood.",
-                  "isCorrect": false
+                  "is_correct": false
                 },
                 {
                   "id": "B",
                   "text": "practice recovering from sudden or stressful situations.",
-                  "isCorrect": true
+                  "is_correct": true
                 },
                 {
                   "id": "C",
                   "text": "establish and maintain complex social hierarchies.",
-                  "isCorrect": false
+                  "is_correct": false
                 },
                 {
                   "id": "D",
                   "text": "are motivated to participate despite the survival risks.",
-                  "isCorrect": false
+                  "is_correct": false
                 },
                 {
                   "id": "E",
                   "text": "consume excess calories in an environment with abundant food.",
-                  "isCorrect": false
+                  "is_correct": false
                 },
                 {
                   "id": "F",
                   "text": "differentiate between true aggression and harmless interaction.",
-                  "isCorrect": false
+                  "is_correct": false
                 }
               ]
             },
@@ -798,32 +798,32 @@
                 {
                   "id": "A",
                   "text": "develop crucial physical skills needed for adulthood.",
-                  "isCorrect": false
+                  "is_correct": false
                 },
                 {
                   "id": "B",
                   "text": "practice recovering from sudden or stressful situations.",
-                  "isCorrect": false
+                  "is_correct": false
                 },
                 {
                   "id": "C",
                   "text": "establish and maintain complex social hierarchies.",
-                  "isCorrect": false
+                  "is_correct": false
                 },
                 {
                   "id": "D",
                   "text": "are motivated to participate despite the survival risks.",
-                  "isCorrect": true
+                  "is_correct": true
                 },
                 {
                   "id": "E",
                   "text": "consume excess calories in an environment with abundant food.",
-                  "isCorrect": false
+                  "is_correct": false
                 },
                 {
                   "id": "F",
                   "text": "differentiate between true aggression and harmless interaction.",
-                  "isCorrect": false
+                  "is_correct": false
                 }
               ]
             }

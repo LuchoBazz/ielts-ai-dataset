@@ -81,7 +81,7 @@ You are tasked with generating a comprehensive **JSON payload** specifically for
                 {
                   "id": "string",
                   "text": "string",
-                  "isCorrect": "boolean"
+                  "is_correct": "boolean"
                 }
               ]
             }

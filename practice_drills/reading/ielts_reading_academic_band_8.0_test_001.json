@@ -544,22 +544,22 @@
                 {
                   "id": "A",
                   "text": "A. an uncontrollable overgrowth of fungal hyphae.",
-                  "isCorrect": false
+                  "is_correct": false
                 },
                 {
                   "id": "B",
                   "text": "B. plants actively ceasing to feed their microbial partners.",
-                  "isCorrect": true
+                  "is_correct": true
                 },
                 {
                   "id": "C",
                   "text": "C. an immediate and permanent collapse of all crop yields.",
-                  "isCorrect": false
+                  "is_correct": false
                 },
                 {
                   "id": "D",
                   "text": "D. the physical destruction of the soil's geometric structure.",
-                  "isCorrect": false
+                  "is_correct": false
                 }
               ]
             },
@@ -572,22 +572,22 @@
                 {
                   "id": "A",
                   "text": "A. They directly attack and kill agricultural pests.",
-                  "isCorrect": false
+                  "is_correct": false
                 },
                 {
                   "id": "B",
                   "text": "B. They act as a total substitute for water during droughts.",
-                  "isCorrect": false
+                  "is_correct": false
                 },
                 {
                   "id": "C",
                   "text": "C. They proactively stimulate the plant's natural immune defences.",
-                  "isCorrect": true
+                  "is_correct": true
                 },
                 {
                   "id": "D",
                   "text": "D. They prevent the need for any future chemical interventions.",
-                  "isCorrect": false
+                  "is_correct": false
                 }
               ]
             },
@@ -600,22 +600,22 @@
                 {
                   "id": "A",
                   "text": "A. To argue strictly against all forms of modern technological agriculture.",
-                  "isCorrect": false
+                  "is_correct": false
                 },
                 {
                   "id": "B",
                   "text": "B. To calculate the economic benefits of reducing synthetic fertiliser usage.",
-                  "isCorrect": false
+                  "is_correct": false
                 },
                 {
                   "id": "C",
                   "text": "C. To detail the exhaustive history of farming practices since the industrial revolution.",
-                  "isCorrect": false
+                  "is_correct": false
                 },
                 {
                   "id": "D",
                   "text": "D. To highlight the profound ecological importance of the soil microbiome and its restoration.",
-                  "isCorrect": true
+                  "is_correct": true
                 }
               ]
             }
@@ -709,32 +709,32 @@
                 {
                   "id": "A",
                   "text": "A. consciously intercept and abort an action before it is executed.",
-                  "isCorrect": false
+                  "is_correct": false
                 },
                 {
                   "id": "B",
                   "text": "B. holding individuals morally responsible for their actions is unjustified.",
-                  "isCorrect": false
+                  "is_correct": false
                 },
                 {
                   "id": "C",
                   "text": "C. the brain initiates physical movement before the person is aware of the choice.",
-                  "isCorrect": true
+                  "is_correct": true
                 },
                 {
                   "id": "D",
                   "text": "D. laboratory experiments do not accurately replicate complex human decision-making.",
-                  "isCorrect": false
+                  "is_correct": false
                 },
                 {
                   "id": "E",
                   "text": "E. the sense of conscious agency is merely a byproduct of underlying neural events.",
-                  "isCorrect": false
+                  "is_correct": false
                 },
                 {
                   "id": "F",
                   "text": "F. individuals are entirely capable of overriding deterministic neurobiology.",
-                  "isCorrect": false
+                  "is_correct": false
                 }
               ]
             },
@@ -747,32 +747,32 @@
                 {
                   "id": "A",
                   "text": "A. consciously intercept and abort an action before it is executed.",
-                  "isCorrect": false
+                  "is_correct": false
                 },
                 {
                   "id": "B",
                   "text": "B. holding individuals morally responsible for their actions is unjustified.",
-                  "isCorrect": false
+                  "is_correct": false
                 },
                 {
                   "id": "C",
                   "text": "C. the brain initiates physical movement before the person is aware of the choice.",
-                  "isCorrect": false
+                  "is_correct": false
                 },
                 {
                   "id": "D",
                   "text": "D. laboratory experiments do not accurately replicate complex human decision-making.",
-                  "isCorrect": false
+                  "is_correct": false
                 },
                 {
                   "id": "E",
                   "text": "E. the sense of conscious agency is merely a byproduct of underlying neural events.",
-                  "isCorrect": true
+                  "is_correct": true
                 },
                 {
                   "id": "F",
                   "text": "F. individuals are entirely capable of overriding deterministic neurobiology.",
-                  "isCorrect": false
+                  "is_correct": false
                 }
               ]
             },
@@ -785,32 +785,32 @@
                 {
                   "id": "A",
                   "text": "A. consciously intercept and abort an action before it is executed.",
-                  "isCorrect": false
+                  "is_correct": false
                 },
                 {
                   "id": "B",
                   "text": "B. holding individuals morally responsible for their actions is unjustified.",
-                  "isCorrect": true
+                  "is_correct": true
                 },
                 {
                   "id": "C",
                   "text": "C. the brain initiates physical movement before the person is aware of the choice.",
-                  "isCorrect": false
+                  "is_correct": false
                 },
                 {
                   "id": "D",
                   "text": "D. laboratory experiments do not accurately replicate complex human decision-making.",
-                  "isCorrect": false
+                  "is_correct": false
                 },
                 {
                   "id": "E",
                   "text": "E. the sense of conscious agency is merely a byproduct of underlying neural events.",
-                  "isCorrect": false
+                  "is_correct": false
                 },
                 {
                   "id": "F",
                   "text": "F. individuals are entirely capable of overriding deterministic neurobiology.",
-                  "isCorrect": false
+                  "is_correct": false
                 }
               ]
             },
@@ -823,32 +823,32 @@
                 {
                   "id": "A",
                   "text": "A. consciously intercept and abort an action before it is executed.",
-                  "isCorrect": false
+                  "is_correct": false
                 },
                 {
                   "id": "B",
                   "text": "B. holding individuals morally responsible for their actions is unjustified.",
-                  "isCorrect": false
+                  "is_correct": false
                 },
                 {
                   "id": "C",
                   "text": "C. the brain initiates physical movement before the person is aware of the choice.",
-                  "isCorrect": false
+                  "is_correct": false
                 },
                 {
                   "id": "D",
                   "text": "D. laboratory experiments do not accurately replicate complex human decision-making.",
-                  "isCorrect": true
+                  "is_correct": true
                 },
                 {
                   "id": "E",
                   "text": "E. the sense of conscious agency is merely a byproduct of underlying neural events.",
-                  "isCorrect": false
+                  "is_correct": false
                 },
                 {
                   "id": "F",
                   "text": "F. individuals are entirely capable of overriding deterministic neurobiology.",
-                  "isCorrect": false
+                  "is_correct": false
                 }
               ]
             }
