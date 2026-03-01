@@ -1,0 +1,889 @@
+{
+  "id": "bf17bc07-7b04-45b1-aa30-e8239d019b4d",
+  "created_by": "c9c3cec1-06de-4270-bd56-78cccaa31ac2",
+  "title": "IELTS Academic Reading Practice: Technology and Design",
+  "test_type": "Academic",
+  "duration": "60 mins",
+  "status": "published",
+  "passages": [
+    {
+      "id": "b267faa6-0475-4dbf-99be-59039d13640a",
+      "passage_number": 1,
+      "title": "The Rise of Vertical Farming",
+      "content": "(A) As the global population continues to expand, projecting to reach nearly 10 billion by 2050, traditional agriculture faces unprecedented challenges. Conventional farming requires vast expanses of arable land, significant fresh water resources, and relies heavily on complex supply chains that are increasingly vulnerable to climate change. In response to these pressing limitations, a revolutionary agricultural paradigm has emerged: vertical farming. This highly innovative method involves growing crops in stacked layers within controlled indoor environments, typically located in dense urban areas. By bringing the farm directly into the city, vertical farming drastically reduces transportation emissions and food miles, offering a highly localized solution to a global crisis.\n\n(B) The mechanics of vertical farming rely entirely on advanced indoor agricultural technologies rather than natural sunlight or soil. Most facilities utilize hydroponics, where roots are submerged in a nutrient-rich water solution instead of traditional earth. Another increasingly common method is aeroponics, a system originally developed by NASA, where roots hang directly in the air and receive a continuous, highly calibrated nutrient mist. Because these environments are completely enclosed, vertical farms do not rely on natural solar cycles; instead, they use sophisticated LED lighting systems programmed to emit specific light spectrums optimized for maximum photosynthesis.\n\n(C) The environmental benefits of this controlled-environment agriculture are substantial. Because the systems are closed-loop, vertical farming saves up to 95% water compared to conventional field farming, capturing and recycling moisture transpired by the plants. Furthermore, the sterile indoor environment fundamentally changes pest management. By keeping insects out through strict biosecurity protocols, vertical farming completely eliminates the need for chemical pesticides, resulting in cleaner, safer produce. Additionally, independent of external weather conditions, these facilities can guarantee a consistent, year-round yield, harvesting crops multiple times a year regardless of the season.\n\n(D) Despite its remarkable potential, vertical farming is not without significant drawbacks. The capital required to construct a state-of-the-art facility is enormous, with sensors, climate control systems, and specialized infrastructure driving up initial setup costs. However, the major ongoing expense remains energy consumption. Powering thousands of high-intensity LED lights and maintaining precise environmental controls 24 hours a day demands a massive amount of electricity. This high energy requirement currently makes vertical farming economically viable primarily for fast-growing, high-margin crops like leafy greens and herbs, rather than staple calorie crops like wheat or rice.\n\n(E) The future outlook for vertical farming hinges on overcoming these economic and energetic hurdles. Engineers and agronomists are actively working on increasing the efficiency of lighting systems and exploring ways of integrating renewable energy sources, such as solar and wind power, directly into facility designs to offset these costs. If the industry can successfully reduce its energy footprint, vertical farming stands to become a crucial pillar of global food security, resilient to a changing climate and capable of sustainably feeding the megacities of tomorrow.",
+      "question_groups": [
+        {
+          "id": "8d3837f0-a952-43eb-b6c3-7cbf6c0fc52b",
+          "group_order": 1,
+          "question_type": "true-false-not-given",
+          "instructions": "Do the following statements agree with the information given in the passage? Write TRUE, FALSE, or NOT GIVEN.",
+          "sequential_order": true,
+          "questions": [
+            {
+              "id": "b3fbb902-096e-40cf-88fe-9ca5602dd76c",
+              "question_order": 1,
+              "text": "Vertical farming relies heavily on natural sunlight to grow crops efficiently.",
+              "answer": "FALSE",
+              "accepted_answers": [
+                "FALSE",
+                "False",
+                "false"
+              ]
+            },
+            {
+              "id": "c34aaf1f-4c77-427a-b0ca-41df3c757180",
+              "question_order": 2,
+              "text": "Aeroponics generally uses less water than hydroponic systems.",
+              "answer": "NOT GIVEN",
+              "accepted_answers": [
+                "NOT GIVEN",
+                "Not Given",
+                "not given"
+              ]
+            },
+            {
+              "id": "2e5d2d4d-16b6-42da-848e-2645a90d2c5f",
+              "question_order": 3,
+              "text": "Vertical farms are capable of producing harvests regardless of the external season.",
+              "answer": "TRUE",
+              "accepted_answers": [
+                "TRUE",
+                "True",
+                "true"
+              ]
+            },
+            {
+              "id": "c79b581e-1af9-4bbb-ba71-cbd61e409d07",
+              "question_order": 4,
+              "text": "The initial setup cost of a vertical farm is cheaper than purchasing traditional farmland.",
+              "answer": "FALSE",
+              "accepted_answers": [
+                "FALSE",
+                "False",
+                "false"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2fbc4db4-f2d1-4133-84b0-1a14b82435a3",
+          "group_order": 2,
+          "question_type": "table-completion",
+          "instructions": "Complete the table below. Choose NO MORE THAN TWO WORDS from the passage for each answer.",
+          "sequential_order": true,
+          "word_limit": "2",
+          "questions": [
+            {
+              "id": "a80628c7-30e6-40ad-b86d-98fd0b9246f3",
+              "question_order": 5,
+              "text": "Row 1",
+              "answer": "",
+              "completion_gaps": [
+                {
+                  "id": "c1",
+                  "gap_text": "Hydroponics",
+                  "answer": ""
+                },
+                {
+                  "id": "c2",
+                  "gap_text": "Nutrient-rich",
+                  "answer": "water"
+                },
+                {
+                  "id": "c3",
+                  "gap_text": "Uses sophisticated",
+                  "answer": "LED lighting"
+                }
+              ]
+            },
+            {
+              "id": "ed080bda-064f-4ae6-8b4a-74333e9a6b4b",
+              "question_order": 6,
+              "text": "Row 2",
+              "answer": "",
+              "completion_gaps": [
+                {
+                  "id": "c4",
+                  "gap_text": "Aeroponics",
+                  "answer": ""
+                },
+                {
+                  "id": "c5",
+                  "gap_text": "Roots hang in the",
+                  "answer": "air"
+                },
+                {
+                  "id": "c6",
+                  "gap_text": "Receives continuous nutrient mist",
+                  "answer": ""
+                }
+              ]
+            },
+            {
+              "id": "86b25fe4-9ab7-45ad-98af-3b17f4fe2b98",
+              "question_order": 7,
+              "text": "Row 3",
+              "answer": "",
+              "completion_gaps": [
+                {
+                  "id": "c7",
+                  "gap_text": "Closed-loop systems",
+                  "answer": ""
+                },
+                {
+                  "id": "c8",
+                  "gap_text": "Sterile indoor environment",
+                  "answer": ""
+                },
+                {
+                  "id": "c9",
+                  "gap_text": "Saves up to 95%",
+                  "answer": "water"
+                }
+              ]
+            },
+            {
+              "id": "ebc9167b-daf1-410d-8123-a897c0ff5713",
+              "question_order": 8,
+              "text": "Row 4",
+              "answer": "",
+              "completion_gaps": [
+                {
+                  "id": "c10",
+                  "gap_text": "Biosecurity protocols",
+                  "answer": ""
+                },
+                {
+                  "id": "c11",
+                  "gap_text": "No insects",
+                  "answer": ""
+                },
+                {
+                  "id": "c12",
+                  "gap_text": "Eliminates need for chemical",
+                  "answer": "pesticides"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "e671f35a-4389-4bc1-a715-e0224cd06f49",
+          "group_order": 3,
+          "question_type": "short-answer",
+          "instructions": "Answer the questions below. Choose NO MORE THAN THREE WORDS from the passage for each answer.",
+          "sequential_order": true,
+          "word_limit": "3",
+          "questions": [
+            {
+              "id": "87d49807-52fe-4d96-b107-07f4762854e4",
+              "question_order": 9,
+              "text": "What type of locations are vertical farms typically built in?",
+              "answer": "urban areas",
+              "accepted_answers": [
+                {
+                  "id": "1",
+                  "text": "dense urban areas"
+                },
+                {
+                  "id": "2",
+                  "text": "urban areas"
+                }
+              ]
+            },
+            {
+              "id": "c8b1c59b-5a33-43c4-9ca0-fc5b89323376",
+              "question_order": 10,
+              "text": "What specific agricultural method relies on a highly calibrated nutrient mist?",
+              "answer": "aeroponics",
+              "accepted_answers": [
+                {
+                  "id": "1",
+                  "text": "aeroponics"
+                }
+              ]
+            },
+            {
+              "id": "5231f100-167e-4347-8f50-22a2bd437a01",
+              "question_order": 11,
+              "text": "What is the primary ongoing expense involved in operating a vertical farm?",
+              "answer": "energy consumption",
+              "accepted_answers": [
+                {
+                  "id": "1",
+                  "text": "energy consumption"
+                }
+              ]
+            },
+            {
+              "id": "c892c2c6-8c72-4f83-aedb-217addd757fd",
+              "question_order": 12,
+              "text": "What type of produce is currently the most economically viable for indoor farming?",
+              "answer": "leafy greens",
+              "accepted_answers": [
+                {
+                  "id": "1",
+                  "text": "leafy greens and herbs"
+                },
+                {
+                  "id": "2",
+                  "text": "leafy greens"
+                }
+              ]
+            },
+            {
+              "id": "05c9193e-640b-4a11-8216-6556bb3fbe45",
+              "question_order": 13,
+              "text": "What type of power sources are being integrated into designs to offset high electricity costs?",
+              "answer": "renewable energy sources",
+              "accepted_answers": [
+                {
+                  "id": "1",
+                  "text": "renewable energy"
+                },
+                {
+                  "id": "2",
+                  "text": "renewable energy sources"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bbf304ed-89e4-4d2e-b1ee-0bdd548b8c5b",
+      "passage_number": 2,
+      "title": "The Psychology of Urban Design",
+      "content": "(A) For centuries, urban planners focused primarily on the functional efficiency of cities: traffic flow, sanitation, and industrial zoning. However, contemporary research in environmental psychology has sparked a paradigm shift, demonstrating that cities have a profound impact on human emotional well-being. The built environment is no longer viewed merely as a passive backdrop to human activity, but as an active agent that significantly shapes our cognitive states, stress levels, and social behaviors.\n\n(B) A foundational concept in this field is biophilia, the psychological principle that explains human attraction to nature and natural systems. Studies consistently show that urban populations with regular access to green spaces exhibit significantly lower baseline levels of cortisol, the primary stress hormone. Parks, tree-lined avenues, and even small community gardens provide crucial cognitive restoration, allowing the brain to recover from the sensory overload typical of dense urban environments. Integrating natural elements into cityscapes is not merely a cosmetic luxury; it is a fundamental public health necessity.\n\n(C) Navigability, or how easily individuals can orient themselves and move through a city, is another critical psychological factor. Clear, highly legible street layouts with prominent architectural landmarks allow residents to form accurate mental maps. Conversely, confusing street layouts and winding paths without distinct landmarks severely increase anxiety and disorientation. When people feel perpetually lost in their own environment, it fosters an underlying sense of vulnerability and drastically reduces their willingness to explore their surroundings.\n\n(D) The physical aesthetics of architecture also matter deeply. The materials, scale, and facade of buildings communicate specific emotional cues. Imposing concrete buildings, typical of mid-century Brutalism, often provoke feelings of alienation, intimidation, and unease, emphasizing institutional power over individual comfort. In contrast, architecture that incorporates organic curves, varied textures, and human-scaled proportions tends to foster feelings of safety and warmth. The visual monotony of endless glass skyscrapers can be as psychologically exhausting as an aggressively harsh concrete block.\n\n(E) Furthermore, the design of social spaces dictates the quality of community interaction. Public squares, wide pedestrian sidewalks, and accessible plazas are essential for fostering community relationships and combating urban loneliness. When cities prioritize automotive traffic over pedestrian infrastructure, they inadvertently design out the casual, serendipitous social encounters that build neighborhood cohesion and trust. A well-designed public square acts as an outdoor living room, a democratic space where diverse demographics can co-exist and interact.\n\n(F) Looking forward, the future lies in human-centric urban design. City planners are increasingly using data analytics and biometric feedback to monitor urban well-being and design better, more responsive cities. By understanding the intricate psychological mechanisms triggered by urban environments, the next generation of architects and planners can intentionally construct cities that not only house millions of people but actively nurture their mental health and social connectivity.",
+      "question_groups": [
+        {
+          "id": "1a6ba232-65c5-4e11-a89e-2440047d4208",
+          "group_order": 1,
+          "question_type": "matching-headings",
+          "instructions": "The reading passage has six paragraphs, A–F. Choose the correct heading for each paragraph from the list of headings below.",
+          "sequential_order": true,
+          "has_word_bank": true,
+          "word_bank": [
+            "i. The importance of clear urban orientation",
+            "ii. A shift in how cities are perceived",
+            "iii. Spaces that encourage human connection",
+            "iv. The emotional impact of building styles",
+            "v. The biological need for natural elements",
+            "vi. Using modern data for future development",
+            "vii. The economic cost of public parks",
+            "viii. Historical traffic management systems"
+          ],
+          "questions": [
+            {
+              "id": "ac32c583-ddf9-4a8d-8d39-734d279c1f8a",
+              "question_order": 14,
+              "text": "Paragraph A",
+              "answer": "ii"
+            },
+            {
+              "id": "dd92b2f8-caaa-4c8b-92e5-c1ad2d9f726e",
+              "question_order": 15,
+              "text": "Paragraph B",
+              "answer": "v"
+            },
+            {
+              "id": "2df05cec-038f-46c5-a641-adcc12d26cfd",
+              "question_order": 16,
+              "text": "Paragraph C",
+              "answer": "i"
+            },
+            {
+              "id": "1191ebef-eb38-46ed-b66f-c3b8ac255094",
+              "question_order": 17,
+              "text": "Paragraph D",
+              "answer": "iv"
+            },
+            {
+              "id": "8a8985de-009e-40f6-904a-2ecc4f2b8286",
+              "question_order": 18,
+              "text": "Paragraph E",
+              "answer": "iii"
+            },
+            {
+              "id": "4660ee5e-bb3c-46bb-9aae-b5a8a58021b3",
+              "question_order": 19,
+              "text": "Paragraph F",
+              "answer": "vi"
+            }
+          ]
+        },
+        {
+          "id": "8b7b8c5c-76ee-497e-9ba6-684b040e3e72",
+          "group_order": 2,
+          "question_type": "matching-information",
+          "instructions": "Which paragraph contains the following information? Write the correct letter, A–F.",
+          "sequential_order": true,
+          "questions": [
+            {
+              "id": "f308076c-8d64-43fe-bf80-22f43bc585f3",
+              "question_order": 20,
+              "text": "An explanation of how confusing street layouts can increase anxiety.",
+              "answer": "C",
+              "matching_pairs": [
+                {
+                  "id": "1",
+                  "left": "",
+                  "right": "A"
+                },
+                {
+                  "id": "2",
+                  "left": "",
+                  "right": "B"
+                },
+                {
+                  "id": "3",
+                  "left": "",
+                  "right": "C"
+                },
+                {
+                  "id": "4",
+                  "left": "",
+                  "right": "D"
+                },
+                {
+                  "id": "5",
+                  "left": "",
+                  "right": "E"
+                },
+                {
+                  "id": "6",
+                  "left": "",
+                  "right": "F"
+                }
+              ]
+            },
+            {
+              "id": "0895d5bf-9ae3-47b5-8126-dbf3aef09a9e",
+              "question_order": 21,
+              "text": "The psychological term describing human attraction to nature.",
+              "answer": "B",
+              "matching_pairs": [
+                {
+                  "id": "1",
+                  "left": "",
+                  "right": "A"
+                },
+                {
+                  "id": "2",
+                  "left": "",
+                  "right": "B"
+                },
+                {
+                  "id": "3",
+                  "left": "",
+                  "right": "C"
+                },
+                {
+                  "id": "4",
+                  "left": "",
+                  "right": "D"
+                },
+                {
+                  "id": "5",
+                  "left": "",
+                  "right": "E"
+                },
+                {
+                  "id": "6",
+                  "left": "",
+                  "right": "F"
+                }
+              ]
+            },
+            {
+              "id": "42765f30-7f97-47e5-afce-fc67e480eca3",
+              "question_order": 22,
+              "text": "The role of public squares in combating urban loneliness.",
+              "answer": "E",
+              "matching_pairs": [
+                {
+                  "id": "1",
+                  "left": "",
+                  "right": "A"
+                },
+                {
+                  "id": "2",
+                  "left": "",
+                  "right": "B"
+                },
+                {
+                  "id": "3",
+                  "left": "",
+                  "right": "C"
+                },
+                {
+                  "id": "4",
+                  "left": "",
+                  "right": "D"
+                },
+                {
+                  "id": "5",
+                  "left": "",
+                  "right": "E"
+                },
+                {
+                  "id": "6",
+                  "left": "",
+                  "right": "F"
+                }
+              ]
+            },
+            {
+              "id": "5f46e9d1-e575-40e4-8f2c-0796f4126f83",
+              "question_order": 23,
+              "text": "The emotional reaction often caused by imposing concrete structures.",
+              "answer": "D",
+              "matching_pairs": [
+                {
+                  "id": "1",
+                  "left": "",
+                  "right": "A"
+                },
+                {
+                  "id": "2",
+                  "left": "",
+                  "right": "B"
+                },
+                {
+                  "id": "3",
+                  "left": "",
+                  "right": "C"
+                },
+                {
+                  "id": "4",
+                  "left": "",
+                  "right": "D"
+                },
+                {
+                  "id": "5",
+                  "left": "",
+                  "right": "E"
+                },
+                {
+                  "id": "6",
+                  "left": "",
+                  "right": "F"
+                }
+              ]
+            },
+            {
+              "id": "07601963-c038-4522-9dd5-d4167b4b1969",
+              "question_order": 24,
+              "text": "The implementation of biometric feedback to design better cities.",
+              "answer": "F",
+              "matching_pairs": [
+                {
+                  "id": "1",
+                  "left": "",
+                  "right": "A"
+                },
+                {
+                  "id": "2",
+                  "left": "",
+                  "right": "B"
+                },
+                {
+                  "id": "3",
+                  "left": "",
+                  "right": "C"
+                },
+                {
+                  "id": "4",
+                  "left": "",
+                  "right": "D"
+                },
+                {
+                  "id": "5",
+                  "left": "",
+                  "right": "E"
+                },
+                {
+                  "id": "6",
+                  "left": "",
+                  "right": "F"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2289549f-bd3c-4d88-be03-71c42997ffc0",
+          "group_order": 3,
+          "question_type": "multiple-choice",
+          "instructions": "Choose the correct letter, A, B, C or D.",
+          "sequential_order": true,
+          "questions": [
+            {
+              "id": "72d19f55-99f4-4360-8205-cc5d3d3d1233",
+              "question_order": 25,
+              "text": "According to Paragraph B, what is a physiological benefit of access to green spaces?",
+              "answer": "A",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "A. A significant reduction in the primary stress hormone.",
+                  "is_correct": true
+                },
+                {
+                  "id": "B",
+                  "text": "B. An increase in physical fitness due to more walking.",
+                  "is_correct": false
+                },
+                {
+                  "id": "C",
+                  "text": "C. Complete immunity to sensory overload.",
+                  "is_correct": false
+                },
+                {
+                  "id": "D",
+                  "text": "D. A faster recovery from physical illnesses.",
+                  "is_correct": false
+                }
+              ]
+            },
+            {
+              "id": "a395c9bd-d71c-4bd3-8f89-49187b7fe203",
+              "question_order": 26,
+              "text": "Brutalist architecture is mentioned in Paragraph D primarily to illustrate",
+              "answer": "B",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "A. the cost-effectiveness of using concrete in modern cities.",
+                  "is_correct": false
+                },
+                {
+                  "id": "B",
+                  "text": "B. how certain building materials can provoke feelings of alienation.",
+                  "is_correct": true
+                },
+                {
+                  "id": "C",
+                  "text": "C. the historical progression of urban design trends.",
+                  "is_correct": false
+                },
+                {
+                  "id": "D",
+                  "text": "D. why skyscrapers are more psychologically exhausting than smaller buildings.",
+                  "is_correct": false
+                }
+              ]
+            },
+            {
+              "id": "5e437907-0af6-485d-852d-c16b175b9459",
+              "question_order": 27,
+              "text": "What is the overall message of the passage regarding urban design?",
+              "answer": "C",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "A. Cities should prioritize traffic flow to reduce economic losses.",
+                  "is_correct": false
+                },
+                {
+                  "id": "B",
+                  "text": "B. Historical architecture should be entirely replaced by modern structures.",
+                  "is_correct": false
+                },
+                {
+                  "id": "C",
+                  "text": "C. The physical environment fundamentally influences human emotional health.",
+                  "is_correct": true
+                },
+                {
+                  "id": "D",
+                  "text": "D. People naturally prefer living in rural areas over urban ones.",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "7453f6dd-8b7f-487c-9681-09872936c82e",
+      "passage_number": 3,
+      "title": "Quantum Computing and the Future of Cryptography",
+      "content": "(A) The digital security infrastructure that currently underpins the modern world—from secure online banking and encrypted messaging to classified government communications—relies almost entirely on classical computing paradigms. Classical computers process information using binary bits, representing data as either a 0 or a 1. However, the rapidly advancing field of quantum computing threatens to entirely upend this established digital order. Quantum computers operate on the mind-bending principles of quantum mechanics, utilizing quantum bits, or \"qubits,\" which possess capabilities that make traditional microprocessors look little more than advanced abacuses.\n\n(B) The extraordinary power of quantum computers stems from two primary quantum phenomena: superposition and entanglement. While a classical bit must be strictly a 0 or a 1, a qubit in a state of superposition can exist as both a 0 and a 1 simultaneously. This allows quantum systems to evaluate an immense number of potential outcomes concurrently, rather than sequentially. Furthermore, through quantum entanglement, qubits become intricately linked; the state of one instantly influences the state of another, regardless of the physical distance separating them. Together, these properties grant quantum computers exponential processing power for specific types of complex calculations.\n\n(C) To understand the existential threat this poses, one must examine how current encryption works. The most widely used cryptographic standard today is the RSA algorithm. RSA security relies completely on the immense mathematical difficulty of factoring incredibly large prime numbers. For a classical supercomputer, calculating the prime factors of a 2048-bit number would theoretically take millions of years. Therefore, classical cryptography assumes that brute-force decryption is practically impossible within a human timeframe. Our data is considered \"secure\" merely because the math takes too long for current machines to solve.\n\n(D) Enter Peter Shor. In 1994, the American mathematician developed Shor’s algorithm, a theoretical quantum algorithm designed specifically for integer factorization. Shor proved that a sufficiently powerful quantum computer could execute this algorithm to find the prime factors of large numbers not in millions of years, but in mere hours or minutes. The moment a fully functional, fault-tolerant quantum computer is built, RSA and similar encryption models instantly become obsolete. Every piece of encrypted data—past, present, and future—could be theoretically exposed and decrypted almost instantly.\n\n(E) Recognizing this looming \"quantum apocalypse,\" global cybersecurity agencies and cryptographers are aggressively racing to develop \"post-quantum cryptography\" (PQC). The goal is to design entirely new cryptographic algorithms that run on classical computers but rely on mathematical problems so profoundly complex that even a quantum computer cannot easily solve them. The most promising candidates are lattice-based models. These algorithms hide data within multidimensional geometric grids; finding the shortest path between points in a lattice with hundreds of dimensions appears to be a problem that inherently resists even quantum processing speed.\n\n(F) The transition to post-quantum cryptography is an urgent race against time. The phenomenon known as \"Harvest Now, Decrypt Later\" reveals that malicious actors are already actively stealing and stockpiling massive amounts of encrypted data today. They intend to hold onto this data until quantum technology matures enough to decrypt it. Therefore, achieving quantum supremacy—the point where a quantum computer definitively outperforms the best classical supercomputer on a specific task—is not just an academic milestone; it is a global national security imperative driving rapid, unprecedented innovation.",
+      "question_groups": [
+        {
+          "id": "509a0290-2003-4cb7-a5e9-165c4d1ce836",
+          "group_order": 1,
+          "question_type": "yes-no-not-given",
+          "instructions": "Do the following statements agree with the claims of the writer? Write YES, NO, or NOT GIVEN.",
+          "sequential_order": true,
+          "questions": [
+            {
+              "id": "fc5087cf-cc63-4ba1-87a3-2ee0d45bfaad",
+              "question_order": 28,
+              "text": "Qubits are capable of existing in multiple states simultaneously.",
+              "answer": "YES",
+              "accepted_answers": [
+                "YES",
+                "Yes",
+                "yes"
+              ]
+            },
+            {
+              "id": "98b38969-7bdc-4e82-bbcc-bb7c31e5efd2",
+              "question_order": 29,
+              "text": "The RSA algorithm is easily broken by modern classical supercomputers.",
+              "answer": "NO",
+              "accepted_answers": [
+                "NO",
+                "No",
+                "no"
+              ]
+            },
+            {
+              "id": "3952d855-8fb8-4397-9d28-0ceda352872c",
+              "question_order": 30,
+              "text": "Shor's algorithm has already been successfully used to hack major banking systems.",
+              "answer": "NOT GIVEN",
+              "accepted_answers": [
+                "NOT GIVEN",
+                "Not Given",
+                "not given"
+              ]
+            },
+            {
+              "id": "0f6e9ce1-4e65-4c16-9479-fb3772d496ec",
+              "question_order": 31,
+              "text": "Lattice-based cryptography is proven to be completely immune to all future technological advancements.",
+              "answer": "NO",
+              "accepted_answers": [
+                "NO",
+                "No",
+                "no"
+              ]
+            },
+            {
+              "id": "c45b6d40-8b8a-48a8-9b7e-e3cf011881c5",
+              "question_order": 32,
+              "text": "Researchers are actively working on developing algorithms resistant to quantum computers.",
+              "answer": "YES",
+              "accepted_answers": [
+                "YES",
+                "Yes",
+                "yes"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "aa52efbf-6b29-4cba-92b9-84ec25b03019",
+          "group_order": 2,
+          "question_type": "matching-sentence-endings",
+          "instructions": "Complete each sentence with the correct ending, A–F, from the box below.",
+          "sequential_order": true,
+          "questions": [
+            {
+              "id": "7aa2362c-e7f3-4e8f-bbcd-73923bcd494f",
+              "question_order": 33,
+              "text": "Classical computers process information",
+              "answer": "C",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "A. the difficulty of factoring large prime numbers.",
+                  "is_correct": false
+                },
+                {
+                  "id": "B",
+                  "text": "B. develop systems secure against quantum attacks.",
+                  "is_correct": false
+                },
+                {
+                  "id": "C",
+                  "text": "C. using binary bits that represent either a 0 or a 1.",
+                  "is_correct": true
+                },
+                {
+                  "id": "D",
+                  "text": "D. stockpiling encrypted data for future use.",
+                  "is_correct": false
+                },
+                {
+                  "id": "E",
+                  "text": "E. existing in multiple physical locations simultaneously.",
+                  "is_correct": false
+                },
+                {
+                  "id": "F",
+                  "text": "F. solve complex factorization problems exponentially faster.",
+                  "is_correct": false
+                }
+              ]
+            },
+            {
+              "id": "7e6f383a-2de5-4ddc-bbba-f1a94d4d532c",
+              "question_order": 34,
+              "text": "The security of the RSA algorithm relies heavily on",
+              "answer": "A",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "A. the difficulty of factoring large prime numbers.",
+                  "is_correct": true
+                },
+                {
+                  "id": "B",
+                  "text": "B. develop systems secure against quantum attacks.",
+                  "is_correct": false
+                },
+                {
+                  "id": "C",
+                  "text": "C. using binary bits that represent either a 0 or a 1.",
+                  "is_correct": false
+                },
+                {
+                  "id": "D",
+                  "text": "D. stockpiling encrypted data for future use.",
+                  "is_correct": false
+                },
+                {
+                  "id": "E",
+                  "text": "E. existing in multiple physical locations simultaneously.",
+                  "is_correct": false
+                },
+                {
+                  "id": "F",
+                  "text": "F. solve complex factorization problems exponentially faster.",
+                  "is_correct": false
+                }
+              ]
+            },
+            {
+              "id": "b3d685e1-8582-4ce4-8a0d-1e4621e2ab6a",
+              "question_order": 35,
+              "text": "Shor's algorithm poses a massive security threat because it can",
+              "answer": "F",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "A. the difficulty of factoring large prime numbers.",
+                  "is_correct": false
+                },
+                {
+                  "id": "B",
+                  "text": "B. develop systems secure against quantum attacks.",
+                  "is_correct": false
+                },
+                {
+                  "id": "C",
+                  "text": "C. using binary bits that represent either a 0 or a 1.",
+                  "is_correct": false
+                },
+                {
+                  "id": "D",
+                  "text": "D. stockpiling encrypted data for future use.",
+                  "is_correct": false
+                },
+                {
+                  "id": "E",
+                  "text": "E. existing in multiple physical locations simultaneously.",
+                  "is_correct": false
+                },
+                {
+                  "id": "F",
+                  "text": "F. solve complex factorization problems exponentially faster.",
+                  "is_correct": true
+                }
+              ]
+            },
+            {
+              "id": "37ed5f38-b175-40b8-80ee-bb5c51138373",
+              "question_order": 36,
+              "text": "The primary goal of post-quantum cryptography is to",
+              "answer": "B",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "A. the difficulty of factoring large prime numbers.",
+                  "is_correct": false
+                },
+                {
+                  "id": "B",
+                  "text": "B. develop systems secure against quantum attacks.",
+                  "is_correct": true
+                },
+                {
+                  "id": "C",
+                  "text": "C. using binary bits that represent either a 0 or a 1.",
+                  "is_correct": false
+                },
+                {
+                  "id": "D",
+                  "text": "D. stockpiling encrypted data for future use.",
+                  "is_correct": false
+                },
+                {
+                  "id": "E",
+                  "text": "E. existing in multiple physical locations simultaneously.",
+                  "is_correct": false
+                },
+                {
+                  "id": "F",
+                  "text": "F. solve complex factorization problems exponentially faster.",
+                  "is_correct": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "284aeb97-c356-4a34-a3d8-3d4886607364",
+          "group_order": 3,
+          "question_type": "summary-completion",
+          "instructions": "Complete the summary below. Choose ONE WORD ONLY from the box for each answer.",
+          "sequential_order": true,
+          "word_limit": "1",
+          "has_word_bank": true,
+          "word_bank": [
+            "cryptography",
+            "qubits",
+            "superposition",
+            "lattice-based",
+            "supremacy",
+            "bits",
+            "security",
+            "technology"
+          ],
+          "questions": [
+            {
+              "id": "3ab122fa-ac3b-434c-b002-f290c425da10",
+              "question_order": 37,
+              "text": "The advent of quantum computers severely threatens traditional {{gap_284aeb97-c356-4a34-a3d8-3d4886607364_0}}. Unlike classical bits, {{gap_284aeb97-c356-4a34-a3d8-3d4886607364_1}} utilise phenomena such as superposition to process vast amounts of data concurrently. To counter the decryption threat posed by mathematical formulas like Shor's algorithm, scientists are creating entirely new, complex structures, such as {{gap_284aeb97-c356-4a34-a3d8-3d4886607364_2}} models. The global race to achieve quantum {{gap_284aeb97-c356-4a34-a3d8-3d4886607364_3}} is driving rapid innovation, spurred on by the urgent need to protect encrypted data from future attacks.",
+              "answer": "cryptography"
+            },
+            {
+              "id": "863a0839-9e4c-4c0d-bd46-033370ad1e2e",
+              "question_order": 38,
+              "text": "",
+              "answer": "qubits"
+            },
+            {
+              "id": "a083a96d-c845-48c5-b545-819a859df3e5",
+              "question_order": 39,
+              "text": "",
+              "answer": "lattice-based"
+            },
+            {
+              "id": "287fdc9f-58b6-47d9-b2fe-b3aa0b554282",
+              "question_order": 40,
+              "text": "",
+              "answer": "supremacy"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
