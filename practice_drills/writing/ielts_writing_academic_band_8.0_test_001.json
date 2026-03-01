@@ -1,0 +1,32 @@
+{
+  "id": "50e2a43c-0861-43c0-8d00-89eff24acb23",
+  "created_by": "fe38ed89-f1fe-4b88-9609-8736be47f61e",
+  "title": "IELTS Academic Writing: High-Tech Exports & AI Automation (Band 8)",
+  "status": "published",
+  "tasks": [
+    {
+      "id": "ac690e24-f116-4a6a-b88f-467930064dcf",
+      "task_number": 1,
+      "task_type": "task1",
+      "title": "Writing Task 1: High-Tech Exports Distribution",
+      "difficulty": "8",
+      "suggested_time": "20 mins",
+      "prompt": "The bar chart below shows the total value of high-technology exports from Country A, Country B, and Country C between 2000 and 2020. The pie chart illustrates the distribution of these exports across four distinct sectors (Pharmaceuticals, Aerospace, Telecommunications, and Electronics) for Country B in 2020.\n\nSummarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+      "min_words": 150,
+      "max_words": "",
+      "image_url": ""
+    },
+    {
+      "id": "ea23452d-0c5c-4c03-9c08-d4b945fbeff2",
+      "task_number": 2,
+      "task_type": "task2",
+      "title": "Writing Task 2: AI and Automation in the Workforce",
+      "difficulty": "8",
+      "suggested_time": "40 mins",
+      "prompt": "In many countries, the rapid advancement of artificial intelligence and automation has led to significant changes in the workforce. While some argue that these technologies will create unprecedented economic growth and new professional opportunities, others fear they will lead to widespread unemployment and deepen social inequality.\n\nDiscuss both these views and give your own opinion.\n\nGive reasons for your answer and include any relevant examples from your own knowledge or experience.",
+      "min_words": 250,
+      "max_words": "",
+      "image_url": ""
+    }
+  ]
+}
