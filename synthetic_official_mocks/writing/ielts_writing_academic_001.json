@@ -1,0 +1,30 @@
+{
+  "id": "ff760391-7eed-48d2-b4f5-da37b4f21d6d",
+  "created_by": "be9045ad-581e-4ae5-a730-c74d36ced5c8",
+  "title": "IELTS Academic Writing: Global Water Consumption & Remote Work",
+  "status": "published",
+  "tasks": [
+    {
+      "id": "627a49f6-13df-427b-b2d8-438f2991f962",
+      "task_number": 1,
+      "task_type": "task1",
+      "title": "Writing Task 1: Global Water Consumption",
+      "suggested_time": "20 mins",
+      "prompt": "The line graph below shows the global consumption of water by three different sectors (agriculture, industrial, and domestic) from 1900 to 2000. The table illustrates water consumption in two specific countries, Brazil and the Democratic Republic of Congo, in the year 2000.\n\nSummarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+      "min_words": 150,
+      "max_words": "",
+      "image_url": ""
+    },
+    {
+      "id": "aedc3413-8bac-4fe8-a667-722eb92d264d",
+      "task_number": 2,
+      "task_type": "task2",
+      "title": "Writing Task 2: The Impact of Remote Work",
+      "suggested_time": "40 mins",
+      "prompt": "As remote work becomes increasingly common, many companies are allowing their employees to work from home full-time. Some people believe that this trend has a positive impact on both employees and employers, while others argue that it brings more disadvantages.\n\nDiscuss both these views and give your own opinion.\n\nGive reasons for your answer and include any relevant examples from your own knowledge or experience.",
+      "min_words": 250,
+      "max_words": "",
+      "image_url": ""
+    }
+  ]
+}
