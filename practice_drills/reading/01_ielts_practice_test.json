@@ -92,17 +92,17 @@
               "completion_gaps": [
                 {
                   "id": "9d8c7b6a-5e4f-4d3c-2b1a-0f9e8d7c6b5a",
-                  "gapText": "Era/Individual",
+                  "gap_text": "Era/Individual",
                   "answer": ""
                 },
                 {
                   "id": "8c7b6a5e-4f3d-4c2b-1a0f-9e8d7c6b5a4e",
-                  "gapText": "Method/Tool",
+                  "gap_text": "Method/Tool",
                   "answer": ""
                 },
                 {
                   "id": "7b6a5e4f-3d2c-4b1a-0f9e-8d7c6b5a4e3d",
-                  "gapText": "Key Discovery/Assumption",
+                  "gap_text": "Key Discovery/Assumption",
                   "answer": ""
                 }
               ]
@@ -115,17 +115,17 @@
               "completion_gaps": [
                 {
                   "id": "6a5e4f3d-2c1b-4a0f-9e8d-7c6b5a4e3d2c",
-                  "gapText": "Early scholars",
+                  "gap_text": "Early scholars",
                   "answer": ""
                 },
                 {
                   "id": "5e4f3d2c-1b0a-4f9e-8d7c-6b5a4e3d2c1b",
-                  "gapText": "Visual inspection",
+                  "gap_text": "Visual inspection",
                   "answer": ""
                 },
                 {
                   "id": "4f3d2c1b-0a9f-4e8d-7c6b-5a4e3d2c1b0a",
-                  "gapText": "Assumed the object was an",
+                  "gap_text": "Assumed the object was an",
                   "answer": "astrolabe"
                 }
               ]
@@ -138,17 +138,17 @@
               "completion_gaps": [
                 {
                   "id": "3d2c1b0a-9f8e-4d7c-6b5a-4e3d2c1b0a9f",
-                  "gapText": "Derek J. de Solla Price",
+                  "gap_text": "Derek J. de Solla Price",
                   "answer": ""
                 },
                 {
                   "id": "2c1b0a9f-8e7d-4c6b-5a4e-3d2c1b0a9f8e",
-                  "gapText": "",
+                  "gap_text": "",
                   "answer": "gamma-ray radiography"
                 },
                 {
                   "id": "1b0a9f8e-7d6c-4b5a-4e3d-2c1b0a9f8e7d",
-                  "gapText": "Identified the object as an analogue computer",
+                  "gap_text": "Identified the object as an analogue computer",
                   "answer": ""
                 }
               ]
@@ -161,17 +161,17 @@
               "completion_gaps": [
                 {
                   "id": "0a9f8e7d-6c5b-4a4e-3d2c-1b0a9f8e7d6c",
-                  "gapText": "AMRP (2006)",
+                  "gap_text": "AMRP (2006)",
                   "answer": ""
                 },
                 {
                   "id": "9f8e7d6c-5b4a-4e3d-2c1b-0a9f8e7d6c5b",
-                  "gapText": "Microfocus CT scans",
+                  "gap_text": "Microfocus CT scans",
                   "answer": ""
                 },
                 {
                   "id": "8e7d6c5b-4a4e-3d2c-1b0a-9f8e7d6c5b4a",
-                  "gapText": "Uncovered microscopic",
+                  "gap_text": "Uncovered microscopic",
                   "answer": "inscriptions"
                 }
               ]
@@ -184,17 +184,17 @@
               "completion_gaps": [
                 {
                   "id": "7d6c5b4a-4e3d-4c2c-1b0a-9f8e7d6c5b4a",
-                  "gapText": "AMRP (2006)",
+                  "gap_text": "AMRP (2006)",
                   "answer": ""
                 },
                 {
                   "id": "6c5b4a4e-3d2c-4b1b-0a9f-8e7d6c5b4a4e",
-                  "gapText": "Polynomial texture mapping",
+                  "gap_text": "Polynomial texture mapping",
                   "answer": ""
                 },
                 {
                   "id": "5b4a4e3d-2c1b-4a0a-9f8e-7d6c5b4a4e3d",
-                  "gapText": "Confirmed an arrangement known as an",
+                  "gap_text": "Confirmed an arrangement known as an",
                   "answer": "epicyclic differential"
                 }
               ]

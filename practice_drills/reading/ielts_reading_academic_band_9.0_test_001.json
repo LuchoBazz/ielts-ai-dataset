@@ -82,17 +82,17 @@
               "completion_gaps": [
                 {
                   "id": "h1",
-                  "gapText": "Script Type",
+                  "gap_text": "Script Type",
                   "answer": ""
                 },
                 {
                   "id": "h2",
-                  "gapText": "Key Characteristic",
+                  "gap_text": "Key Characteristic",
                   "answer": ""
                 },
                 {
                   "id": "h3",
-                  "gapText": "Primary Region",
+                  "gap_text": "Primary Region",
                   "answer": ""
                 }
               ]
@@ -105,17 +105,17 @@
               "completion_gaps": [
                 {
                   "id": "c1",
-                  "gapText": "Mesopotamian Cuneiform",
+                  "gap_text": "Mesopotamian Cuneiform",
                   "answer": ""
                 },
                 {
                   "id": "c2",
-                  "gapText": "",
+                  "gap_text": "",
                   "answer": "heavily logophonetic"
                 },
                 {
                   "id": "c3",
-                  "gapText": "Mesopotamia",
+                  "gap_text": "Mesopotamia",
                   "answer": ""
                 }
               ]
@@ -128,17 +128,17 @@
               "completion_gaps": [
                 {
                   "id": "c4",
-                  "gapText": "Linear Elamite",
+                  "gap_text": "Linear Elamite",
                   "answer": ""
                 },
                 {
                   "id": "c5",
-                  "gapText": "Almost entirely {{gap}}",
+                  "gap_text": "Almost entirely {{gap}}",
                   "answer": "phonetic"
                 },
                 {
                   "id": "c6",
-                  "gapText": "Southwestern Iran",
+                  "gap_text": "Southwestern Iran",
                   "answer": ""
                 }
               ]
@@ -151,17 +151,17 @@
               "completion_gaps": [
                 {
                   "id": "c7",
-                  "gapText": "Linear Elamite translated via",
+                  "gap_text": "Linear Elamite translated via",
                   "answer": ""
                 },
                 {
                   "id": "c8",
-                  "gapText": "",
+                  "gap_text": "",
                   "answer": "silver beakers"
                 },
                 {
                   "id": "c9",
-                  "gapText": "Kamtiri region",
+                  "gap_text": "Kamtiri region",
                   "answer": ""
                 }
               ]
@@ -174,17 +174,17 @@
               "completion_gaps": [
                 {
                   "id": "c10",
-                  "gapText": "Original fragment discoveries",
+                  "gap_text": "Original fragment discoveries",
                   "answer": ""
                 },
                 {
                   "id": "c11",
-                  "gapText": "Fragmentary inscriptions",
+                  "gap_text": "Fragmentary inscriptions",
                   "answer": ""
                 },
                 {
                   "id": "c12",
-                  "gapText": "Ancient metropolis of {{gap}}",
+                  "gap_text": "Ancient metropolis of {{gap}}",
                   "answer": "Susa"
                 }
               ]

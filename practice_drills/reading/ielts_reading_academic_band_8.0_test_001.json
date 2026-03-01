@@ -82,22 +82,22 @@
               "completion_gaps": [
                 {
                   "id": "c1",
-                  "gapText": "1902",
+                  "gap_text": "1902",
                   "answer": ""
                 },
                 {
                   "id": "c2",
-                  "gapText": "Valerios Stais",
+                  "gap_text": "Valerios Stais",
                   "answer": ""
                 },
                 {
                   "id": "c3",
-                  "gapText": "Identified a",
+                  "gap_text": "Identified a",
                   "answer": "gear wheel"
                 },
                 {
                   "id": "c4",
-                  "gapText": "inside the rock",
+                  "gap_text": "inside the rock",
                   "answer": ""
                 }
               ]
@@ -110,17 +110,17 @@
               "completion_gaps": [
                 {
                   "id": "c5",
-                  "gapText": "1970s",
+                  "gap_text": "1970s",
                   "answer": ""
                 },
                 {
                   "id": "c6",
-                  "gapText": "Derek de Solla Price",
+                  "gap_text": "Derek de Solla Price",
                   "answer": ""
                 },
                 {
                   "id": "c7",
-                  "gapText": "Used early X-ray imaging to count the",
+                  "gap_text": "Used early X-ray imaging to count the",
                   "answer": "gear teeth"
                 }
               ]
@@ -133,22 +133,22 @@
               "completion_gaps": [
                 {
                   "id": "c8",
-                  "gapText": "2005",
+                  "gap_text": "2005",
                   "answer": ""
                 },
                 {
                   "id": "c9",
-                  "gapText": "AMRP",
+                  "gap_text": "AMRP",
                   "answer": ""
                 },
                 {
                   "id": "c10",
-                  "gapText": "Employed microfocus",
+                  "gap_text": "Employed microfocus",
                   "answer": "X-ray tomography"
                 },
                 {
                   "id": "c11",
-                  "gapText": "to view internal fragments",
+                  "gap_text": "to view internal fragments",
                   "answer": ""
                 }
               ]
@@ -161,22 +161,22 @@
               "completion_gaps": [
                 {
                   "id": "c12",
-                  "gapText": "1st Century BC",
+                  "gap_text": "1st Century BC",
                   "answer": ""
                 },
                 {
                   "id": "c13",
-                  "gapText": "Romans",
+                  "gap_text": "Romans",
                   "answer": ""
                 },
                 {
                   "id": "c14",
-                  "gapText": "Looted the device during their expanding",
+                  "gap_text": "Looted the device during their expanding",
                   "answer": "Roman conquest"
                 },
                 {
                   "id": "c15",
-                  "gapText": "of the Mediterranean",
+                  "gap_text": "of the Mediterranean",
                   "answer": ""
                 }
               ]

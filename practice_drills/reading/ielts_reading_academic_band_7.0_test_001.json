@@ -82,17 +82,17 @@
               "completion_gaps": [
                 {
                   "id": "h1",
-                  "gapText": "Era",
+                  "gap_text": "Era",
                   "answer": ""
                 },
                 {
                   "id": "h2",
-                  "gapText": "Initiative",
+                  "gap_text": "Initiative",
                   "answer": ""
                 },
                 {
                   "id": "h3",
-                  "gapText": "Consequence / Detail",
+                  "gap_text": "Consequence / Detail",
                   "answer": ""
                 }
               ]
@@ -105,17 +105,17 @@
               "completion_gaps": [
                 {
                   "id": "c1",
-                  "gapText": "1840s",
+                  "gap_text": "1840s",
                   "answer": ""
                 },
                 {
                   "id": "c2",
-                  "gapText": "Charles Pearson’s proposal",
+                  "gap_text": "Charles Pearson’s proposal",
                   "answer": ""
                 },
                 {
                   "id": "c3",
-                  "gapText": "Aimed to address severe {{gap}}",
+                  "gap_text": "Aimed to address severe {{gap}}",
                   "answer": "traffic congestion"
                 }
               ]
@@ -128,17 +128,17 @@
               "completion_gaps": [
                 {
                   "id": "c4",
-                  "gapText": "1863",
+                  "gap_text": "1863",
                   "answer": ""
                 },
                 {
                   "id": "c5",
-                  "gapText": "Metropolitan Railway opens",
+                  "gap_text": "Metropolitan Railway opens",
                   "answer": ""
                 },
                 {
                   "id": "c6",
-                  "gapText": "Used the {{gap}} method",
+                  "gap_text": "Used the {{gap}} method",
                   "answer": "cut-and-cover"
                 }
               ]
@@ -151,17 +151,17 @@
               "completion_gaps": [
                 {
                   "id": "c7",
-                  "gapText": "1890s",
+                  "gap_text": "1890s",
                   "answer": ""
                 },
                 {
                   "id": "c8",
-                  "gapText": "Invention of the {{gap}} shield",
+                  "gap_text": "Invention of the {{gap}} shield",
                   "answer": "tunneling"
                 },
                 {
                   "id": "c9",
-                  "gapText": "Allowed for deep-level lines",
+                  "gap_text": "Allowed for deep-level lines",
                   "answer": ""
                 }
               ]
@@ -174,17 +174,17 @@
               "completion_gaps": [
                 {
                   "id": "c10",
-                  "gapText": "1900s",
+                  "gap_text": "1900s",
                   "answer": ""
                 },
                 {
                   "id": "c11",
-                  "gapText": "Investment by Charles Yerkes",
+                  "gap_text": "Investment by Charles Yerkes",
                   "answer": ""
                 },
                 {
                   "id": "c12",
-                  "gapText": "Led to network unity and {{gap}}",
+                  "gap_text": "Led to network unity and {{gap}}",
                   "answer": "electrification"
                 }
               ]

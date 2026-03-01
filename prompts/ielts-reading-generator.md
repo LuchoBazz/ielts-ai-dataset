@@ -66,7 +66,7 @@ You are tasked with generating a comprehensive **JSON payload** specifically for
               "completion_gaps": [
                 {
                   "id": "string",
-                  "gapText": "string",
+                  "gap_text": "string",
                   "answer": "string"
                 }
               ],
