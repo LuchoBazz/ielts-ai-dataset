@@ -79,4 +79,4 @@ Contributions are highly encouraged and appreciated! Whether you want to add new
 
 ## 📄 License
 
-This project is licensed under the terms of the [MIT License](LICENSE) (or refer to the specific license in the repository). Feel free to use, modify, and distribute the dataset as per the license conditions.
+This project is licensed under the **Creative Commons Attribution 4.0 International License** (CC BY 4.0). See the [LICENSE](LICENSE) file for more details. Feel free to use, share, and adapt the dataset as long as you give appropriate credit.
