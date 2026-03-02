@@ -1,0 +1,58 @@
+# Python and Cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual Environments
+venv/
+env/
+.venv/
+Pipfile.lock
+poetry.lock
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+*.ipynb_checkpoints/
+
+# Environment Variables and Secrets
+.env
+.env.*
+secrets.json
+credentials.json
+
+# Data and Model Files
+# (Adjust this according to your project)
+# Ignore large compressed files
+*.zip
+*.tar.gz
+*.rar
+
+# Ignore trained models if they are too heavy
+*.h5
+*.pt
+*.pth
+*.pkl
+
+# Uncomment the following lines if you have raw or temporary 
+# data folders that shouldn't be pushed to GitHub:
+# data/raw/
+# data/temp/
+# data/cache/
+
+# OS Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+ehthumbs_vista.db
+[Tt]humbs.db
+desktop.ini
+
+# IDEs and Code Editors
+.vscode/
+.idea/
+*.swp
+*.swo
