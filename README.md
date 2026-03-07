@@ -23,16 +23,12 @@ These are full-length tests designed to mimic the actual standard, format, and v
 The repository is organized seamlessly by test section and category.
 
 ```text
-.
 ├── LICENSE
 ├── README.md
 ├── practice_drills
 │   ├── listening
 │   │   └── ielts_listening_band_8.0_test_001.json
 │   ├── reading
-│   │   ├── 01_ielts_practice_test.json
-│   │   ├── ielts_reading_academic_band_7.0_test_001.json
-│   │   ├── ielts_reading_academic_band_8.0_test_001.json
 │   │   └── ielts_reading_academic_band_9.0_test_001.json
 │   └── writing
 │       └── ielts_writing_academic_band_8.0_test_001.json
