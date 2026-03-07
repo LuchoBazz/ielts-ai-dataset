@@ -23,18 +23,28 @@ These are full-length tests designed to mimic the actual standard, format, and v
 The repository is organized seamlessly by test section and category.
 
 ```text
-ielts-ai-dataset/
-├── practice_drills/
-│   ├── reading/               # Band-specific reading passages and questions (7.0, 8.0, 9.0)
-│   └── writing/               # Band-specific writing tasks
-├── synthetic_official_mocks/
-│   ├── reading/               # Full realistic academic reading tests
-│   └── writing/               # Full realistic academic writing tests
-├── prompts/                   # 🤖 Original AI prompts used for generation
-└── LICENSE
+.
+├── LICENSE
+├── README.md
+├── practice_drills
+│   ├── listening
+│   │   └── ielts_listening_band_8.0_test_001.json
+│   ├── reading
+│   │   ├── 01_ielts_practice_test.json
+│   │   ├── ielts_reading_academic_band_7.0_test_001.json
+│   │   ├── ielts_reading_academic_band_8.0_test_001.json
+│   │   └── ielts_reading_academic_band_9.0_test_001.json
+│   └── writing
+│       └── ielts_writing_academic_band_8.0_test_001.json
+└── synthetic_official_mocks
+    ├── listening
+    │   └── ielts_listening_test_001.json
+    ├── reading
+    │   └── ielts_reading_academic_001.json
+    └── writing
+        └── ielts_writing_academic_001.json
 ```
 
-*Note: The **Listening** module is currently under development and will be added in upcoming releases.*
 
 ## 🧬 Transparency & Reproducibility (.prompts)
 
