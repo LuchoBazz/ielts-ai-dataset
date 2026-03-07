@@ -1,0 +1,558 @@
+{
+  "id": "85dfd1d6-5755-47f4-a4c8-7ee3607e9a29",
+  "created_by": "fe38ed89-f1fe-4b88-9609-8736be47f61e",
+  "title": "IELTS Advanced Listening: Corporate Events, Conservation & Archaeology (Band 8)",
+  "difficulty": "8",
+  "duration": "40 mins",
+  "status": "published",
+  "sections": [
+    {
+      "id": "3ab80ada-c644-4117-b8e3-f4c64a03e473",
+      "section_number": 1,
+      "title": "Corporate Retreat Venue Booking",
+      "transcript": "Representative: Good morning, Beaumont Retreat Centre, Sarah speaking. How can I help you today?\nCaller: Hello, yes. I'm looking to book a venue for a company strategy weekend. \nRepresentative: Excellent. First of all, could I get the name of your company?\nCaller: It's the Beaumont Financial Group. Oh wait, sorry, that's my old firm! I recently moved. It's actually for Sterling Associates.\nRepresentative: No problem. And your name?\nCaller: Mark Thurlow.\nRepresentative: Right, Mark. What dates were you hoping for?\nCaller: We originally wanted the weekend of the 20th of October, arriving on the Friday.\nRepresentative: Ah, I'm afraid we have a large wedding party booked that entire weekend. We do, however, have full availability the following weekend, starting on the 27th of October.\nCaller: The 27th... Yes, that should work perfectly. \nRepresentative: Great. For our main conference room, the standard weekend hire is usually £1,600. However, because your group is relatively small, I can offer our corporate tier rate, bringing the total down to £1,450.\nCaller: That's £1,450? Brilliant, I'll note that down. Does that include audio-visual equipment?\nRepresentative: It includes the PA system and microphones. We can provide a projector for an additional small fee, or you can bring your own.\nCaller: We definitely need a projector, so please add that to the booking. We won't need extra microphones though.\nRepresentative: Noted. Now, regarding catering, we offer a mixed buffet, but please let us know if there are specific dietary requirements.\nCaller: Well, a few team members are gluten-free, but honestly, it's much easier if you just make the entire spread vegetarian. That covers almost everyone safely.\nRepresentative: A fully vegetarian menu, understood. You'll also be pleased to know that unlike many venues in the area, our pricing includes secure parking for all attendees.\nCaller: Oh, that is a relief. Street parking is a nightmare around there. What about the rooms themselves?\nRepresentative: The executive suites we've reserved for your team all feature a private balcony overlooking the lake. It's quite serene for evening unwinding.\nCaller: Sounds ideal. What are the next steps?\nRepresentative: I'll email the contract. Just ensure you send back a signed copy along with proof of your corporate liability insurance. We legally require that on file before any event.\nCaller: Will do. You can reach me on my direct mobile if you need anything urgently: it's 07844 299 011.\nRepresentative: 07844 299 011. Got it. Once the paperwork is sorted, you just need to pay a deposit to secure the dates.",
+      "question_groups": [
+        {
+          "id": "b2fd973c-9c11-4034-8059-8b6f4a22ead6",
+          "group_order": 1,
+          "question_type": "sentence-completion",
+          "instructions": "Complete the booking form below. Write NO MORE THAN TWO WORDS AND/OR A NUMBER for each answer.",
+          "sequential_order": true,
+          "questions": [
+            {
+              "id": "29a6cdce-ac6b-4be4-83ad-63e123ba694a",
+              "question_order": 1,
+              "text": "Company Name: ________ Associates",
+              "answer": "Sterling",
+              "accepted_answers": [
+                "Sterling",
+                "sterling",
+                "STERLING"
+              ]
+            },
+            {
+              "id": "0363865a-e441-414e-bd64-c9214c9db708",
+              "question_order": 2,
+              "text": "Agreed arrival date: **",
+              "answer": "27th October",
+              "accepted_answers": [
+                "27th October",
+                "27 October",
+                "October 27th",
+                "27th of October"
+              ]
+            },
+            {
+              "id": "0c2463a1-8a2a-452d-a2f6-5b6b5178184d",
+              "question_order": 3,
+              "text": "Total agreed cost: £**",
+              "answer": "1450",
+              "accepted_answers": [
+                "1450",
+                "1,450",
+                "1450 pounds"
+              ]
+            },
+            {
+              "id": "2abc74c3-5e33-43a4-b1f8-e4188590dcc3",
+              "question_order": 4,
+              "text": "Extra equipment required: ________",
+              "answer": "projector",
+              "accepted_answers": [
+                "projector",
+                "a projector",
+                "Projector"
+              ]
+            },
+            {
+              "id": "185ed0fa-ec8e-4ebf-bc2a-b6666728aab6",
+              "question_order": 5,
+              "text": "Catering request: All food must be ________",
+              "answer": "vegetarian",
+              "accepted_answers": [
+                "vegetarian",
+                "Vegetarian"
+              ]
+            },
+            {
+              "id": "1a2c2c2f-66ef-49ad-b0ff-423d40fc0edf",
+              "question_order": 6,
+              "text": "Included in the hire price: ________",
+              "answer": "parking",
+              "accepted_answers": [
+                "parking",
+                "secure parking",
+                "Parking"
+              ]
+            },
+            {
+              "id": "f40c31db-156d-46f7-a0da-b06e25b314c4",
+              "question_order": 7,
+              "text": "Accommodation feature: Rooms have a private ________",
+              "answer": "balcony",
+              "accepted_answers": [
+                "balcony",
+                "Balcony"
+              ]
+            },
+            {
+              "id": "23425002-d5df-44db-87d0-81d43c5575b8",
+              "question_order": 8,
+              "text": "Must provide a copy of their ________",
+              "answer": "insurance",
+              "accepted_answers": [
+                "insurance",
+                "liability insurance",
+                "corporate insurance"
+              ]
+            },
+            {
+              "id": "78fa83f9-6eaa-472d-9445-cf895ea91bb4",
+              "question_order": 9,
+              "text": "Client's direct mobile number: ________",
+              "answer": "07844 299 011",
+              "accepted_answers": [
+                "07844 299 011",
+                "07844299011"
+              ]
+            },
+            {
+              "id": "9ac96cd1-6ada-4fd5-b124-d91fad20cd2b",
+              "question_order": 10,
+              "text": "Final step to secure booking: Pay a ________",
+              "answer": "deposit",
+              "accepted_answers": [
+                "deposit",
+                "Deposit"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c033ba1e-988c-43f9-9b78-90342eda5556",
+      "section_number": 2,
+      "title": "Blackwood Nature Reserve Orientation",
+      "transcript": "Warden: Hello everyone, and welcome to the newly opened Blackwood Nature Reserve. I'm David, the head warden here. We're thrilled to finally have you with us. As many of you know, we were originally slated to open our gates back in April. While the severe spring storms certainly didn't help our construction schedule, the actual bottleneck that pushed us back to August was awaiting the final environmental permits from the local council. \n\nOur primary mission here might surprise you. While we love seeing tourists enjoying the trails, and we do conduct significant academic research, our fundamental objective—the reason this land was purchased—is the breeding of critically endangered wetland birds. To protect them, we have one strict rule: you absolutely must stay on the marked trails at all times. Photography is encouraged, and you are welcome to bring packed lunches, provided you take your litter home, but wandering into the undergrowth is strictly forbidden. \n\nBefore we head out, let me point out the facilities on your map. You're currently standing at the main entrance gate at the bottom of the map. If you walk straight ahead up the main path, the first building you encounter on your left is the Education Centre—that's where we hold our school workshops. Keep walking past the Education Centre, and just before the path splits, you'll see a small wooden structure on your right. That's the Warden's Office. \n\nIf you take the left fork at the split, it leads directly to the lake. Built right out over the water is the Bird Hide. We originally planned to put it on the eastern shore, but this western position gives a much better view of the nesting grounds. Now, going back to the path split, if you take the right fork instead, you'll pass a wide, open grassy area on your left; that is the Picnic Area. Finally, right at the very end of the right-hand path, nestled in the trees, is the Gift Shop. You can hire binoculars there if you haven't brought your own, and the proceeds keep the reserve running, as we rely entirely on public donations rather than government grants.",
+      "question_groups": [
+        {
+          "id": "f91b6bc4-7435-4471-9f95-bfdf4aa1976b",
+          "group_order": 1,
+          "question_type": "multiple-choice",
+          "instructions": "Choose the correct letter, A, B or C.",
+          "sequential_order": true,
+          "questions": [
+            {
+              "id": "01cc79c8-87b8-46f7-ab6e-ae66b16d900f",
+              "question_order": 11,
+              "text": "Why was the opening of the reserve delayed?",
+              "options": [
+                "A. Severe weather damaged the trails",
+                "B. They lacked sufficient funding",
+                "C. They were waiting for official documentation"
+              ],
+              "answer": "C"
+            },
+            {
+              "id": "869d1e08-85b3-470e-a70f-ebd40efdc8b9",
+              "question_order": 12,
+              "text": "What is the primary objective of the Blackwood Nature Reserve?",
+              "options": [
+                "A. To promote eco-tourism",
+                "B. To breed endangered bird species",
+                "C. To conduct academic ecological research"
+              ],
+              "answer": "B"
+            },
+            {
+              "id": "0d154ecb-238b-4e2e-a36a-c19e4282f947",
+              "question_order": 13,
+              "text": "What strict rule must all visitors follow?",
+              "options": [
+                "A. Do not take photographs near nests",
+                "B. Do not consume food on the premises",
+                "C. Do not leave the designated pathways"
+              ],
+              "answer": "C"
+            },
+            {
+              "id": "f131d76f-2237-4b46-a8d4-b1fcc618a99b",
+              "question_order": 14,
+              "text": "What service is available at the Gift Shop?",
+              "options": [
+                "A. Booking guided tours",
+                "B. Equipment hire",
+                "C. Buying hot meals"
+              ],
+              "answer": "B"
+            },
+            {
+              "id": "8cead764-0b72-4422-b38c-7b95b4e1aff9",
+              "question_order": 15,
+              "text": "How is the reserve primarily funded?",
+              "options": [
+                "A. Through government grants",
+                "B. By corporate sponsorships",
+                "C. Through contributions from the public"
+              ],
+              "answer": "C"
+            }
+          ]
+        },
+        {
+          "id": "671a5812-c4b6-4f59-9758-a882ed6f012f",
+          "group_order": 2,
+          "question_type": "multiple-choice",
+          "instructions": "Look at the map of the Blackwood Nature Reserve. Match the facilities (16-20) to the correct location (A-G).",
+          "sequential_order": true,
+          "questions": [
+            {
+              "id": "d0798c6d-256d-469b-9d25-5cfb649f0763",
+              "question_order": 16,
+              "text": "Education Centre",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E",
+                "F",
+                "G"
+              ],
+              "answer": "A"
+            },
+            {
+              "id": "60370398-c6ca-4551-84cc-5f126d3ff975",
+              "question_order": 17,
+              "text": "Warden's Office",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E",
+                "F",
+                "G"
+              ],
+              "answer": "D"
+            },
+            {
+              "id": "a457c8aa-bf1d-4485-8681-326a02d8f8e7",
+              "question_order": 18,
+              "text": "Bird Hide",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E",
+                "F",
+                "G"
+              ],
+              "answer": "B"
+            },
+            {
+              "id": "c51c2430-4239-4903-a410-93b3341e9e6a",
+              "question_order": 19,
+              "text": "Picnic Area",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E",
+                "F",
+                "G"
+              ],
+              "answer": "E"
+            },
+            {
+              "id": "b7df1e11-bf86-46c3-8b8a-82a2bdf8d5df",
+              "question_order": 20,
+              "text": "Gift Shop",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E",
+                "F",
+                "G"
+              ],
+              "answer": "G"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ca60c2de-fc74-4925-84a7-fb3fef5fa287",
+      "section_number": 3,
+      "title": "Smart Cities Case Study Assignment",
+      "transcript": "Tutor: Come in, sit down. So, Leo and Maya, how is the research going for your Smart Cities presentation?\nLeo: It's progressing well, Dr. Aris. We've gathered data on five major case studies. Honestly though, sifting through the conflicting definitions of what actually constitutes a \"smart city\" took weeks. \nMaya: Yes, that was tedious. But I think the hardest part was harmonising the data sets. Comparing emissions data from Asian cities with European metrics was a logistical nightmare.\nLeo: Absolutely, converting and standardising those figures was by far our biggest hurdle.\nTutor: A common issue in comparative urban studies. What stood out to you in your findings?\nMaya: Well, looking at Barcelona, I expected their new traffic grid system to show a massive reduction in commute times. The data actually showed commute times remained largely static. What did plummet, surprisingly, was pedestrian accidents—down by almost 40 percent! \nLeo: It shows that technology aimed at efficiency often yields safety benefits instead. \nTutor: Fascinating. Now, looking at your draft outline here... Your section on funding models is very comprehensive. However, your historical context section seems to drag on. I'd suggest cutting that down drastically to make room for more analysis of future scalable technologies.\nLeo: Good point, we can trim the history chapter. Speaking of scalable tech, looking at public transport, I really think the transition to fully autonomous bus fleets is inevitable in the next decade. \nMaya: You think so? I feel public trust isn't there yet.\nLeo: The cost-saving data is just too compelling for municipal governments to ignore. It will happen, despite the initial public resistance.\nTutor: Let's look closely at the cities you've chosen. Can you run through the primary technological innovation you are attributing to each?\nMaya: Sure. First, Singapore. We are highlighting their implementation of dynamic toll pricing, which changes road tax costs in real-time based on traffic density. \nLeo: Next is Copenhagen. Their focus is heavily environmental, specifically their sensor-driven water management system that prevents flooding during severe storms.\nMaya: For Songdo in South Korea, the literature heavily praises its automated energy grids, but we found their city-wide pneumatic waste disposal—where rubbish is sucked through underground tubes—to be far more revolutionary.\nLeo: Then Amsterdam. They've integrated smart technology into law enforcement with predictive policing algorithms that deploy patrols based on crime heat-maps.\nMaya: Finally, Helsinki. They're leading the way in integrating citizen feedback through decentralized digital voting apps for local neighborhood planning.\nTutor: Excellent. So, what will be the core thesis of your final presentation?\nLeo: We debated focusing on the environmental impact, but ultimately, we want to centre the presentation on data privacy concerns—how these cities balance efficiency with mass surveillance.",
+      "question_groups": [
+        {
+          "id": "5a5e2ea9-ad90-4df0-828a-0284fc38211e",
+          "group_order": 1,
+          "question_type": "multiple-choice",
+          "instructions": "Choose the correct letter, A, B or C.",
+          "sequential_order": true,
+          "questions": [
+            {
+              "id": "d55bae8f-45d1-4b2d-ae09-1fde5029702a",
+              "question_order": 21,
+              "text": "Leo and Maya agree that the most difficult part of their research was",
+              "options": [
+                "A. defining what a smart city is",
+                "B. standardising the data metrics",
+                "C. finding reliable sources"
+              ],
+              "answer": "B"
+            },
+            {
+              "id": "82e33eec-fca2-4ce5-b3e7-5165ecfa9353",
+              "question_order": 22,
+              "text": "Maya was surprised that Barcelona's traffic grid system resulted in",
+              "options": [
+                "A. reduced commute times",
+                "B. lower carbon emissions",
+                "C. fewer pedestrian accidents"
+              ],
+              "answer": "C"
+            },
+            {
+              "id": "09093725-eaf8-4e08-887b-25b280a3cd20",
+              "question_order": 23,
+              "text": "What does the tutor suggest they change in their draft outline?",
+              "options": [
+                "A. Shorten the historical context section",
+                "B. Expand the section on funding models",
+                "C. Include more case studies"
+              ],
+              "answer": "A"
+            },
+            {
+              "id": "931ec8db-d224-4637-873b-0801622de910",
+              "question_order": 24,
+              "text": "Regarding the future of public transport, Leo believes that",
+              "options": [
+                "A. public trust in autonomous vehicles will grow slowly",
+                "B. cost savings will force the adoption of driverless buses",
+                "C. rail networks will receive more funding than buses"
+              ],
+              "answer": "B"
+            },
+            {
+              "id": "8e3ee876-c1ee-4810-849f-61e7585d0912",
+              "question_order": 25,
+              "text": "What will be the primary focus of their final presentation?",
+              "options": [
+                "A. The environmental benefits of smart tech",
+                "B. The threat of mass surveillance and privacy loss",
+                "C. The economic cost of implementation"
+              ],
+              "answer": "B"
+            }
+          ]
+        },
+        {
+          "id": "816f4c76-2624-45ad-8ea6-6035faca2e2a",
+          "group_order": 2,
+          "question_type": "multiple-choice",
+          "instructions": "What technological innovation do the students attribute to each of the following cities? Choose the correct letter, A-F.",
+          "sequential_order": true,
+          "questions": [
+            {
+              "id": "4fbb52c6-2a04-47ca-b442-4358e02f48a5",
+              "question_order": 26,
+              "text": "Singapore",
+              "options": [
+                "A. Predictive policing",
+                "B. Digital voting apps",
+                "C. Pneumatic waste disposal",
+                "D. Dynamic toll pricing",
+                "E. Automated energy grids",
+                "F. Sensor-driven water management"
+              ],
+              "answer": "D"
+            },
+            {
+              "id": "9ef4b294-7962-4db0-81b0-6f658a2c0735",
+              "question_order": 27,
+              "text": "Copenhagen",
+              "options": [
+                "A. Predictive policing",
+                "B. Digital voting apps",
+                "C. Pneumatic waste disposal",
+                "D. Dynamic toll pricing",
+                "E. Automated energy grids",
+                "F. Sensor-driven water management"
+              ],
+              "answer": "F"
+            },
+            {
+              "id": "5db03547-e025-4f12-9e2e-ca055c4d8327",
+              "question_order": 28,
+              "text": "Songdo",
+              "options": [
+                "A. Predictive policing",
+                "B. Digital voting apps",
+                "C. Pneumatic waste disposal",
+                "D. Dynamic toll pricing",
+                "E. Automated energy grids",
+                "F. Sensor-driven water management"
+              ],
+              "answer": "C"
+            },
+            {
+              "id": "b4035519-be52-44ba-ac4b-0a6f1245462a",
+              "question_order": 29,
+              "text": "Amsterdam",
+              "options": [
+                "A. Predictive policing",
+                "B. Digital voting apps",
+                "C. Pneumatic waste disposal",
+                "D. Dynamic toll pricing",
+                "E. Automated energy grids",
+                "F. Sensor-driven water management"
+              ],
+              "answer": "A"
+            },
+            {
+              "id": "96fc311c-b098-48b2-ab46-3446d57cbdff",
+              "question_order": 30,
+              "text": "Helsinki",
+              "options": [
+                "A. Predictive policing",
+                "B. Digital voting apps",
+                "C. Pneumatic waste disposal",
+                "D. Dynamic toll pricing",
+                "E. Automated energy grids",
+                "F. Sensor-driven water management"
+              ],
+              "answer": "B"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3411457c-c691-44f6-8bf4-44d84cf634d3",
+      "section_number": 4,
+      "title": "Lecture: Archaeobotany and Ancient Agriculture",
+      "transcript": "Professor: Welcome to week four of Environmental Archaeology. Today, we delve into Archaeobotany—the study of plant remains from archaeological sites. The fundamental question is: how do delicate organic materials survive millennia? Typically, preservation occurs through carbonisation. This means the plant material was exposed to fire, but without turning completely to ash, effectively becoming charcoal. This renders it immune to microbial decay. Another significant pathway is waterlogging. In deep wells or peat bogs, the anoxic environment—that is, the total absence of oxygen—completely halts bacterial decomposition. \n\nBy analysing these preserved remains, we can trace the dawn of agriculture. When humans began farming, they inevitably altered plant genetics. For example, wild wheat possesses a very fragile structure designed to shatter and disperse its seeds in the wind. Domesticated wheat, however, evolved a much tougher stem, allowing it to withstand the rigours of human harvesting without dropping its yield prematurely. Furthermore, the transition to intensive agriculture consistently brought about an increase in seed size, as early farmers selectively bred for higher caloric output. This morphological change is a key marker for archaeologists, as it also necessitated the invention of new, specialized tools for harvesting.\n\nNow, it's not just the crops themselves that are informative. Weed seeds are remarkably valuable to archaeobotanists. Their presence in an excavation isn't just a sign of messy farming; weeds act as highly sensitive ecological indicators, telling us intimately about the soil quality of the ancient fields. \n\nMoving beyond morphology, modern science allows us to examine the chemical composition of these remains. By looking at carbon and nitrogen isotopes within the cellular structure of ancient grains, we can definitively prove whether a crop was reliant purely on rainfall or if it benefited from early forms of irrigation. \n\nTo understand the broader environmental context in which these societies operated, we utilize palynology. By extracting and identifying microscopic pollen grains trapped in lake sediments, we can reconstruct the ancient climate of a region with astonishing precision, tracking temperature fluctuations over thousands of years. \n\nSometimes, crucial evidence comes from rather less glamorous sources. Coprolites—which are fossilised human faeces—give us a literal snapshot of the exact contents of an individual's stomach shortly before their death, offering unparalleled insights into daily diets and parasite burdens. \n\nFinally, the geographical distribution of plant remains can map ancient geopolitics. Finding non-native, exotic plant species, such as Asian peppercorns in a Roman domestic site, provides undeniable, physical proof of complex, long-distance trade networks. \n\nOf course, to see these cellular details, archaeologists cannot rely on the naked eye; the cornerstone of any archaeobotanical laboratory is a high-powered scanning electron microscope, which magnifies these ancient fragments up to ten thousand times.",
+      "question_groups": [
+        {
+          "id": "06b2ae83-06b6-4a32-9605-1a88d7c5fc41",
+          "group_order": 1,
+          "question_type": "sentence-completion",
+          "instructions": "Complete the notes below. Write NO MORE THAN ONE WORD for each answer.",
+          "sequential_order": true,
+          "questions": [
+            {
+              "id": "ba645da4-1a66-4b87-a705-699dbbd132e1",
+              "question_order": 31,
+              "text": "Most plant remains survive by being burnt and turning into ________.",
+              "answer": "charcoal",
+              "accepted_answers": [
+                "charcoal",
+                "Charcoal"
+              ]
+            },
+            {
+              "id": "0c194ae4-2d29-42af-b9b2-a2f4ec58df5d",
+              "question_order": 32,
+              "text": "Waterlogged sites preserve organics due to a complete lack of ________.",
+              "answer": "oxygen",
+              "accepted_answers": [
+                "oxygen",
+                "Oxygen"
+              ]
+            },
+            {
+              "id": "4399ad21-101f-4d50-969b-f11d9b0811c5",
+              "question_order": 33,
+              "text": "Domesticated wheat is identified by its much tougher ________.",
+              "answer": "stem",
+              "accepted_answers": [
+                "stem",
+                "Stem"
+              ]
+            },
+            {
+              "id": "c07142be-313b-4e0c-8069-33081db9cff4",
+              "question_order": 34,
+              "text": "Increases in seed size led to the creation of new tools for ________.",
+              "answer": "harvesting",
+              "accepted_answers": [
+                "harvesting",
+                "Harvesting"
+              ]
+            },
+            {
+              "id": "66229809-e5dc-4bab-9d15-f9580c57c34d",
+              "question_order": 35,
+              "text": "The presence of specific ________ provides clues about ancient soil quality.",
+              "answer": "weeds",
+              "accepted_answers": [
+                "weeds",
+                "Weeds"
+              ]
+            },
+            {
+              "id": "b67e6677-7668-4705-9784-b3d9cb32f585",
+              "question_order": 36,
+              "text": "Chemical isotopes in crops can prove the early use of ________.",
+              "answer": "irrigation",
+              "accepted_answers": [
+                "irrigation",
+                "Irrigation"
+              ]
+            },
+            {
+              "id": "3c2ec745-a5f0-49ac-bcdb-d38b209966e4",
+              "question_order": 37,
+              "text": "Pollen analysis is used by researchers to reconstruct the past ________.",
+              "answer": "climate",
+              "accepted_answers": [
+                "climate",
+                "Climate"
+              ]
+            },
+            {
+              "id": "2a52d639-e1a2-4db9-9811-99f3846ff447",
+              "question_order": 38,
+              "text": "Fossilised human faeces reveal the exact contents of the ________.",
+              "answer": "stomach",
+              "accepted_answers": [
+                "stomach",
+                "Stomach"
+              ]
+            },
+            {
+              "id": "907d62b7-36f0-4f0b-9381-fb3cc564d646",
+              "question_order": 39,
+              "text": "The discovery of exotic plant species offers proof of long-distance ________.",
+              "answer": "trade",
+              "accepted_answers": [
+                "trade",
+                "Trade"
+              ]
+            },
+            {
+              "id": "7008a1b3-31c1-45c6-8ea6-dd873dc2104f",
+              "question_order": 40,
+              "text": "A modern ________ is an essential tool for seeing cellular details.",
+              "answer": "microscope",
+              "accepted_answers": [
+                "microscope",
+                "Microscope"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
