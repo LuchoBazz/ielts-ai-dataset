@@ -1,0 +1,556 @@
+{
+  "id": "225775af-94e0-4053-a9d7-50f8e6cecf94",
+  "created_by": "c9fe20f7-7344-43d7-84e4-8892d85e26c3",
+  "title": "IELTS Academic Listening: Relocation, Community Centres & Architecture",
+  "duration": "40 mins",
+  "status": "published",
+  "sections": [
+    {
+      "id": "386d0996-f563-4f20-b7ba-ba2fc58ffeaf",
+      "section_number": 1,
+      "title": "Booking a Moving Company",
+      "transcript": "Agent: Good afternoon, Swift Relocations. How can I help you today?\nClient: Hi there. I'm moving house next month and I'd like to get a quote and potentially book your services.\nAgent: Certainly, I can help with that. Could I start by taking your name, please?\nClient: Yes, it's John Harrison.\nAgent: Thank you, John. And what is the address you are moving from?\nClient: It's 42 Westville Road. That's in the Greenfield district.\nAgent: Westville Road... got it. And what date were you looking to move?\nClient: I need to be out by the 15th of April, so ideally the day before. The 14th of April.\nAgent: Let me just check our availability... Yes, we have a van available on the 14th. Now, are you moving to a house or a flat?\nClient: A third-floor flat, unfortunately. And there's no lift.\nAgent: Oh, I see. That's good to know. We'll need to send a three-man team for that. Do you have any particularly heavy or fragile items?\nClient: Most of it is standard furniture, but I do have a piano. It's an upright one, not a grand piano, but it's still quite heavy.\nAgent: Okay, an upright piano. We have specialist equipment for that. Now, do you require our packing service, or will you be boxing things up yourself?\nClient: I work long hours, so I'd like the full packing service, please. I just don't have the time to do it myself.\nAgent: No problem. Taking into account the stairs, the piano, and the full packing service, the total cost comes to £650.\nClient: £650... That's a bit more than I expected, but it sounds fair given the stairs. Does that include transit insurance?\nAgent: Yes, basic coverage is included. If you want premium cover, it's an extra £40.\nClient: Basic insurance is fine. I'll go ahead and book.\nAgent: Great. I just need to take a deposit of £100 today. How would you like to pay?\nClient: I'll pay by credit card.\nAgent: Perfect. And finally, just for our marketing team, how did you hear about our company?\nClient: A friend recommended you, actually. Oh wait, no, I heard your advert on the radio this morning. That's what reminded me to call.\nAgent: Excellent. Now, let's get your card details...",
+      "question_groups": [
+        {
+          "id": "fc95ffe1-048c-4519-8444-090b3029d15f",
+          "group_order": 1,
+          "question_type": "sentence-completion",
+          "instructions": "Complete the booking form below. Write NO MORE THAN TWO WORDS AND/OR A NUMBER for each answer.",
+          "sequential_order": true,
+          "questions": [
+            {
+              "id": "232084ec-96a0-4915-9d68-22bd150833bd",
+              "question_order": 1,
+              "text": "Client Name: John ________",
+              "answer": "Harrison",
+              "accepted_answers": [
+                "Harrison",
+                "HARRISON"
+              ]
+            },
+            {
+              "id": "ac5a950e-4a0d-4c38-88ea-a627df81ecdf",
+              "question_order": 2,
+              "text": "Current Address: 42 ________ Road",
+              "answer": "Westville",
+              "accepted_answers": [
+                "Westville",
+                "WESTVILLE"
+              ]
+            },
+            {
+              "id": "1bdbede0-9aad-430d-ad0a-28229a0baef5",
+              "question_order": 3,
+              "text": "Preferred moving date: **",
+              "answer": "14th April",
+              "accepted_answers": [
+                "14th April",
+                "14 April",
+                "April 14th",
+                "14th of April"
+              ]
+            },
+            {
+              "id": "b75970d0-a002-4772-b557-0e15557759df",
+              "question_order": 4,
+              "text": "Destination property type: Third-floor ________",
+              "answer": "flat",
+              "accepted_answers": [
+                "flat",
+                "Flat"
+              ]
+            },
+            {
+              "id": "9955a127-837d-4ae0-adf2-a2cd29c775e2",
+              "question_order": 5,
+              "text": "Special item to move: An upright ________",
+              "answer": "piano",
+              "accepted_answers": [
+                "piano",
+                "Piano"
+              ]
+            },
+            {
+              "id": "9749cbb9-5f4b-4474-ae08-1d52696a698f",
+              "question_order": 6,
+              "text": "Service requested: Full ________ service",
+              "answer": "packing",
+              "accepted_answers": [
+                "packing",
+                "Packing"
+              ]
+            },
+            {
+              "id": "e0eb0159-d259-4197-b42c-869f4c4b6f9f",
+              "question_order": 7,
+              "text": "Total cost of move: £**",
+              "answer": "650",
+              "accepted_answers": [
+                "650",
+                "six hundred fifty",
+                "650 pounds"
+              ]
+            },
+            {
+              "id": "d9f64cea-e363-40bb-b172-d8630de26e3b",
+              "question_order": 8,
+              "text": "Type of insurance included: ________",
+              "answer": "basic",
+              "accepted_answers": [
+                "basic",
+                "Basic",
+                "basic coverage"
+              ]
+            },
+            {
+              "id": "1fe92919-47d0-488f-bb65-65c5f9047106",
+              "question_order": 9,
+              "text": "Payment method for deposit: ________",
+              "answer": "credit card",
+              "accepted_answers": [
+                "credit card",
+                "Credit Card",
+                "card"
+              ]
+            },
+            {
+              "id": "5044c559-4e6b-4b66-872f-50a676b6b4dc",
+              "question_order": 10,
+              "text": "Where client heard about the company: On the ________",
+              "answer": "radio",
+              "accepted_answers": [
+                "radio",
+                "Radio"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "8c4c26a8-2272-4554-bd2d-2bacf7025526",
+      "section_number": 2,
+      "title": "Oakwood Community Centre Orientation",
+      "transcript": "Manager: Good morning, everyone, and welcome to the newly renovated Oakwood Community Centre. I'm Rebecca, the centre manager. I know many of you have been waiting a long time for this reopening. We were initially delayed by a funding shortage, but what really pushed us back was discovering outdated plumbing during the lobby renovation, which all had to be replaced to meet modern safety codes.\n\nOur goal with the redesign was to make the centre more inclusive. While we've always had strong programs for seniors and toddlers, our primary focus for this upcoming year is improving youth engagement. We've hired two new youth workers and set up after-school drop-in sessions. Before you look around, there is one major new rule: because of the new specialized flooring installed in the sports halls, you must change into clean, indoor-only shoes before entering any activity area. We provide lockers for your outdoor footwear. \n\nLet's get oriented with the map in your welcome packs. We are currently standing in the Main Entrance, which is at the bottom of your map. Immediately to your left as you enter is the Reception Desk where you can renew your memberships. If you walk straight ahead down the central corridor, the first double doors on your right lead into the new Swimming Pool. It's fully accessible now with a pool hoist. \n\nContinuing down the corridor, just past the pool on the same side, is a small circular room; this is the Meditation Room, a quiet space away from the noise. If you go to the very end of the central corridor, it opens up into the large Sports Hall. \n\nNow, let's go back to the Main Entrance. If you take the corridor to the left, past the Reception, the large room taking up the top left corner of the building is our brand-new Fitness Gym. It overlooks the park. Finally, halfway down that left corridor, opposite the gym entrance, is the Community Café, perfect for a coffee after your workout. All the revenue from the café goes directly into funding our local community projects, not to an outside corporation.",
+      "question_groups": [
+        {
+          "id": "9c3f0f1d-5a6d-4cfa-8c9a-31e8a84d28ca",
+          "group_order": 1,
+          "question_type": "multiple-choice",
+          "instructions": "Choose the correct letter, A, B or C.",
+          "sequential_order": true,
+          "questions": [
+            {
+              "id": "9476afc5-ae5b-4382-be32-f3b30a4923ef",
+              "question_order": 11,
+              "text": "What was the main reason for the delayed reopening of the centre?",
+              "options": [
+                "A. A shortage of project funding",
+                "B. The need to replace old plumbing",
+                "C. Changes to modern safety codes"
+              ],
+              "answer": "B"
+            },
+            {
+              "id": "9151c593-712d-4751-9ee2-1e0bf80674c6",
+              "question_order": 12,
+              "text": "What is the centre's primary focus for the upcoming year?",
+              "options": [
+                "A. Expanding senior activities",
+                "B. Upgrading toddler play areas",
+                "C. Increasing youth engagement"
+              ],
+              "answer": "C"
+            },
+            {
+              "id": "38011ef8-3d50-491e-b23f-2e6cd23ed9ad",
+              "question_order": 13,
+              "text": "What new rule must visitors follow?",
+              "options": [
+                "A. Wear indoor shoes in activity areas",
+                "B. Leave all bags in the provided lockers",
+                "C. Book activity areas in advance"
+              ],
+              "answer": "A"
+            },
+            {
+              "id": "632ae0eb-d8a1-4f13-80b6-8d198460a852",
+              "question_order": 14,
+              "text": "What new feature does the Swimming Pool have?",
+              "options": [
+                "A. A viewing gallery",
+                "B. A pool hoist",
+                "C. Warmer water temperatures"
+              ],
+              "answer": "B"
+            },
+            {
+              "id": "5adf1957-fdb0-49c8-9ccf-5bb071352fba",
+              "question_order": 15,
+              "text": "How are the profits from the Community Café used?",
+              "options": [
+                "A. To pay the café staff",
+                "B. To fund local community projects",
+                "C. To maintain the sports equipment"
+              ],
+              "answer": "B"
+            }
+          ]
+        },
+        {
+          "id": "2aa54172-4dd1-48b6-9cbe-fc98606d1270",
+          "group_order": 2,
+          "question_type": "multiple-choice",
+          "instructions": "Look at the map of the Oakwood Community Centre. Match the facilities (16-20) to the correct location (A-G).",
+          "sequential_order": true,
+          "questions": [
+            {
+              "id": "99d5fcfe-74ee-420a-8fe3-ae7ee6c1eae0",
+              "question_order": 16,
+              "text": "Reception Desk",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E",
+                "F",
+                "G"
+              ],
+              "answer": "A"
+            },
+            {
+              "id": "4ab54215-3fcd-46b6-948e-136103164616",
+              "question_order": 17,
+              "text": "Swimming Pool",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E",
+                "F",
+                "G"
+              ],
+              "answer": "D"
+            },
+            {
+              "id": "d116c024-c378-4b29-abf6-6e256bfc6734",
+              "question_order": 18,
+              "text": "Meditation Room",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E",
+                "F",
+                "G"
+              ],
+              "answer": "E"
+            },
+            {
+              "id": "1ebef973-0ce8-46fe-8833-353f9ccb79e4",
+              "question_order": 19,
+              "text": "Fitness Gym",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E",
+                "F",
+                "G"
+              ],
+              "answer": "C"
+            },
+            {
+              "id": "1837c4c6-a2f5-4f9b-a86c-e981b194d826",
+              "question_order": 20,
+              "text": "Community Café",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E",
+                "F",
+                "G"
+              ],
+              "answer": "B"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a59a026e-cf8c-4393-a56c-375c9f3f2b8d",
+      "section_number": 3,
+      "title": "Green Architecture Project",
+      "transcript": "Tutor: Come in, Liam and Chloe. Let's review your progress on the green architecture assignment. How did you find the research phase?\nLiam: Quite challenging, actually. We easily found floor plans and structural diagrams, but tracking down reliable data on the actual construction costs for these eco-buildings took much longer than expected.\nChloe: Yes, corporate developers are very secretive about their budgets. But once we got the figures, what shocked me was the long-term running costs. I assumed the complex tech would be expensive to fix, but the data showed that routine maintenance is significantly cheaper than in standard buildings.\nLiam: Exactly. Because the materials are highly durable, they just don't degrade as quickly.\nTutor: Good observation. Now, looking at your literature review, you've heavily emphasized international building codes. I strongly recommend you reduce that section and instead expand your analysis on local zoning laws. That's where developers face the real bottlenecks.\nLiam: That makes sense. We'll pivot the focus to municipal zoning. Moving onto future trends, what do you think about the rapid development of solar glass?\nChloe: I'm skeptical. It's aesthetically pleasing, but currently, it's just too inefficient compared to traditional roof panels to make a real impact.\nLiam: I have to disagree. The efficiency is improving annually. Within five years, I think solar windows will be the industry standard for commercial skyscrapers. It's the only way to maximize energy generation in dense urban areas.\nTutor: It's a debated topic, perfect for your presentation. Let's look at the specific buildings you've analyzed. Which sustainable feature are you highlighting for each?\nChloe: Let's start with The Edge in Amsterdam. We're focusing on its smart LED lighting system, which is powered by ethernet cables and tracks occupancy to save energy.\nLiam: For the Bullitt Center in Seattle, it's famous for many things, but we are analyzing its composting toilets, which drastically reduce water consumption.\nChloe: Then there's the Pixel Building in Melbourne. Their standout feature is the vibrant sun-shade louvres on the exterior, which automatically pivot to maximize natural light while minimizing heat glare.\nLiam: In Milan, the Bosco Verticale is an incredible residential tower. We're looking at its integrated vertical forest, which absorbs carbon dioxide and filters urban dust.\nChloe: Finally, the Bahrain World Trade Center. We chose to highlight the three massive wind turbines suspended on bridges between the two towers, generating a huge portion of the building's electricity.\nTutor: Very diverse examples. So, what is the core thesis tying this all together?\nLiam: Initially, we were going to argue that all new buildings must be carbon-neutral. \nChloe: But we realized the biggest carbon footprint comes from demolition. So our core thesis is that retrofitting older buildings with green tech is far more sustainable than constructing new eco-buildings from scratch.",
+      "question_groups": [
+        {
+          "id": "383485a1-0de5-4758-ad88-4707d39e1bc9",
+          "group_order": 1,
+          "question_type": "multiple-choice",
+          "instructions": "Choose the correct letter, A, B or C.",
+          "sequential_order": true,
+          "questions": [
+            {
+              "id": "e583b81a-1e31-40c1-9561-c67b0a23a65e",
+              "question_order": 21,
+              "text": "What did Liam and Chloe find most difficult during their research?",
+              "options": [
+                "A. Understanding structural diagrams",
+                "B. Finding reliable construction cost data",
+                "C. Accessing corporate floor plans"
+              ],
+              "answer": "B"
+            },
+            {
+              "id": "79b82ad6-1793-476b-9c77-13ff1f826c07",
+              "question_order": 22,
+              "text": "Chloe was surprised to discover that eco-buildings have",
+              "options": [
+                "A. lower routine maintenance costs",
+                "B. technology that frequently breaks",
+                "C. cheaper building materials"
+              ],
+              "answer": "A"
+            },
+            {
+              "id": "fbd2b7b9-05aa-496e-9868-261ef8c98027",
+              "question_order": 23,
+              "text": "The tutor advises the students to focus their literature review more on",
+              "options": [
+                "A. international building codes",
+                "B. local zoning laws",
+                "C. the bottlenecks in corporate development"
+              ],
+              "answer": "B"
+            },
+            {
+              "id": "605adfbe-ad17-4ece-b90b-d1a3c3340a22",
+              "question_order": 24,
+              "text": "What is Liam's opinion on the future of solar glass?",
+              "options": [
+                "A. It will remain too inefficient for commercial use",
+                "B. It will become the standard for urban skyscrapers",
+                "C. It is less aesthetically pleasing than roof panels"
+              ],
+              "answer": "B"
+            },
+            {
+              "id": "f2b2de09-eefd-49b2-ab14-7e91d1a27b2c",
+              "question_order": 25,
+              "text": "What is the core thesis of their presentation?",
+              "options": [
+                "A. All new buildings should be carbon-neutral",
+                "B. Constructing new eco-buildings is the best approach",
+                "C. Retrofitting old buildings is the most sustainable option"
+              ],
+              "answer": "C"
+            }
+          ]
+        },
+        {
+          "id": "890cdf79-067f-44e3-b96d-a67c296556e1",
+          "group_order": 2,
+          "question_type": "multiple-choice",
+          "instructions": "What sustainable feature do the students highlight for each building? Choose the correct letter, A-F.",
+          "sequential_order": true,
+          "questions": [
+            {
+              "id": "e6c2aff8-f4a4-4898-8360-121368b8400a",
+              "question_order": 26,
+              "text": "The Edge",
+              "options": [
+                "A. Vertical forest",
+                "B. Wind turbines",
+                "C. Smart LED lighting",
+                "D. Composting toilets",
+                "E. Sun-shade louvres",
+                "F. Rainwater harvesting"
+              ],
+              "answer": "C"
+            },
+            {
+              "id": "a797dd45-06db-425c-b202-c627df4d6d86",
+              "question_order": 27,
+              "text": "Bullitt Center",
+              "options": [
+                "A. Vertical forest",
+                "B. Wind turbines",
+                "C. Smart LED lighting",
+                "D. Composting toilets",
+                "E. Sun-shade louvres",
+                "F. Rainwater harvesting"
+              ],
+              "answer": "D"
+            },
+            {
+              "id": "2d1f5e26-6ef7-479c-adf2-1516bf5fbfac",
+              "question_order": 28,
+              "text": "Pixel Building",
+              "options": [
+                "A. Vertical forest",
+                "B. Wind turbines",
+                "C. Smart LED lighting",
+                "D. Composting toilets",
+                "E. Sun-shade louvres",
+                "F. Rainwater harvesting"
+              ],
+              "answer": "E"
+            },
+            {
+              "id": "172c6c49-3b57-423d-9379-ffce027b4985",
+              "question_order": 29,
+              "text": "Bosco Verticale",
+              "options": [
+                "A. Vertical forest",
+                "B. Wind turbines",
+                "C. Smart LED lighting",
+                "D. Composting toilets",
+                "E. Sun-shade louvres",
+                "F. Rainwater harvesting"
+              ],
+              "answer": "A"
+            },
+            {
+              "id": "af26834a-47f3-41ca-8e35-50edf6fe974e",
+              "question_order": 30,
+              "text": "Bahrain World Trade Center",
+              "options": [
+                "A. Vertical forest",
+                "B. Wind turbines",
+                "C. Smart LED lighting",
+                "D. Composting toilets",
+                "E. Sun-shade louvres",
+                "F. Rainwater harvesting"
+              ],
+              "answer": "B"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a0185ad5-46c7-49f2-8eb6-fe94195ce2b8",
+      "section_number": 4,
+      "title": "Lecture: The History and Science of Sleep",
+      "transcript": "Professor: Good morning. Today we are exploring the fascinating history and science of sleep. We often assume that sleeping for eight uninterrupted hours is the natural human state, but historical records tell a very different story. Prior to the Industrial Revolution, the dominant pattern was biphasic sleep. People would go to bed shortly after dusk, wake up around midnight for an hour or two, and then return to a second sleep until dawn. During this waking interval, people didn't just lie there; they used the time for reading, prayer, or socializing with neighbors. \n\nSo, what changed this fundamental rhythm? The primary catalyst was the invention of artificial light. Gas lamps, and later electric bulbs, allowed factories to operate late into the night. Society effectively compressed sleep into a single, continuous block to maximize daylight working hours. The consequence of this shift was a chronic societal sleep deficit. \n\nTo combat this unnatural wakefulness, humanity turned to stimulants. The mass importation of caffeine, specifically through coffee and tea, became the fuel of the industrial workforce. It essentially masked the biological exhaustion caused by this new, rigid sleep schedule.\n\nNow, let's look at the biological mechanics of sleep. The sleep cycle is regulated by our circadian rhythm, an internal clock heavily influenced by environmental cues. The most crucial cue is darkness. When the retina detects fading light, it signals the pineal gland to secrete melatonin, the hormone that initiates sleepiness. Conversely, modern screens emit high levels of blue light, which tricks the brain into thinking it is daytime, suppressing melatonin production and causing insomnia.\n\nDuring sleep, the brain transitions through several stages, the most famous being REM, or Rapid Eye Movement. REM is vital because it is the phase where dreaming occurs, but more importantly, it's when the brain processes and consolidates memory. Without sufficient REM sleep, our ability to learn new information plummets. Deep sleep, which occurs before REM, is equally vital but serves a different function: this is when the body focuses on physical repair, releasing growth hormones to heal muscles and tissues.\n\nRecently, neuroscientists have discovered a mechanism called the glymphatic system. Think of it as a waste clearance network for the brain. During deep sleep, the brain cells actually shrink slightly, allowing cerebrospinal fluid to wash away toxic proteins that accumulate during waking hours. This nightly cleaning is essential; in fact, a failure in this system is now strongly linked to the onset of Alzheimer's disease. \n\nUltimately, understanding our historical relationship with sleep and its deep biological functions highlights just how detrimental our modern, fast-paced, 24-hour lifestyle is to our fundamental health.",
+      "question_groups": [
+        {
+          "id": "39f8c8e3-d950-47c8-b704-e80c49d6aac4",
+          "group_order": 1,
+          "question_type": "sentence-completion",
+          "instructions": "Complete the notes below. Write NO MORE THAN ONE WORD for each answer.",
+          "sequential_order": true,
+          "questions": [
+            {
+              "id": "26bd92a3-a69b-440f-a814-3dddea54cbfa",
+              "question_order": 31,
+              "text": "Before the Industrial Revolution, people used the time between two sleeps for activities like ________.",
+              "answer": "reading",
+              "accepted_answers": [
+                "reading",
+                "Reading"
+              ]
+            },
+            {
+              "id": "35845063-36b8-4bd0-bf10-9971aca80095",
+              "question_order": 32,
+              "text": "Sleep patterns changed largely due to the introduction of artificial ________.",
+              "answer": "light",
+              "accepted_answers": [
+                "light",
+                "Light"
+              ]
+            },
+            {
+              "id": "a0a16024-a401-4231-b328-01e0fee48473",
+              "question_order": 33,
+              "text": "The industrial workforce relied heavily on ________ to stay awake.",
+              "answer": "caffeine",
+              "accepted_answers": [
+                "caffeine",
+                "Caffeine"
+              ]
+            },
+            {
+              "id": "6913088a-a60c-4d9b-a3e1-711bb96d0dc1",
+              "question_order": 34,
+              "text": "The circadian rhythm relies on ________ to trigger the production of melatonin.",
+              "answer": "darkness",
+              "accepted_answers": [
+                "darkness",
+                "Darkness"
+              ]
+            },
+            {
+              "id": "55fb0062-66cc-45b8-8c14-6e5b38d737dc",
+              "question_order": 35,
+              "text": "Exposure to blue light from screens can lead to ________.",
+              "answer": "insomnia",
+              "accepted_answers": [
+                "insomnia",
+                "Insomnia"
+              ]
+            },
+            {
+              "id": "959fa005-63db-40cc-bcce-3fb610666d39",
+              "question_order": 36,
+              "text": "During the REM phase, the brain focuses on consolidating ________.",
+              "answer": "memory",
+              "accepted_answers": [
+                "memory",
+                "Memory"
+              ]
+            },
+            {
+              "id": "fc39c183-4d85-43ba-bc9f-ebe9e3fc1a8e",
+              "question_order": 37,
+              "text": "Deep sleep is necessary for physical ________ of the body.",
+              "answer": "repair",
+              "accepted_answers": [
+                "repair",
+                "Repair"
+              ]
+            },
+            {
+              "id": "276d9b24-175f-4493-a248-75f60dfbbe08",
+              "question_order": 38,
+              "text": "The glymphatic system clears out toxic ________ from the brain.",
+              "answer": "proteins",
+              "accepted_answers": [
+                "proteins",
+                "Proteins"
+              ]
+            },
+            {
+              "id": "f9b9c6d9-26e7-4c01-94be-2dd545e2dc7e",
+              "question_order": 39,
+              "text": "To allow the cleaning process, brain cells actually ________ in size.",
+              "answer": "shrink",
+              "accepted_answers": [
+                "shrink",
+                "Shrink"
+              ]
+            },
+            {
+              "id": "fdfd5d43-c716-42cd-8e45-e010b114f676",
+              "question_order": 40,
+              "text": "Failing to clear these toxins is linked to ________ disease.",
+              "answer": "Alzheimer's",
+              "accepted_answers": [
+                "Alzheimer's",
+                "alzheimer's",
+                "Alzheimers"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
