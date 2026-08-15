@@ -27,7 +27,12 @@ The repository is organized seamlessly by test section and category.
 ├── README.md
 ├── practice_drills
 │   ├── listening
-│   │   └── ielts_listening_band_8.0_test_001.json
+│   │   └── ielts_listening_band_8.0_test_001
+│   │       ├── dataset.json
+│   │       ├── section_1.mp3
+│   │       ├── section_2.mp3
+│   │       ├── section_3.mp3
+│   │       └── section_4.mp3
 │   ├── reading
 │   │   └── ielts_reading_academic_band_9.0_test_001.json
 │   └── writing
