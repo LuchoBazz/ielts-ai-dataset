@@ -28,7 +28,7 @@ The repository is organized seamlessly by test section and category.
 ├── practice_drills
 │   ├── listening
 │   │   └── ielts_listening_band_8.0_test_001
-│   │       ├── dataset.json
+│   │       ├── manifest.json
 │   │       ├── section_1.mp3
 │   │       ├── section_2.mp3
 │   │       ├── section_3.mp3
@@ -40,7 +40,7 @@ The repository is organized seamlessly by test section and category.
 └── synthetic_official_mocks
     ├── listening
     │   └── ielts_listening_test_001
-    │       ├── dataset.json
+    │       ├── manifest.json
     │       ├── section_1.mp3
     │       ├── section_2.mp3
     │       ├── section_3.mp3

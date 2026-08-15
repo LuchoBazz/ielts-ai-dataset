@@ -56,3 +56,6 @@ desktop.ini
 .idea/
 *.swp
 *.swo
+
+# Local files
+*.local.*
