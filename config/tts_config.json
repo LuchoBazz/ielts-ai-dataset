@@ -1,0 +1,151 @@
+{
+  "$schema_info": {
+    "purpose": "Configuration for generating multi-speaker TTS scenarios with Gemini. Pick a difficulty preset, fill in a scenario, then map the values into the Python script.",
+    "how_to_apply": {
+      "temperature": "difficulty_presets[level].temperature  ->  GenerateContentConfig(temperature=...)",
+      "voice_name": "scenario.speakers[].voice_name  ->  PrebuiltVoiceConfig(voice_name=...)",
+      "director_note": "Merge difficulty_presets[level].delivery with each speaker.audio_profile into the '# Director's note' block of the prompt.",
+      "transcript": "Flatten scenario.transcript into lines of 'Speaker N: text' joined by newlines, placed under '## Transcript:'.",
+      "transcript_style": "Write the transcript itself following difficulty_presets[level].transcript_guidelines. Most listening difficulty comes from the script, not only the voice."
+    }
+  },
+  "voice_library": {
+    "female": {
+      "Aoede": "Soft, warm",
+      "Kore": "Neutral, clear",
+      "Leda": "Bright, youthful"
+    },
+    "male": {
+      "Puck": "Youthful, upbeat",
+      "Charon": "Deep, calm",
+      "Fenrir": "Robust, strong",
+      "Orus": "Formal, measured"
+    },
+    "flexible": {
+      "Zephyr": "Light, airy"
+    }
+  },
+  "difficulty_presets": {
+    "easy": {
+      "label": "Easy",
+      "listener_level": "Beginner",
+      "temperature": 0.6,
+      "delivery": {
+        "pace": "Slow",
+        "accent": "American (General)",
+        "articulation": "Very clear, fully enunciated",
+        "disfluencies": "None",
+        "emotion": "Calm and neutral"
+      },
+      "transcript_guidelines": {
+        "vocabulary": "High-frequency, everyday words only",
+        "sentences": "Short and simple, one idea per line",
+        "idioms_slang": "None",
+        "numbers_and_dates": "Stated slowly and in isolation, one per turn",
+        "corrections_overlaps": "None",
+        "turn_length": "One short sentence per turn"
+      },
+      "example_line": "I need to move on April 14th."
+    },
+    "medium": {
+      "label": "Medium",
+      "listener_level": "Intermediate",
+      "temperature": 0.9,
+      "delivery": {
+        "pace": "Natural",
+        "accent": "American (General)",
+        "articulation": "Clear, natural connected speech",
+        "disfluencies": "Occasional fillers such as 'um' or 'well'",
+        "emotion": "Mildly expressive"
+      },
+      "transcript_guidelines": {
+        "vocabulary": "Everyday words plus occasional common idioms",
+        "sentences": "Moderate length, some compound sentences",
+        "idioms_slang": "A few common idioms",
+        "numbers_and_dates": "Spoken naturally inside sentences",
+        "corrections_overlaps": "One light self-correction allowed",
+        "turn_length": "One to two sentences per turn"
+      },
+      "example_line": "I need to be out by the 15th, so ideally the 14th of April."
+    },
+    "hard": {
+      "label": "Hard",
+      "listener_level": "Upper-intermediate",
+      "temperature": 1.2,
+      "delivery": {
+        "pace": "Fast",
+        "accent": "British (RP) or Australian",
+        "articulation": "Connected speech with some reduced and blended sounds",
+        "disfluencies": "Frequent fillers, false starts, mid-sentence restarts",
+        "emotion": "Expressive, some impatience or stress"
+      },
+      "transcript_guidelines": {
+        "vocabulary": "Idioms, colloquialisms, light domain jargon",
+        "sentences": "Complex, with subordinate clauses",
+        "idioms_slang": "Frequent idioms and colloquial expressions",
+        "numbers_and_dates": "Embedded in fast speech, with at least one self-corrected value",
+        "corrections_overlaps": "Self-corrections common; mark interruptions with an em dash (—)",
+        "turn_length": "Two to four sentences, sometimes rambling"
+      },
+      "example_line": "I've gotta be out by the 15th — well, the 14th really, 'cause I need a buffer day."
+    },
+    "expert": {
+      "label": "Expert",
+      "listener_level": "Advanced / near-native",
+      "temperature": 1.5,
+      "delivery": {
+        "pace": "Very fast",
+        "accent": "Strong regional (Scottish, Irish, or Cockney); may differ per speaker",
+        "articulation": "Heavily connected, dropped syllables, trailing off",
+        "disfluencies": "Heavy: false starts, mid-thought pivots, trailing '...', filler-heavy",
+        "emotion": "Highly variable, emotional, distracted"
+      },
+      "transcript_guidelines": {
+        "vocabulary": "Slang, regional expressions, insider or technical jargon",
+        "sentences": "Long run-ons, tangents, nested clauses",
+        "idioms_slang": "Heavy, including regional slang",
+        "numbers_and_dates": "Multiple values per turn, corrected more than once, buried in tangents",
+        "corrections_overlaps": "Frequent interruptions and overlaps (mark with —); speakers talk over each other",
+        "turn_length": "Long, multi-sentence, digressive"
+      },
+      "example_line": "Right, so it's the 15th, no wait — the 14th, 'cause, y'know, the landlord wants me gone by the... yeah, the 14th, definitely the 14th."
+    }
+  },
+  "scenario_template": {
+    "scenario_id": "swift_relocations_001",
+    "title": "Booking a house move",
+    "difficulty": "medium",
+    "scene": "A quiet, professional remote workspace.",
+    "sample_context": "Steady, efficient, and unhurried. Tone is empathetic, crisp, and reassuring.",
+    "speakers": [
+      {
+        "id": "Speaker 1",
+        "role": "Customer service agent",
+        "voice_name": "Aoede",
+        "audio_profile": "A helpful and professional personal assistant.",
+        "director_note_override": {}
+      },
+      {
+        "id": "Speaker 2",
+        "role": "Customer",
+        "voice_name": "Puck",
+        "audio_profile": "A busy professional planning a move.",
+        "director_note_override": {}
+      }
+    ],
+    "transcript": [
+      {
+        "speaker": "Speaker 1",
+        "text": "Good afternoon, Swift Relocations. How can I help you today?"
+      },
+      {
+        "speaker": "Speaker 2",
+        "text": "Hi there. I'm moving house next month and I'd like to get a quote."
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "Certainly. Could I start by taking your name, please?"
+      }
+    ]
+  }
+}
