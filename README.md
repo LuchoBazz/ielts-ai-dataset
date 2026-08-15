@@ -52,9 +52,9 @@ The repository is organized seamlessly by test section and category.
 ```
 
 
-## 🧬 Transparency & Reproducibility (.prompts)
+## 🧬 Transparency & Reproducibility (prompts/*)
 
-We strongly believe in Open Source and transparent AI. That is why we include the original prompts (e.g., `.prompts` files) used to generate this data. This promotes full transparency, reproducibility, and empowers developers and educators to tweak the prompts for generating their own customized educational materials.
+We strongly believe in Open Source and transparent AI. That is why we include the original prompts (e.g., `prompts/*` files) used to generate this data. This promotes full transparency, reproducibility, and empowers developers and educators to tweak the prompts for generating their own customized educational materials.
 
 ## 🚀 Installation & Usage
 
