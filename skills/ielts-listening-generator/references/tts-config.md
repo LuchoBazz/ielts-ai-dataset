@@ -92,3 +92,9 @@ Gemini's multi-speaker config expects at least the speakers referenced in the pr
 ## Model note
 
 The user's script targets a Gemini TTS preview model (`gemini-3.1-flash-tts-preview` in their example). Do not change the model name in the config; the config only supplies content, voices, temperature, and director notes. If the user is unsure whether their model name is current, suggest they verify it in Google's current API documentation, since preview model names change.
+
+## Optional: `qwen_speaker` field (Qwen3-TTS backend only)
+
+This field is **only** relevant if the user is running `scripts/generate_tts/generate_tts_qwen.py` (a separate, local/free alternative to the Gemini script). It is **not required** and the Gemini script ignores it entirely — do not add it to configs unless the user is specifically targeting the Qwen backend.
+
+Each entry in `scenario.speakers[]` may optionally set `"qwen_speaker"` to a valid Qwen3-TTS CustomVoice speaker name (e.g. `Ryan`, `Aiden`, `Serena`, `Vivian`). If omitted, the Qwen script derives a fallback automatically from the existing `voice_name` field's gender (male Gemini voices → `Ryan`/`Aiden`; female Gemini voices → `Serena`/`Vivian`, since Qwen3-TTS's CustomVoice model has no native-English female speaker) and logs a warning showing the fallback chosen.
