@@ -1,17 +1,22 @@
 # To run this code you need to install the following dependencies:
-# pip install google-genai
+# pip install google-genai pydub
+# You also need ffmpeg installed on your system (used by pydub for MP3 encoding):
+#   macOS:   brew install ffmpeg
+#   Ubuntu:  sudo apt install ffmpeg
 
 import argparse
+import io
 import json
-import mimetypes
 import os
 import struct
 from typing import Any
 
 from google import genai
 from google.genai import types
+from pydub import AudioSegment
 
 DEFAULT_MODEL = "gemini-3.1-flash-tts-preview"
+MP3_BITRATE = "192k"
 
 
 def save_binary_file(file_name: str, data: bytes) -> None:
@@ -163,14 +168,19 @@ def generate(config_path: str, difficulty: str | None = None, output_dir: str = 
         print("No audio was returned in the response.")
         return
 
-    data_buffer = bytes(audio_buffer)
-    file_extension = mimetypes.guess_extension(mime_type)
-    if file_extension is None:
-        file_extension = ".wav"
-        data_buffer = convert_to_wav(data_buffer, mime_type)
-    save_binary_file(
-        os.path.join(output_dir, f"{scenario_id}{file_extension}"), data_buffer
-    )
+    # Gemini returns raw PCM audio. Wrap it in a WAV container in memory, then
+    # encode to MP3 so the on-disk dataset stays small (WAV is never written).
+    wav_bytes = convert_to_wav(bytes(audio_buffer), mime_type)
+    mp3_bytes = wav_to_mp3(wav_bytes)
+    save_binary_file(os.path.join(output_dir, f"{scenario_id}.mp3"), mp3_bytes)
+
+
+def wav_to_mp3(wav_data: bytes, bitrate: str = MP3_BITRATE) -> bytes:
+    """Encode in-memory WAV bytes to MP3 bytes using pydub/ffmpeg."""
+    segment = AudioSegment.from_wav(io.BytesIO(wav_data))
+    out = io.BytesIO()
+    segment.export(out, format="mp3", bitrate=bitrate)
+    return out.getvalue()
 
 
 def convert_to_wav(audio_data: bytes, mime_type: str) -> bytes:
@@ -231,7 +241,7 @@ def parse_audio_mime_type(mime_type: str) -> dict[str, int | None]:
 
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(
-        description="Generate multi-speaker TTS audio from a scenario config JSON."
+        description="Generate multi-speaker TTS audio (MP3) from a scenario config JSON."
     )
     parser.add_argument(
         "--config",
@@ -247,7 +257,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument(
         "--output-dir",
         default=".",
-        help="Directory where generated audio files will be saved.",
+        help="Directory where the generated MP3 file will be saved.",
     )
     return parser.parse_args()
 
