@@ -1,0 +1,41 @@
+{
+  "scenario_id": "ielts_s2_blackwood_reserve",
+  "title": "Blackwood Nature Reserve Briefing",
+  "ielts_section": 2,
+  "temperature": 0.8,
+  "scene": "A welcome briefing and facilities orientation by a head warden at a nature reserve.",
+  "sample_context": "Warm, informative monologue with clear signposting for map directions and site rules.",
+  "speakers": [
+    {
+      "id": "Warden",
+      "role": "Head Warden",
+      "voice_name": "Fenrir",
+      "audio_profile": "Welcoming, informative, and clear outdoor guide.",
+      "director_note": {
+        "style": "Warm, informative, engaging",
+        "pace": "Natural",
+        "accent": "British (Received Pronunciation), clear and standard",
+        "articulation": "Clear",
+        "disfluencies": "Light, natural"
+      }
+    }
+  ],
+  "transcript": [
+    {
+      "speaker": "Warden",
+      "text": "Hello everyone, and welcome to the newly opened Blackwood Nature Reserve. I'm David, the head warden here. We're thrilled to finally have you with us. As many of you know, we were originally slated to open our gates back in April. While the severe spring storms certainly didn't help our construction schedule, the actual bottleneck that pushed us back to August was awaiting the final environmental permits from the local council."
+    },
+    {
+      "speaker": "Warden",
+      "text": "Our primary mission here might surprise you. While we love seeing tourists enjoying the trails, and we do conduct significant academic research, our fundamental objective—the reason this land was purchased—is the breeding of critically endangered wetland birds. To protect them, we have one strict rule: you absolutely must stay on the marked trails at all times. Photography is encouraged, and you are welcome to bring packed lunches, provided you take your litter home, but wandering into the undergrowth is strictly forbidden."
+    },
+    {
+      "speaker": "Warden",
+      "text": "Before we head out, let me point out the facilities on your map. You're currently standing at the main entrance gate at the bottom of the map. If you walk straight ahead up the main path, the first building you encounter on your left is the Education Centre—that's where we hold our school workshops. Keep walking past the Education Centre, and just before the path splits, you'll see a small wooden structure on your right. That's the Warden's Office."
+    },
+    {
+      "speaker": "Warden",
+      "text": "If you take the left fork at the split, it leads directly to the lake. Built right out over the water is the Bird Hide. We originally planned to put it on the eastern shore, but this western position gives a much better view of the nesting grounds. Now, going back to the path split, if you take the right fork instead, you'll pass a wide, open grassy area on your left; that is the Picnic Area. Finally, right at the very end of the right-hand path, nestled in the trees, is the Gift Shop. You can hire binoculars there if you haven't brought your own, and the proceeds keep the reserve running, as we rely entirely on public donations rather than government grants."
+    }
+  ]
+}
