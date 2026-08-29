@@ -1,130 +1,150 @@
 {
-  "scenario_id": "ielts_listening_band_8.0_test_001_scenario_1",
-  "title": "Corporate Venue Booking Enquiry",
+  "scenario_id": "ielts-listening-band-8.0-test-001-scenario-1",
+  "title": "International Freight Booking",
   "ielts_section": 1,
   "temperature": 0.7,
-  "scene": "Everyday transactional phone call between a retreat centre representative and a corporate client.",
-  "sample_context": "Polite, clear form-filling interaction with natural corrections of names, dates, and prices.",
+  "scene": "A phone call between a logistics agent and a small business owner arranging an international shipment.",
+  "sample_context": "Transactional conversation involving data collection, measurements, natural corrections, and reference numbers.",
   "speakers": [
     {
-      "id": "Speaker 1",
-      "role": "Representative",
+      "id": "Agent",
+      "role": "Logistics Agent",
       "voice_name": "Aoede",
-      "audio_profile": "Polite, structured, and helpful customer service agent.",
+      "audio_profile": "Professional, helpful, and efficient customer service agent.",
       "director_note": {
         "style": "Polite, helpful, transactional",
         "pace": "Slow to Natural",
         "accent": "British (Received Pronunciation), clear and standard",
         "articulation": "Very clear, fully enunciated",
-        "disfluencies": "Minimal; clear read-backs of key data"
+        "disfluencies": "Minimal; deliberate read-backs of key data and codes"
       }
     },
     {
-      "id": "Speaker 2",
-      "role": "Caller",
-      "voice_name": "Orus",
-      "audio_profile": "Professional corporate client making an enquiry.",
+      "id": "Customer",
+      "role": "Small Business Owner",
+      "voice_name": "Puck",
+      "audio_profile": "Friendly first-time commercial shipper.",
       "director_note": {
         "style": "Conversational, polite",
         "pace": "Natural",
         "accent": "British (Received Pronunciation), clear and standard",
         "articulation": "Clear",
-        "disfluencies": "Natural self-correction on company name"
+        "disfluencies": "Natural self-correction on shipment weight"
       }
     }
   ],
   "transcript": [
     {
-      "speaker": "Speaker 1",
-      "text": "Good morning, Beaumont Retreat Centre, Sarah speaking. How can I help you today?"
+      "speaker": "Agent",
+      "text": "Good afternoon, Pacific Freight and Logistics. Lisa speaking. How can I help you today?"
     },
     {
-      "speaker": "Speaker 2",
-      "text": "Hello, yes. I'm looking to book a venue for a company strategy weekend."
+      "speaker": "Customer",
+      "text": "Hello, Lisa. My name is David. I'm calling because I need to arrange an international shipment for my small business. It's my first time shipping commercially, so I'm a bit unsure of the process."
     },
     {
-      "speaker": "Speaker 1",
-      "text": "Excellent. First of all, could I get the name of your company?"
+      "speaker": "Agent",
+      "text": "Not a problem at all, David. We handle first-time commercial shipments every day. I can walk you through it and give you a quote right now. First, can I get the full name of your business?"
     },
     {
-      "speaker": "Speaker 2",
-      "text": "It's the Beaumont Financial Group. Oh wait, sorry, that's my old firm! I recently moved. It's actually for Sterling Associates."
+      "speaker": "Customer",
+      "text": "Yes, it's called Ironwood Artisans. That's Ironwood, all one word, and Artisans with an 's' at the end."
     },
     {
-      "speaker": "Speaker 1",
-      "text": "No problem. And your name?"
+      "speaker": "Agent",
+      "text": "Ironwood Artisans. Great. And what exactly are you looking to ship?"
     },
     {
-      "speaker": "Speaker 2",
-      "text": "Mark Thurlow."
+      "speaker": "Customer",
+      "text": "We manufacture custom wooden furniture. For this particular order, it's a batch of dining chairs."
     },
     {
-      "speaker": "Speaker 1",
-      "text": "Right, Mark. What dates were you hoping for?"
+      "speaker": "Agent",
+      "text": "Excellent. Now, where will this shipment be heading? What's the final destination country?"
     },
     {
-      "speaker": "Speaker 2",
-      "text": "We originally wanted the weekend of the 20th of October, arriving on the Friday."
+      "speaker": "Customer",
+      "text": "The client is based in New Zealand. Specifically, the delivery address is in Auckland, but I assume it goes to the main port first."
     },
     {
-      "speaker": "Speaker 1",
-      "text": "Ah, I'm afraid we have a large wedding party booked that entire weekend. We do, however, have full availability the following weekend, starting on the 27th of October."
+      "speaker": "Agent",
+      "text": "Yes, our primary shipping route goes directly into the Port of Auckland, so that's perfect. Now, to calculate the freight cost, I'll need some details about the cargo itself. Do you have the total weight of the shipment?"
     },
     {
-      "speaker": "Speaker 2",
-      "text": "The 27th... Yes, that should work perfectly."
+      "speaker": "Customer",
+      "text": "Yes, I weighed the pallets this morning. The total weight comes to 450 kilograms. Wait, sorry, I added an extra pallet at the last minute. The final weight is actually 520 kilograms."
     },
     {
-      "speaker": "Speaker 1",
-      "text": "Great. For our main conference room, the standard weekend hire is usually £1,600. However, because your group is relatively small, I can offer our corporate tier rate, bringing the total down to £1,450."
+      "speaker": "Agent",
+      "text": "520 kilograms. Noted. And because freight charges also depend on the volume, could you give me the dimensions of the total shipment? We usually need the height, width, and length in meters."
     },
     {
-      "speaker": "Speaker 2",
-      "text": "That's £1,450? Brilliant, I'll note that down. Does that include audio-visual equipment?"
+      "speaker": "Customer",
+      "text": "Sure. I have them written down here. The total length is 2.5 meters, the width is 1.2 meters, and the height is exactly 1.8 meters."
     },
     {
-      "speaker": "Speaker 1",
-      "text": "It includes the PA system and microphones. We can provide a projector for an additional small fee, or you can bring your own."
+      "speaker": "Agent",
+      "text": "Length 2.5, width 1.2, height 1.8. Perfect. Because wooden products can be susceptible to moisture during sea transit, I highly recommend adding protective wrapping. It's an extra £40. Would you like to include that?"
     },
     {
-      "speaker": "Speaker 2",
-      "text": "We definitely need a projector, so please add that to the booking. We won't need extra microphones though."
+      "speaker": "Customer",
+      "text": "Absolutely. I don't want to risk any water damage. Please add the wrapping."
     },
     {
-      "speaker": "Speaker 1",
-      "text": "Noted. Now, regarding catering, we offer a mixed buffet, but please let us know if there are specific dietary requirements."
+      "speaker": "Agent",
+      "text": "Done. We also need to discuss insurance. We offer a basic liability cover, which is included in the standard rate, or a comprehensive policy that covers the full retail value against all damages."
     },
     {
-      "speaker": "Speaker 2",
-      "text": "Well, a few team members are gluten-free, but honestly, it's much easier if you just make the entire spread vegetarian. That covers almost everyone safely."
+      "speaker": "Customer",
+      "text": "Given the value of the custom furniture, I'd better go with the comprehensive policy. Better safe than sorry."
     },
     {
-      "speaker": "Speaker 1",
-      "text": "A fully vegetarian menu, understood. You'll also be pleased to know that unlike many venues in the area, our pricing includes secure parking for all attendees."
+      "speaker": "Agent",
+      "text": "A wise choice for high-value goods. One important regulatory point: when shipping timber products to New Zealand, customs is extremely strict about biosecurity. You must ensure the wood is treated and there is no bark attached."
     },
     {
-      "speaker": "Speaker 2",
-      "text": "Oh, that is a relief. Street parking is a nightmare around there. What about the rooms themselves?"
+      "speaker": "Customer",
+      "text": "Oh, yes. All our timber is kiln-dried and fully treated. I have the certificates."
     },
     {
-      "speaker": "Speaker 1",
-      "text": "The executive suites we've reserved for your team all feature a private balcony overlooking the lake. It's quite serene for evening unwinding."
+      "speaker": "Agent",
+      "text": "Good. They also have a strict list of restricted items. You cannot include any plant matter, seeds, or untreated organic material in the packing crates."
     },
     {
-      "speaker": "Speaker 2",
-      "text": "Sounds ideal. What are the next steps?"
+      "speaker": "Customer",
+      "text": "We only use synthetic foam packing peanuts and bubble wrap, so there won't be any seeds or plant matter anywhere near it."
     },
     {
-      "speaker": "Speaker 1",
-      "text": "I'll email the contract. Just ensure you send back a signed copy along with proof of your corporate liability insurance. We legally require that on file before any event."
+      "speaker": "Agent",
+      "text": "Excellent. That should clear customs without a hitch. Now, when would you like us to collect the pallets from your workshop?"
     },
     {
-      "speaker": "Speaker 2",
-      "text": "Will do. You can reach me on my direct mobile if you need anything urgently: it's 07844 299 011."
+      "speaker": "Customer",
+      "text": "The items will be fully crated and ready by this Friday. Could you collect them on Monday?"
     },
     {
-      "speaker": "Speaker 1",
-      "text": "07844 299 011. Got it. Once the paperwork is sorted, you just need to pay a deposit to secure the dates."
+      "speaker": "Agent",
+      "text": "Let me check the schedule. We have a truck in your area on Monday, which is the 14th of November. We can pencil you in for a morning pickup."
+    },
+    {
+      "speaker": "Customer",
+      "text": "The 14th works perfectly. How do I go about paying for this?"
+    },
+    {
+      "speaker": "Agent",
+      "text": "Once I generate the final invoice, I'll email it over. We accept bank transfers, credit cards, or for commercial accounts, direct debit. Which do you prefer?"
+    },
+    {
+      "speaker": "Customer",
+      "text": "A bank transfer is easiest for my accounting software. I'll do it that way."
+    },
+    {
+      "speaker": "Agent",
+      "text": "Excellent. I'm generating your booking now. Your reference number is F-R-E-9-9-2. Please quote that reference on your bank transfer so we can instantly link the payment to your shipment."
+    },
+    {
+      "speaker": "Customer",
+      "text": "F-R-E-9-9-2. Got it. Thank you so much for your help, Lisa."
     }
   ]
 }
