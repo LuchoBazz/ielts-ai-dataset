@@ -1,0 +1,139 @@
+{
+  "scenario_id": "ielts-listening-band-8.0-test-001-scenario-3",
+  "title": "Marine Biology Fieldwork Feedback",
+  "ielts_section": 3,
+  "temperature": 0.9,
+  "scene": "An academic discussion between a university tutor and two marine biology students reviewing their fieldwork data.",
+  "sample_context": "Collegial, academic turn-taking with discussion of methodology, unexpected data, and ecological adaptations.",
+  "speakers": [
+    {
+      "id": "Tutor",
+      "role": "University Tutor",
+      "voice_name": "Orus",
+      "audio_profile": "Knowledgeable, academic, and supportive university professor.",
+      "director_note": {
+        "style": "Academic, collegial, thoughtful",
+        "pace": "Natural, slightly quicker",
+        "accent": "British (Received Pronunciation), clear and standard",
+        "articulation": "Clear despite back-and-forth",
+        "disfluencies": "Natural hedging, occasional conversational overlap"
+      }
+    },
+    {
+      "id": "Sarah",
+      "role": "Student",
+      "voice_name": "Leda",
+      "audio_profile": "Engaged and enthusiastic university student.",
+      "director_note": {
+        "style": "Academic, collegial, enthusiastic",
+        "pace": "Natural, slightly quicker",
+        "accent": "British (Received Pronunciation), clear and standard",
+        "articulation": "Clear despite back-and-forth",
+        "disfluencies": "Natural conversational rhythm"
+      }
+    },
+    {
+      "id": "Tom",
+      "role": "Student",
+      "voice_name": "Puck",
+      "audio_profile": "Analytical and observant university student.",
+      "director_note": {
+        "style": "Academic, collegial, thoughtful",
+        "pace": "Natural, slightly quicker",
+        "accent": "British (Received Pronunciation), clear and standard",
+        "articulation": "Clear despite back-and-forth",
+        "disfluencies": "Natural conversational rhythm"
+      }
+    }
+  ],
+  "transcript": [
+    {
+      "speaker": "Tutor",
+      "text": "Come in, grab a seat. So, Sarah, Tom... I've reviewed the preliminary data you submitted for your marine biology assignment on coral reef bleaching. How did you find the fieldwork overall?"
+    },
+    {
+      "speaker": "Sarah",
+      "text": "It was incredible, Professor Higgins, but far more challenging than we anticipated. I assumed that identifying the specific coral species underwater would be the toughest part."
+    },
+    {
+      "speaker": "Tom",
+      "text": "Exactly. We spent weeks memorizing the taxonomies. But out on the reef, what actually cost us the most time and effort was maintaining the calibration of our underwater temperature probes. The currents kept knocking them out of alignment."
+    },
+    {
+      "speaker": "Tutor",
+      "text": "Ah, yes. Environmental variables in open water can play havoc with delicate sensors. But looking at your initial charts, you managed to gather some very robust data. Were there any findings that caught you off guard?"
+    },
+    {
+      "speaker": "Sarah",
+      "text": "Well, we fully expected to see the highest rates of coral bleaching in the shallowest waters, given the direct exposure to solar radiation and higher surface temperatures."
+    },
+    {
+      "speaker": "Tom",
+      "text": "But the data contradicted that entirely. The most severe bleaching actually occurred at mid-depth levels. We later realised this was due to a phenomenon called internal waves, which unexpectedly push colder, nutrient-depleted water into that specific depth zone, stressing the corals more than the heat did."
+    },
+    {
+      "speaker": "Tutor",
+      "text": "An excellent observation, and a perfect example of why physical oceanography is inseparable from marine biology. Now, let's talk about your methodology. When you took your quadrat samples to measure coral density, I noticed a potential flaw in your approach."
+    },
+    {
+      "speaker": "Sarah",
+      "text": "Really? We used the standard 1-meter square PVC frames, and we placed them exactly 10 meters apart along the transect line, just like the textbook suggests."
+    },
+    {
+      "speaker": "Tutor",
+      "text": "The spacing was fine. The issue is that you conducted all your sampling exclusively during low tide. Because certain coral polyps retract during low tide to conserve moisture, your visual estimates of living tissue density are likely underestimating the true health of the reef. You need to sample across multiple tidal phases."
+    },
+    {
+      "speaker": "Tom",
+      "text": "That makes complete sense. We'll adjust our final methodology chapter to acknowledge that limitation. Speaking of the chapters, how should we structure the final report? Should we lead with the statistical analysis?"
+    },
+    {
+      "speaker": "Tutor",
+      "text": "No, start broader. I want you to open with a comprehensive literature review. It's crucial you demonstrate how your findings on internal waves fit into the existing historical consensus before you start throwing raw data at the reader."
+    },
+    {
+      "speaker": "Sarah",
+      "text": "Understood. A literature review first, then the data. And for our conclusion, we were thinking of proposing some local conservation policies, like restricting tourist boats in the area."
+    },
+    {
+      "speaker": "Tutor",
+      "text": "While admirable, policy recommendations are outside the scope of a purely scientific ecological paper. Your conclusion must focus strictly on predicting the future trajectory of the reef's ecosystem based on the data trends you've recorded."
+    },
+    {
+      "speaker": "Tom",
+      "text": "Focus on ecological predictions. Got it."
+    },
+    {
+      "speaker": "Tutor",
+      "text": "Excellent. Let's look closely at your zoning map. You divided the reef into five distinct areas based on the resilience of the coral. Walk me through what specific adaptation or phenomenon you observed in each zone."
+    },
+    {
+      "speaker": "Sarah",
+      "text": "Sure. Let's start with Zone A, the northernmost tip of the reef. We expected total devastation there due to the warming, but surprisingly, we found that the corals there have adapted by forming a symbiotic relationship with a heat-resistant strain of microalgae, allowing them to survive higher temperatures."
+    },
+    {
+      "speaker": "Tom",
+      "text": "Moving down to Zone B, the eastern flank. This area was heavily damaged by a storm last year. What's unique here is the rapid recolonisation. We observed a massive influx of entirely new, non-native coral species that seem to be taking over the dead limestone skeletons."
+    },
+    {
+      "speaker": "Sarah",
+      "text": "Then there's Zone C, the central lagoon. The water here is incredibly murky, which usually kills coral by blocking sunlight. However, the corals in this zone have adapted by altering their feeding mechanisms—they now rely primarily on capturing floating plankton rather than photosynthesis."
+    },
+    {
+      "speaker": "Tutor",
+      "text": "Fascinating. And what about the deeper areas?"
+    },
+    {
+      "speaker": "Tom",
+      "text": "Down in Zone D, the southern drop-off... This was grim. We recorded a phenomenon known as structural collapse. The corals haven't just bleached; the calcium carbonate structures themselves are becoming brittle and crumbling under the ocean pressure due to increased water acidity."
+    },
+    {
+      "speaker": "Sarah",
+      "text": "Finally, Zone E, the western shallows. This was the most hopeful area. The corals here naturally secrete a dense, fluorescent protein pigment that essentially acts as a chemical sunscreen, protecting their tissues from the intense UV radiation at that shallow depth."
+    },
+    {
+      "speaker": "Tutor",
+      "text": "Those are brilliant, distinct observations. Make sure you clearly define those mechanisms in the final draft."
+    }
+  ]
+}
