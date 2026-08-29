@@ -126,3 +126,72 @@ If the API returns raw PCM audio without a recognized file extension, the script
 4. Flattens `scenario.transcript` into `Speaker N: text` lines.
 5. Sends the assembled prompt to the Gemini model along with per-speaker voice configs.
 6. Streams the response, saving audio chunks to disk and printing any text output.
+
+## Alternative: Local Qwen3-TTS Generation (Free, No API Key)
+
+`generate_tts_qwen.py` is a separate, independent script that generates the same
+kind of audio using **Qwen3-TTS** — a free, open-source, locally-run TTS model from
+Alibaba — instead of the Gemini API. It has zero per-request cost and no external
+rate limits, at the cost of needing local compute (GPU recommended, but it runs on
+CPU too, just slower) and a one-time multi-GB model download.
+
+It reads the **same config schema** and accepts the **same core CLI flags**
+(`--config`, `--difficulty`, `--output-dir`) as `generate_tts.py`, so it's a
+drop-in alternative backend. `generate_tts.py` itself is untouched and remains the
+recommended fallback if this local backend doesn't work out for you.
+
+### Prerequisites
+
+- Python 3.10+ (same as `generate_tts.py`).
+- Install the extra dependencies:
+
+```bash
+pip install qwen-tts torch soundfile pydub
+```
+
+- `ffmpeg` installed (same as `generate_tts.py`, used by `pydub` for MP3 encoding).
+- No API key needed — inference runs entirely on your machine.
+
+### Running the Script
+
+```bash
+python scripts/generate_tts/generate_tts_qwen.py --config path/to/your_scenario.json --output-dir output/audio
+```
+
+Extra optional flags on top of the ones shared with `generate_tts.py`:
+
+| Option | Default | Description |
+|---|---|---|
+| `--device` | auto-detect (`cuda:0` if available, else `cpu`) | Torch device to run inference on. |
+| `--model-id` | `config['qwen_model_id']` or `Qwen/Qwen3-TTS-12Hz-0.6B-CustomVoice` | Qwen3-TTS model id (or local path) to load. |
+
+### New Optional Config Fields
+
+These fields are **only** read by `generate_tts_qwen.py` — the Gemini script
+(`generate_tts.py`) ignores them, so existing configs keep working unchanged with
+either script:
+
+| Field | Description |
+|---|---|
+| `qwen_model_id` (top-level, optional) | Overrides the default Qwen3-TTS model id. |
+| `scenario.language` (optional) | Language passed to `generate_custom_voice`. Defaults to `"English"`. |
+| `scenario.speakers[].qwen_speaker` (optional) | Explicit Qwen3-TTS CustomVoice speaker name for this speaker (e.g. `Ryan`, `Aiden`, `Serena`, `Vivian`). |
+
+If a speaker doesn't set `qwen_speaker`, the script falls back to a gender-aware
+mapping from the existing (Gemini) `voice_name` field and prints a `WARNING` log
+line showing which fallback speaker was chosen. Qwen3-TTS's `CustomVoice` model
+only ships two native-English speakers, both male (`Ryan`, `Aiden`); female-coded
+Gemini voice names (`Aoede`, `Kore`, `Leda`) fall back to Qwen's non-English-native
+female speakers (`Serena`, `Vivian`) so a female timbre is still available, at the
+cost of a slight accent/quality tradeoff. Set `qwen_speaker` explicitly per
+speaker to override this.
+
+### Runaway-Generation Safety Net
+
+Like `generate_tts.py`'s per-turn byte-cap-and-retry protection against a model
+getting stuck in a generation loop, `generate_tts_qwen.py` caps each turn's
+`max_new_tokens` based on the text length, then checks the resulting audio
+duration against an expected-duration estimate. If a turn's audio is
+unreasonably long, it prints a `WARNING`, retries once with a lower temperature
+and a tighter cap, and accepts the (possibly truncated) result if the retry is
+still too long.
