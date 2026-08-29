@@ -74,6 +74,7 @@ A single self-contained scenario matching the user's Gemini pipeline. Use this e
   "scenario_id": "ielts_s<section>_<slug>",
   "title": "<short title>",
   "ielts_section": <1-4>,
+  "difficulty": "easy | medium | hard | expert",
   "temperature": <number>,
   "scene": "<one-line setting>",
   "sample_context": "<delivery summary>",
@@ -97,6 +98,17 @@ A single self-contained scenario matching the user's Gemini pipeline. Use this e
   ]
 }
 ```
+
+The `difficulty` field is a single string, derived **directly from `ielts_section`** using this fixed mapping:
+
+| `ielts_section` | `difficulty` |
+|---|---|
+| 1 | `"easy"` |
+| 2 | `"medium"` |
+| 3 | `"hard"` |
+| 4 | `"expert"` |
+
+Always set `difficulty` to match the section — never leave the placeholder `"easy | medium | hard | expert"` in the emitted config.
 
 The `transcript` array must contain the full script (same content as the readable transcript). Fill `temperature` and each `director_note` from the section profile and `references/tts-config.md`.
 
