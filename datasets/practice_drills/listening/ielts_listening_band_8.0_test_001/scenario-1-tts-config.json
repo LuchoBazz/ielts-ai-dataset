@@ -1,0 +1,130 @@
+{
+  "scenario_id": "ielts_listening_band_8.0_test_001_scenario_1",
+  "title": "Corporate Venue Booking Enquiry",
+  "ielts_section": 1,
+  "temperature": 0.7,
+  "scene": "Everyday transactional phone call between a retreat centre representative and a corporate client.",
+  "sample_context": "Polite, clear form-filling interaction with natural corrections of names, dates, and prices.",
+  "speakers": [
+    {
+      "id": "Speaker 1",
+      "role": "Representative",
+      "voice_name": "Aoede",
+      "audio_profile": "Polite, structured, and helpful customer service agent.",
+      "director_note": {
+        "style": "Polite, helpful, transactional",
+        "pace": "Slow to Natural",
+        "accent": "British (Received Pronunciation), clear and standard",
+        "articulation": "Very clear, fully enunciated",
+        "disfluencies": "Minimal; clear read-backs of key data"
+      }
+    },
+    {
+      "id": "Speaker 2",
+      "role": "Caller",
+      "voice_name": "Orus",
+      "audio_profile": "Professional corporate client making an enquiry.",
+      "director_note": {
+        "style": "Conversational, polite",
+        "pace": "Natural",
+        "accent": "British (Received Pronunciation), clear and standard",
+        "articulation": "Clear",
+        "disfluencies": "Natural self-correction on company name"
+      }
+    }
+  ],
+  "transcript": [
+    {
+      "speaker": "Speaker 1",
+      "text": "Good morning, Beaumont Retreat Centre, Sarah speaking. How can I help you today?"
+    },
+    {
+      "speaker": "Speaker 2",
+      "text": "Hello, yes. I'm looking to book a venue for a company strategy weekend."
+    },
+    {
+      "speaker": "Speaker 1",
+      "text": "Excellent. First of all, could I get the name of your company?"
+    },
+    {
+      "speaker": "Speaker 2",
+      "text": "It's the Beaumont Financial Group. Oh wait, sorry, that's my old firm! I recently moved. It's actually for Sterling Associates."
+    },
+    {
+      "speaker": "Speaker 1",
+      "text": "No problem. And your name?"
+    },
+    {
+      "speaker": "Speaker 2",
+      "text": "Mark Thurlow."
+    },
+    {
+      "speaker": "Speaker 1",
+      "text": "Right, Mark. What dates were you hoping for?"
+    },
+    {
+      "speaker": "Speaker 2",
+      "text": "We originally wanted the weekend of the 20th of October, arriving on the Friday."
+    },
+    {
+      "speaker": "Speaker 1",
+      "text": "Ah, I'm afraid we have a large wedding party booked that entire weekend. We do, however, have full availability the following weekend, starting on the 27th of October."
+    },
+    {
+      "speaker": "Speaker 2",
+      "text": "The 27th... Yes, that should work perfectly."
+    },
+    {
+      "speaker": "Speaker 1",
+      "text": "Great. For our main conference room, the standard weekend hire is usually £1,600. However, because your group is relatively small, I can offer our corporate tier rate, bringing the total down to £1,450."
+    },
+    {
+      "speaker": "Speaker 2",
+      "text": "That's £1,450? Brilliant, I'll note that down. Does that include audio-visual equipment?"
+    },
+    {
+      "speaker": "Speaker 1",
+      "text": "It includes the PA system and microphones. We can provide a projector for an additional small fee, or you can bring your own."
+    },
+    {
+      "speaker": "Speaker 2",
+      "text": "We definitely need a projector, so please add that to the booking. We won't need extra microphones though."
+    },
+    {
+      "speaker": "Speaker 1",
+      "text": "Noted. Now, regarding catering, we offer a mixed buffet, but please let us know if there are specific dietary requirements."
+    },
+    {
+      "speaker": "Speaker 2",
+      "text": "Well, a few team members are gluten-free, but honestly, it's much easier if you just make the entire spread vegetarian. That covers almost everyone safely."
+    },
+    {
+      "speaker": "Speaker 1",
+      "text": "A fully vegetarian menu, understood. You'll also be pleased to know that unlike many venues in the area, our pricing includes secure parking for all attendees."
+    },
+    {
+      "speaker": "Speaker 2",
+      "text": "Oh, that is a relief. Street parking is a nightmare around there. What about the rooms themselves?"
+    },
+    {
+      "speaker": "Speaker 1",
+      "text": "The executive suites we've reserved for your team all feature a private balcony overlooking the lake. It's quite serene for evening unwinding."
+    },
+    {
+      "speaker": "Speaker 2",
+      "text": "Sounds ideal. What are the next steps?"
+    },
+    {
+      "speaker": "Speaker 1",
+      "text": "I'll email the contract. Just ensure you send back a signed copy along with proof of your corporate liability insurance. We legally require that on file before any event."
+    },
+    {
+      "speaker": "Speaker 2",
+      "text": "Will do. You can reach me on my direct mobile if you need anything urgently: it's 07844 299 011."
+    },
+    {
+      "speaker": "Speaker 1",
+      "text": "07844 299 011. Got it. Once the paperwork is sorted, you just need to pay a deposit to secure the dates."
+    }
+  ]
+}
