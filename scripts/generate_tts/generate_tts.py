@@ -141,7 +141,8 @@ def generate(config_path: str, difficulty: str | None = None, output_dir: str = 
     scenario_id = scenario.get("scenario_id", "output")
     os.makedirs(output_dir, exist_ok=True)
 
-    file_index = 0
+    audio_buffer = bytearray()
+    mime_type = None
     for chunk in client.models.generate_content_stream(
         model=model,
         contents=contents,
@@ -150,20 +151,26 @@ def generate(config_path: str, difficulty: str | None = None, output_dir: str = 
         if chunk.parts is None:
             continue
         if chunk.parts[0].inline_data and chunk.parts[0].inline_data.data:
-            file_name = f"{scenario_id}_{file_index}"
-            file_index += 1
             inline_data = chunk.parts[0].inline_data
-            data_buffer = inline_data.data
-            file_extension = mimetypes.guess_extension(inline_data.mime_type)
-            if file_extension is None:
-                file_extension = ".wav"
-                data_buffer = convert_to_wav(inline_data.data, inline_data.mime_type)
-            save_binary_file(
-                os.path.join(output_dir, f"{file_name}{file_extension}"), data_buffer
-            )
+            if mime_type is None:
+                mime_type = inline_data.mime_type
+            audio_buffer.extend(inline_data.data)
         else:
             if text := chunk.text:
                 print(text)
+
+    if not audio_buffer:
+        print("No audio was returned in the response.")
+        return
+
+    data_buffer = bytes(audio_buffer)
+    file_extension = mimetypes.guess_extension(mime_type)
+    if file_extension is None:
+        file_extension = ".wav"
+        data_buffer = convert_to_wav(data_buffer, mime_type)
+    save_binary_file(
+        os.path.join(output_dir, f"{scenario_id}{file_extension}"), data_buffer
+    )
 
 
 def convert_to_wav(audio_data: bytes, mime_type: str) -> bytes:
