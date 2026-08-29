@@ -119,59 +119,95 @@ def generate(config_path: str, difficulty: str | None = None, output_dir: str = 
     difficulty = difficulty or scenario.get("difficulty", "medium")
     preset = get_difficulty_preset(config, difficulty)
 
-    prompt_text = build_prompt(scenario, preset)
-    speaker_voice_configs = build_speaker_voice_configs(scenario["speakers"])
-
     client = genai.Client(
         api_key=os.environ.get("GEMINI_API_KEY"),
     )
 
     model = config.get("model", DEFAULT_MODEL)
-    contents = [
-        types.Content(
-            role="user",
-            parts=[types.Part.from_text(text=prompt_text)],
-        ),
-    ]
-    generate_content_config = types.GenerateContentConfig(
-        temperature=preset["temperature"],
-        response_modalities=["audio"],
-        speech_config=types.SpeechConfig(
-            multi_speaker_voice_config=types.MultiSpeakerVoiceConfig(
-                speaker_voice_configs=speaker_voice_configs
-            ),
-        ),
-    )
-
     scenario_id = scenario.get("scenario_id", "output")
     os.makedirs(output_dir, exist_ok=True)
 
-    audio_buffer = bytearray()
-    mime_type = None
-    for chunk in client.models.generate_content_stream(
-        model=model,
-        contents=contents,
-        config=generate_content_config,
-    ):
-        if chunk.parts is None:
-            continue
-        if chunk.parts[0].inline_data and chunk.parts[0].inline_data.data:
-            inline_data = chunk.parts[0].inline_data
-            if mime_type is None:
-                mime_type = inline_data.mime_type
-            audio_buffer.extend(inline_data.data)
-        else:
-            if text := chunk.text:
-                print(text)
+    # The API caps multi_speaker_voice_config at TWO speakers, so we synthesize
+    # each turn separately in single-speaker mode (using that turn's voice) and
+    # concatenate the clips. This supports any number of speakers.
+    speakers = {s["id"]: s for s in scenario["speakers"]}
+    transcript = scenario["transcript"]
+    gap = AudioSegment.silent(duration=350, frame_rate=24000)
+    # Per-turn safety cap (~60s at 24kHz/16-bit mono) to abort a runaway loop.
+    MAX_AUDIO_BYTES = 3_000_000
 
-    if not audio_buffer:
+    combined = None
+    for i, line in enumerate(transcript):
+        speaker = speakers[line["speaker"]]
+
+        # Reuse build_prompt on a single-speaker, single-line slice of the scenario.
+        turn_scenario = {**scenario, "speakers": [speaker], "transcript": [line]}
+        prompt_text = build_prompt(turn_scenario, preset)
+
+        contents = [
+            types.Content(
+                role="user",
+                parts=[types.Part.from_text(text=prompt_text)],
+            ),
+        ]
+        generate_content_config = types.GenerateContentConfig(
+            temperature=preset["temperature"],
+            response_modalities=["audio"],
+            speech_config=types.SpeechConfig(
+                voice_config=types.VoiceConfig(
+                    prebuilt_voice_config=types.PrebuiltVoiceConfig(
+                        voice_name=speaker["voice_name"]
+                    )
+                ),
+            ),
+            automatic_function_calling=types.AutomaticFunctionCallingConfig(
+                disable=True
+            ),
+        )
+
+        print(f"Generating turn {i + 1}/{len(transcript)} ({line['speaker']})...")
+
+        audio_buffer = bytearray()
+        mime_type = None
+        for chunk in client.models.generate_content_stream(
+            model=model,
+            contents=contents,
+            config=generate_content_config,
+        ):
+            if chunk.parts is None:
+                continue
+            if chunk.parts[0].inline_data and chunk.parts[0].inline_data.data:
+                inline_data = chunk.parts[0].inline_data
+                if mime_type is None:
+                    mime_type = inline_data.mime_type
+                audio_buffer.extend(inline_data.data)
+                if len(audio_buffer) > MAX_AUDIO_BYTES:
+                    print(
+                        f"WARNING: audio exceeded {MAX_AUDIO_BYTES} bytes "
+                        f"(~{MAX_AUDIO_BYTES / 48000 / 60:.1f} min). The model "
+                        "likely got stuck in a loop. Aborting stream."
+                    )
+                    break
+            else:
+                if text := chunk.text:
+                    print(text)
+
+        if not audio_buffer:
+            print(f"  No audio for turn {i + 1}; skipping.")
+            continue
+
+        wav_bytes = convert_to_wav(bytes(audio_buffer), mime_type)
+        segment = AudioSegment.from_wav(io.BytesIO(wav_bytes))
+        combined = segment if combined is None else combined + gap + segment
+
+    if combined is None:
         print("No audio was returned in the response.")
         return
 
-    # Gemini returns raw PCM audio. Wrap it in a WAV container in memory, then
-    # encode to MP3 so the on-disk dataset stays small (WAV is never written).
-    wav_bytes = convert_to_wav(bytes(audio_buffer), mime_type)
-    mp3_bytes = wav_to_mp3(wav_bytes)
+    # Reuse wav_to_mp3 by exporting the combined audio back to in-memory WAV.
+    combined_wav = io.BytesIO()
+    combined.export(combined_wav, format="wav")
+    mp3_bytes = wav_to_mp3(combined_wav.getvalue())
     save_binary_file(os.path.join(output_dir, f"{scenario_id}.mp3"), mp3_bytes)
 
 
