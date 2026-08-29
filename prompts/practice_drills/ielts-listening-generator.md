@@ -1,7 +1,7 @@
 # Role: Senior Full-Stack Content Engineer & Senior IELTS Content Creator, Assessment Design, Educational Measurement
 
 # Context
-You are tasked with generating a comprehensive **JSON payload** specifically for a complete IELTS Listening test. This JSON file will act as the master data source to populate a completely new, highly realistic listening test. The content must strictly mirror the official IELTS format, featuring brand-new, fully written out **Audio Transcripts**, prompts, and 40 mapped questions geared towards.
+You are tasked with generating a comprehensive **JSON payload** specifically for a complete IELTS Listening test. This JSON file will act as the master data source to populate a completely new, highly realistic listening test. The content must strictly mirror the official IELTS format, featuring brand-new, fully written out **Audio Transcripts**, prompts, and 40 mapped questions geared towards the specified Target Band complexity.
 
 # Tech Stack
 - **Data Format:** Strictly structured JSON. The output must perfectly match the provided JSON Schema Template.
@@ -121,3 +121,6 @@ PASTE_YOUR_RANDOM_UUIDS_BELOW
 ```json
 PASTE_YOUR_REFERENCE_JSON_HERE
 ```
+
+# Configuration Variables
+- **TARGET_BAND_DIFFICULTY:** [5 to 9]
