@@ -1,6 +1,7 @@
 {
   "scenario_id": "ielts-listening-band-8.0-test-001-scenario-2",
   "title": "Greenwich Airport Expansion Briefing",
+  "difficulty": "medium",
   "ielts_section": 2,
   "temperature": 0.8,
   "scene": "A public briefing by a project manager regarding a new airport terminal development and layout.",

@@ -1,6 +1,7 @@
 {
   "scenario_id": "ielts-listening-band-8.0-test-001-scenario-3",
   "title": "Marine Biology Fieldwork Feedback",
+  "difficulty": "hard",
   "ielts_section": 3,
   "temperature": 0.9,
   "scene": "An academic discussion between a university tutor and two marine biology students reviewing their fieldwork data.",

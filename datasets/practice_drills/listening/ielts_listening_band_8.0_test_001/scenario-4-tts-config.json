@@ -1,6 +1,7 @@
 {
   "scenario_id": "ielts-listening-band-8.0-test-001-scenario-4",
   "title": "Global Supply Chain Logistics Lecture",
+  "difficulty": "expert",
   "ielts_section": 4,
   "temperature": 0.85,
   "scene": "A formal academic lecture outlining the historical evolution and modern technologies of global supply chains.",

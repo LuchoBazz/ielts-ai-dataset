@@ -1,6 +1,7 @@
 {
   "scenario_id": "ielts-listening-band-8.0-test-001-scenario-1",
   "title": "International Freight Booking",
+  "difficulty": "easy",
   "ielts_section": 1,
   "temperature": 0.7,
   "scene": "A phone call between a logistics agent and a small business owner arranging an international shipment.",
