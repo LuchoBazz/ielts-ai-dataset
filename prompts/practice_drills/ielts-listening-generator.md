@@ -68,6 +68,7 @@ You are tasked with generating a comprehensive **JSON payload** specifically for
   "id": "string (Use UUID from inventory)",
   "created_by": "string (Use UUID from inventory)",
   "title": "string",
+  "difficulty": "${TARGET_BAND_DIFFICULTY}",
   "duration": "string",
   "status": "string",
   "sections": [
