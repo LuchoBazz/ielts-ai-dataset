@@ -1,16 +1,16 @@
 {
-  "scenario_id": "ielts_s2_blackwood_reserve",
-  "title": "Blackwood Nature Reserve Briefing",
+  "scenario_id": "ielts-listening-band-8.0-test-001-scenario-2",
+  "title": "Greenwich Airport Expansion Briefing",
   "ielts_section": 2,
   "temperature": 0.8,
-  "scene": "A welcome briefing and facilities orientation by a head warden at a nature reserve.",
-  "sample_context": "Warm, informative monologue with clear signposting for map directions and site rules.",
+  "scene": "A public briefing by a project manager regarding a new airport terminal development and layout.",
+  "sample_context": "Informative, semi-formal monologue with clear signposting for map directions and project details.",
   "speakers": [
     {
-      "id": "Warden",
-      "role": "Head Warden",
-      "voice_name": "Fenrir",
-      "audio_profile": "Welcoming, informative, and clear outdoor guide.",
+      "id": "Project Manager",
+      "role": "Lead Project Manager",
+      "voice_name": "Kore",
+      "audio_profile": "Professional, clear, and engaging project manager giving a public presentation.",
       "director_note": {
         "style": "Warm, informative, engaging",
         "pace": "Natural",
@@ -22,20 +22,48 @@
   ],
   "transcript": [
     {
-      "speaker": "Warden",
-      "text": "Hello everyone, and welcome to the newly opened Blackwood Nature Reserve. I'm David, the head warden here. We're thrilled to finally have you with us. As many of you know, we were originally slated to open our gates back in April. While the severe spring storms certainly didn't help our construction schedule, the actual bottleneck that pushed us back to August was awaiting the final environmental permits from the local council."
+      "speaker": "Project Manager",
+      "text": "Good evening, ladies and gentlemen, and thank you for attending this public briefing on the upcoming expansion of Greenwich Airport. I'm Sarah Jenkins, the lead project manager for the new Terminal 3 development."
     },
     {
-      "speaker": "Warden",
-      "text": "Our primary mission here might surprise you. While we love seeing tourists enjoying the trails, and we do conduct significant academic research, our fundamental objective—the reason this land was purchased—is the breeding of critically endangered wetland birds. To protect them, we have one strict rule: you absolutely must stay on the marked trails at all times. Photography is encouraged, and you are welcome to bring packed lunches, provided you take your litter home, but wandering into the undergrowth is strictly forbidden."
+      "speaker": "Project Manager",
+      "text": "I want to start by addressing why this expansion is necessary. Over the past decade, our passenger numbers have doubled. While many assume we are building Terminal 3 to accommodate more international long-haul flights, the reality is that the surge in domestic budget airlines has completely overwhelmed our current capacity. Terminal 3 is specifically designed to handle these high-frequency, short-haul domestic routes."
     },
     {
-      "speaker": "Warden",
-      "text": "Before we head out, let me point out the facilities on your map. You're currently standing at the main entrance gate at the bottom of the map. If you walk straight ahead up the main path, the first building you encounter on your left is the Education Centre—that's where we hold our school workshops. Keep walking past the Education Centre, and just before the path splits, you'll see a small wooden structure on your right. That's the Warden's Office."
+      "speaker": "Project Manager",
+      "text": "Now, regarding the financing of this colossal project, there have been some misleading reports in the local press claiming a hike in municipal taxes. I want to assure you all today that zero taxpayer money is being used. The entire £400 million budget is being fully funded by a consortium of private investors and retail partners who will operate within the terminal."
     },
     {
-      "speaker": "Warden",
-      "text": "If you take the left fork at the split, it leads directly to the lake. Built right out over the water is the Bird Hide. We originally planned to put it on the eastern shore, but this western position gives a much better view of the nesting grounds. Now, going back to the path split, if you take the right fork instead, you'll pass a wide, open grassy area on your left; that is the Picnic Area. Finally, right at the very end of the right-hand path, nestled in the trees, is the Gift Shop. You can hire binoculars there if you haven't brought your own, and the proceeds keep the reserve running, as we rely entirely on public donations rather than government grants."
+      "speaker": "Project Manager",
+      "text": "We are also acutely aware of the environmental concerns raised by the community. To mitigate our carbon footprint, we initially looked at installing a massive array of solar panels on the roof. However, due to glare issues affecting air traffic control, we opted instead to incorporate a state-of-the-art rainwater harvesting system, which will provide 100% of the non-potable water needed for the terminal's sanitation facilities."
+    },
+    {
+      "speaker": "Project Manager",
+      "text": "Looking at the timeline, we are scheduled to break ground next month. If all goes according to plan, the main structural framework will be completed by late next year, with the grand opening slated for March 2028. It's a tight schedule, and frankly, our biggest hurdle isn't the complex engineering or the supply chain; it's managing the severe winter weather that typically halts construction in this region for weeks at a time."
+    },
+    {
+      "speaker": "Project Manager",
+      "text": "Let's move on to the layout of Terminal 3. If you look at the maps provided on your seats, you'll see the main entrance at the bottom. As you walk through the main entrance doors, the first vast area you encounter, directly in front of you, is the Check-in Zone. We are utilizing fully automated kiosks here to reduce queuing times."
+    },
+    {
+      "speaker": "Project Manager",
+      "text": "Once you have your boarding pass, you need to proceed to Security. From the Check-in Zone, take the corridor to your right. At the end of that corridor, the large rectangular space on your left is the Security Clearance Area."
+    },
+    {
+      "speaker": "Project Manager",
+      "text": "After clearing security, you enter the central hub of the terminal. If you are looking for the VIP Lounge, proceed straight ahead from security, past the central seating area. The lounge is located in the circular structure right at the top left corner of the map, offering fantastic views of the runway."
+    },
+    {
+      "speaker": "Project Manager",
+      "text": "For those wanting to do some shopping, the Duty-Free Emporium is located quite centrally. From the security exit, walk straight ahead, but instead of going all the way to the lounge, take the first right turn. The large L-shaped building there houses all the duty-free shops."
+    },
+    {
+      "speaker": "Project Manager",
+      "text": "Finally, for those flying out of Gate 15—which will handle our largest domestic aircraft—you need to navigate to the far east wing. From the central seating area, walk all the way down the long eastern corridor. Gate 15 is the very last boarding area at the extreme right end of that corridor."
+    },
+    {
+      "speaker": "Project Manager",
+      "text": "We believe this intuitive layout will drastically improve the passenger experience. Are there any questions before we move on?"
     }
   ]
 }
