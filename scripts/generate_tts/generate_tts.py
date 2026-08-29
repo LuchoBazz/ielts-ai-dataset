@@ -169,6 +169,7 @@ def generate(config_path: str, difficulty: str | None = None, output_dir: str = 
 
         audio_buffer = bytearray()
         mime_type = None
+        chunk_count = 0
         for chunk in client.models.generate_content_stream(
             model=model,
             contents=contents,
@@ -181,6 +182,9 @@ def generate(config_path: str, difficulty: str | None = None, output_dir: str = 
                 if mime_type is None:
                     mime_type = inline_data.mime_type
                 audio_buffer.extend(inline_data.data)
+                chunk_count += 1
+                if chunk_count % 100 == 0:
+                    print(f"  ...{len(audio_buffer)} bytes so far")
                 if len(audio_buffer) > MAX_AUDIO_BYTES:
                     print(
                         f"WARNING: audio exceeded {MAX_AUDIO_BYTES} bytes "
