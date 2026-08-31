@@ -12,10 +12,10 @@ Whether you need targeted practice for a specific band score or full-length mock
 
 To cater to distinct learning needs and methodologies, the dataset is divided into two main categories:
 
-### 1. 🎯 Practice Drills (`practice_drills/`)
+### 1. 🎯 Practice Drills (`practice-drills/`)
 This section contains texts, prompts, and exercises classified by specific target bands (e.g., **7.0, 8.0, 9.0**). This allows users to practice progressively according to their current proficiency level, focusing on the vocabulary, grammatical structures, and text complexity expected at each specific band.
 
-### 2. 🏛️ Synthetic Official Mocks (`synthetic_official_mocks/`)
+### 2. 🏛️ Synthetic Official Mocks (`synthetic-official-mocks/`)
 These are full-length tests designed to mimic the actual standard, format, and variable difficulty of an official IELTS exam. Unlike the practice drills, the level here is uniform across the test, perfectly reflecting real exam conditions and timing.
 
 ## 📂 Project Structure
@@ -25,30 +25,30 @@ The repository is organized seamlessly by test section and category.
 ```text
 ├── LICENSE
 ├── README.md
-├── practice_drills
+├── practice-drills
 │   ├── listening
-│   │   └── ielts_listening_band_8.0_test_001
+│   │   └── ielts-listening-band-8.0-test-001
 │   │       ├── manifest.json
-│   │       ├── section_1.mp3
-│   │       ├── section_2.mp3
-│   │       ├── section_3.mp3
-│   │       └── section_4.mp3
+│   │       ├── section-1.mp3
+│   │       ├── section-2.mp3
+│   │       ├── section-3.mp3
+│   │       └── section-4.mp3
 │   ├── reading
-│   │   └── ielts_reading_academic_band_9.0_test_001.json
+│   │   └── ielts-reading-academic-band-9.0-test-001.json
 │   └── writing
-│       └── ielts_writing_academic_band_8.0_test_001.json
-└── synthetic_official_mocks
+│       └── ielts-writing-academic-band-8.0-test-001.json
+└── synthetic-official-mocks
     ├── listening
-    │   └── ielts_listening_test_001
+    │   └── ielts-listening-test-001
     │       ├── manifest.json
-    │       ├── section_1.mp3
-    │       ├── section_2.mp3
-    │       ├── section_3.mp3
-    │       └── section_4.mp3
+    │       ├── section-1.mp3
+    │       ├── section-2.mp3
+    │       ├── section-3.mp3
+    │       └── section-4.mp3
     ├── reading
-    │   └── ielts_reading_academic_001.json
+    │   └── ielts-reading-academic-001.json
     └── writing
-        └── ielts_writing_academic_001.json
+        └── ielts-writing-academic-001.json
 ```
 
 
@@ -75,7 +75,7 @@ Example of loading a dataset in Python:
 ```python
 import json
 
-with open('synthetic_official_mocks/reading/ielts_reading_academic_001.json', 'r') as file:
+with open('synthetic-official-mocks/reading/ielts-reading-academic-001.json', 'r') as file:
     reading_test = json.load(file)
     print(reading_test) # Process the test data
 ```

@@ -1,6 +1,6 @@
 # TTS Scenario Generator
 
-This script generates multi-speaker Text-to-Speech (TTS) audio using the Gemini API, based on a scenario configuration JSON file (same schema as `config/tts_config.json`).
+This script generates multi-speaker Text-to-Speech (TTS) audio using the Gemini API, based on a scenario configuration JSON file (same schema as `config/tts-config.json`).
 
 ## Prerequisites
 
@@ -19,7 +19,7 @@ export GEMINI_API_KEY="your-api-key-here"
 
 ## Configuration File
 
-The script expects a JSON config file with the following structure (see `config/tts_config.json` for the full reference, including `voice_library` and `difficulty_presets`):
+The script expects a JSON config file with the following structure (see `config/tts-config.json` for the full reference, including `voice_library` and `difficulty_presets`):
 
 ```json
 {
@@ -74,35 +74,35 @@ The script expects a JSON config file with the following structure (see `config/
 
 ## Running the Script
 
-Basic usage (uses the default config path `config/tts_config.json`):
+Basic usage (uses the default config path `config/tts-config.json`):
 
 ```bash
-python scripts/generate_tts.py
+python scripts/generate-tts.py
 ```
 
 Specify a custom config file:
 
 ```bash
-python scripts/generate_tts.py --config path/to/your_scenario.json
+python scripts/generate-tts.py --config path/to/your_scenario.json
 ```
 
 Override the difficulty preset defined in the config:
 
 ```bash
-python scripts/generate_tts.py --config path/to/your_scenario.json --difficulty hard
+python scripts/generate-tts.py --config path/to/your_scenario.json --difficulty hard
 ```
 
 Specify an output directory for generated audio files:
 
 ```bash
-python scripts/generate_tts.py --config path/to/your_scenario.json --output-dir output/audio
+python scripts/generate-tts.py --config path/to/your_scenario.json --output-dir output/audio
 ```
 
 ### CLI Options
 
 | Option | Default | Description |
 |---|---|---|
-| `--config` | `config/tts_config.json` | Path to the scenario config JSON. |
+| `--config` | `config/tts-config.json` | Path to the scenario config JSON. |
 | `--difficulty` | `scenario.difficulty` from config | Overrides the difficulty preset used for temperature and delivery style. |
 | `--output-dir` | `.` (current directory) | Directory where the generated `.wav`/audio files will be saved. |
 
@@ -129,36 +129,36 @@ If the API returns raw PCM audio without a recognized file extension, the script
 
 ## Alternative: Local Qwen3-TTS Generation (Free, No API Key)
 
-`generate_tts_qwen.py` is a separate, independent script that generates the same
+`generate-tts-qwen.py` is a separate, independent script that generates the same
 kind of audio using **Qwen3-TTS** — a free, open-source, locally-run TTS model from
 Alibaba — instead of the Gemini API. It has zero per-request cost and no external
 rate limits, at the cost of needing local compute (GPU recommended, but it runs on
 CPU too, just slower) and a one-time multi-GB model download.
 
 It reads the **same config schema** and accepts the **same core CLI flags**
-(`--config`, `--difficulty`, `--output-dir`) as `generate_tts.py`, so it's a
-drop-in alternative backend. `generate_tts.py` itself is untouched and remains the
+(`--config`, `--difficulty`, `--output-dir`) as `generate-tts.py`, so it's a
+drop-in alternative backend. `generate-tts.py` itself is untouched and remains the
 recommended fallback if this local backend doesn't work out for you.
 
 ### Prerequisites
 
-- Python 3.10+ (same as `generate_tts.py`).
+- Python 3.10+ (same as `generate-tts.py`).
 - Install the extra dependencies:
 
 ```bash
 pip install qwen-tts torch soundfile pydub
 ```
 
-- `ffmpeg` installed (same as `generate_tts.py`, used by `pydub` for MP3 encoding).
+- `ffmpeg` installed (same as `generate-tts.py`, used by `pydub` for MP3 encoding).
 - No API key needed — inference runs entirely on your machine.
 
 ### Running the Script
 
 ```bash
-python scripts/generate_tts/generate_tts_qwen.py --config path/to/your_scenario.json --output-dir output/audio
+python scripts/generate-tts/generate-tts-qwen.py --config path/to/your_scenario.json --output-dir output/audio
 ```
 
-Extra optional flags on top of the ones shared with `generate_tts.py`:
+Extra optional flags on top of the ones shared with `generate-tts.py`:
 
 | Option | Default | Description |
 |---|---|---|
@@ -167,8 +167,8 @@ Extra optional flags on top of the ones shared with `generate_tts.py`:
 
 ### New Optional Config Fields
 
-These fields are **only** read by `generate_tts_qwen.py` — the Gemini script
-(`generate_tts.py`) ignores them, so existing configs keep working unchanged with
+These fields are **only** read by `generate-tts-qwen.py` — the Gemini script
+(`generate-tts.py`) ignores them, so existing configs keep working unchanged with
 either script:
 
 | Field | Description |
@@ -188,8 +188,8 @@ speaker to override this.
 
 ### Runaway-Generation Safety Net
 
-Like `generate_tts.py`'s per-turn byte-cap-and-retry protection against a model
-getting stuck in a generation loop, `generate_tts_qwen.py` caps each turn's
+Like `generate-tts.py`'s per-turn byte-cap-and-retry protection against a model
+getting stuck in a generation loop, `generate-tts-qwen.py` caps each turn's
 `max_new_tokens` based on the text length, then checks the resulting audio
 duration against an expected-duration estimate. If a turn's audio is
 unreasonably long, it prints a `WARNING`, retries once with a lower temperature
