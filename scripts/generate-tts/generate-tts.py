@@ -15,7 +15,8 @@ from google import genai
 from google.genai import types
 from pydub import AudioSegment
 
-DEFAULT_MODEL = "gemini-3.1-flash-tts-preview"
+# DEFAULT_MODEL = "gemini-3.1-flash-tts-preview"
+DEFAULT_MODEL = "gemini-2.5-flash-preview-tts"
 MP3_BITRATE = "192k"
 
 
