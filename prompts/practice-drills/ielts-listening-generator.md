@@ -28,28 +28,28 @@ You are tasked with generating a comprehensive **JSON payload** specifically for
 - **Section 1 — Everyday conversation**
   - Speakers: **2 people** (typically customer service + customer, or similar)
   - Audio duration: **~4 to 5 minutes**
-  - Transcript word count: **~600 to 750 words** (real average: 674)
+  - Transcript word count: **~650 to 800 words** (real average: 724)
   - Context: hotel booking, course enrollment, travel information, etc.
   - Level: easiest, slow speech with natural pauses
 
 - **Section 2 — Everyday monologue**
   - Speakers: **1 person** (sometimes with a brief initial exchange with a radio host)
   - Audio duration: **~4 to 5 minutes**
-  - Transcript word count: **~600 to 750 words** (real average: 665)
+  - Transcript word count: **~650 to 800 words** (real average: 715)
   - Context: guide to a place, informative talk, radio announcement, facility presentation
   - Level: lower-intermediate
 
 - **Section 3 — Academic discussion**
   - Speakers: **2 to 4 people** (most commonly 2-3, typically students + tutor)
   - Audio duration: **~5 to 6 minutes** (the longest one)
-  - Transcript word count: **~700 to 850 words** (real average: 788)
+  - Transcript word count: **~750 to 900 words** (real average: 838)
   - Context: discussion about an academic assignment, tutoring session, project planning
   - Level: high, faster pace and academic vocabulary
 
 - **Section 4 — Academic lecture**
   - Speakers: **1 person** (a professor/expert)
   - Audio duration: **~5 to 6 minutes** (no break in the middle)
-  - Transcript word count: **~600 to 750 words** (real average: 683)
+  - Transcript word count: **~650 to 800 words** (real average: 733)
   - Context: university lecture on an academic topic
   - Level: the hardest, high density of Academic Word List (AWL ~5.85%)
 
